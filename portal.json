@@ -14,7 +14,6 @@
   "_GEHEIMNISSE": "Muessen zu den Secrets im Repository passen.",
   "SECRET_CLAUDE": "DIABETESHUB",
   "SECRET_MAILCHIMP": "DIABETESHUBMC",
-  "_MAILCHIMP": "mc_gruppe_feld ist NOCH NICHT abgelesen. Nach dem Anlegen der Gruppe auf der gehosteten Anmeldeseite ablesen - die Nummernvergabe ist nicht vorhersagbar.",
   "MC_PRAEFIX": "MVF Diabetes-Newsletter",
   "MC_GRUPPE_NAME": "Studien Newsletter Diabetes",
   "MC_GRUPPE_FELD": "",
