@@ -1485,71 +1485,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "19. Sept. 2026, 06:21 Uhr";
+const SNAP_DATE = "20. Sept. 2026, 06:21 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"42750540",
-    author:"Shinde S et al.", pubdate:"17.09.2026",
+    journal:"J Diabetes Investig", year:"2026", pmid:"42762054",
+    author:"Shinagawa N et al.", pubdate:"19.09.2026",
+    added:"19.09.2026",
+    title:"Tofogliflozin verlangsamt nierenfunktionelle Verschlechterung um 6,1 mL/min",
+    sum:"Retrospektive Multizenterstudie von 598 Typ-2-Diabetes-Patienten (245 Tofogliflozin, 353 Kontrolle) mit Verfolgung der eGFR-Veränderung über 72 Monate in realer klinischer Praxis in Japan.",
+    result:"Nach 72 Monaten: eGFR-Rückgang −4,51 mL/min/1,73 m² unter Tofogliflozin vs. −10,64 unter Kontrollgruppe (Unterschied 6,14 mL/min/1,73 m²; p &lt; 0,001). Ebenso reduziert: HbA1c und Körpergewicht; Urin-Albumin-Kreatinin-Ratio zeigte keinen signifikanten Unterschied.",
+    transfer:"Japan-Realwelt-Daten; SGLT2-Inhibitor-Klasse, nierenschützend"
+  },
+  {
+    journal:"Diabetes Care", year:"2026", pmid:"42752803",
+    author:"Bakhshi B et al.", pubdate:"17.09.2026",
     added:"17.09.2026",
-    title:"Orforglipron senkt 10-Jahres-Risiko für Typ-2-Diabetes und kardiovaskuläre Erkrankung",
-    sum:"Post-hoc-Analyse der Phase-3-Studie ATTAIN-1 zur Vorhersage des kardiometabolischen Risikos bei Personen mit Übergewicht/Adipositas ohne Diabetes unter wöchentlichem oralen Orforglipron versus Placebo über 72 Wochen.",
-    result:"Typ-2-Diabetes-Risiko sank unter Orforglipron um 48,6–59,4% gegenüber –10,5% unter Placebo (p&lt;0,0001). Nach Framingham-Modell reduzierte sich das totale kardiovaskuläre Risiko um 0,6–1,0% gegenüber +0,6% unter Placebo (p&lt;0,0001). Die Ergebnisse waren konsistent über drei validierte Risikorechner.",
-    transfer:"USA-amerikanische Studie; Datengrundlage nicht direkt auf deutsches Gesundheitssystem übertragbar."
+    title:"CGM-Profile zeigen Herzinfarkt-Risiken selbst ohne Diabetes",
+    sum:"Querschnittsanalyse von 1.356 Framingham-Heart-Study-Teilnehmern ohne Diabetes, die 7–10 Tage ein blinded CGM (Dexcom G6) trugen; Assoziation CGM-Maße mit 10-Jahres-Herzinfarkt-Risiko und kardiometabolischen Risikofaktoren.",
+    result:"Jede SD höherer Anteil der Zeit mit Glukose &gt;140 mg/dL (15,4 %) war assoziiert mit 2 % höherem 10-Jahres-CVD-Risiko und 21–26 % höheren Odds für Hypertonie und Dyslipidämie, auch nach Adjustierung für Nüchternglukose. CGM-Profile zeigten Diskordanz zu klassischen Glukoseparametern (HbA1c, Nüchternglukose).",
+    transfer:"USA-Kohorte; Konzept der kontinuierlichen Glukosemessung für Risikovorhersage"
   },
   {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"42755138",
-    author:"Lamprecht-Carson D et al.", pubdate:"17.09.2026",
-    added:"18.09.2026",
-    title:"Kulturell angepasstes Diabetes-Selbstmanagement senkt Kosten und steigert Lebensqualität",
-    sum:"Markov-Modell über 20 Jahre zur Kosteneffektivität eines kulturell angepassten Diabetes-Selbstmanagement-Schulungsprogramms (DSME) für Marshallesen mit Typ-2-Diabetes gegenüber Standard-DSME und Standardversorgung.",
-    result:"Angepasstes DSME-Programm war kosteneffektiv mit ICER von 3.083 USD pro QALY. Bei Willingness-to-Pay-Schwelle 50.000 USD/QALY war es in 87,1% der Simulationen die bevorzugte Strategie, bei 100.000 USD/QALY in 93,7%. Resultat robust gegenüber Sensitivitätsanalysen.",
-    transfer:"USA; Interventionsdesign (kulturelle Anpassung) übertragbar auf deutsche Minderheitengruppen in DMP-Setting."
+    journal:"Diabetes", year:"2026", pmid:"42752808",
+    author:"Xu W et al.", pubdate:"17.09.2026",
+    added:"17.09.2026",
+    title:"Ultra-verarbeitete Lebensmittel, Bewegung und Schlaf senken Diabetes-Risiko",
+    sum:"Prospektive Kohortenanalyse von 56.964 UK-Biobank-Teilnehmern ohne Diabetes mit erfasster Ernährung, Accelerometer-Bewegung und polygenetischem Risiko für Typ-2-Diabetes über median 8,6 Jahre.",
+    result:"Jede 10 % höhere Ultra-verarbeitete-Lebensmittel-(UPF-)Aufnahme war mit 7 % höherem Diabetes-Risiko assoziiert (HR 1,07; 95% KI 1,03–1,12). Bei hoher genetischer Suszeptibilität senkte niedrigere UPF-Aufnahme das Risiko (HR 0,65; 95% KI 0,49–0,85), wie auch ausreichend moderate-intensive körperliche Aktivität (HR 0,67) und adäquater Schlaf (HR 0,57).",
+    transfer:"UK-Biobank; Wearable-Daten zu Verhalten; international vergleichbar"
   },
   {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"42755121",
-    author:"Hohendorff J et al.", pubdate:"17.09.2026",
-    added:"18.09.2026",
-    title:"Hybrid-Closed-Loop-Insulin-Pumpen verbessern Blutglukose und psychisches Wohlbefinden",
-    sum:"Randomisierte kontrollierte 3-Monats-Studie (Hi-Loop) zur myloop CamAPS FX Hybrid-Closed-Loop-Therapie versus optimierter Insulin-Standardtherapie bei Typ-1-Diabetes mit HbA1c≥9,0% und psychischer Belastung.",
-    result:"HbA1c sank unter myloop CamAPS FX um 2,5% (gegenüber –0,9% Standard; Differenz –1,7%, 95% KI –2,6 bis –0,8%). Time in Range stieg um 27,4% (gegenüber –2,7%; Differenz +28,8%, 95% KI +16,8 bis +40,9%). Diabetes Burnout sank nur in der Interventionsgruppe (3,5→2,0; p=0,012); psychisches Wohlbefinden verbesserte sich.",
-    transfer:"Polen; Closed-Loop-Systeme in Deutschland in DMP-Typ-1 teilweise erstattbar; psychische Outcome-Verbesserung relevant für Versorgungsrealität."
+    journal:"J Diabetes Complications", year:"2026", pmid:"42762771",
+    author:"Blomstrand H et al.", pubdate:"14.09.2026",
+    added:"19.09.2026",
+    title:"36 % mit neuer Typ-2-Diabetes-Diagnose entwickeln Komplikationen in 3 Jahren",
+    sum:"Retrospektive bevölkerungsbasierte Kohorte von 5.773 Personen (40–90 Jahre), bei denen zwischen 2015 und 2020 in Region Halland, Schweden, Typ-2-Diabetes diagnostiziert wurde; Verfolgung über 3 Jahre auf Mikro- und Makrovaskulärkomplikationen.",
+    result:"Innerhalb von 3 Jahren entwickelten 36 % Komplikationen (Mikro &gt; Makro), 4 % starben. Beeinträchtigte Nierenfunktion erhöhte Risiko (HR 2,70; 95% KI 2,08–3,52), schlechte Glykämie-Kontrolle (HR 1,38; 95% KI 1,19–1,59). Höheres Alter erhöhte Risiko; weibliches Geschlecht war protektiv.",
+    transfer:"Schweden, vergleichbares Versicherungssystem; frühe Risikostratifizierung"
   },
   {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"42755124",
-    author:"Ajie M et al.", pubdate:"17.09.2026",
-    added:"18.09.2026",
-    title:"Hypoglykämien sind mit Entzündungsmarkern und Immunveränderungen assoziiert",
-    sum:"Multizentrische Beobachtungsstudie (Hypo-METRICS) mit blinden Glukosesensoren über 10 Wochen bei 177 Personen mit Typ-1- und 185 mit Typ-2-Diabetes zur Assoziation sensorisch erkannter Hypoglykämien mit Entzündungsproteinen und Immunzellen.",
-    result:"Vier zirkulierende Entzündungsproteine (CCL28, CX3CL1, IL-17A, IL-17C) waren positiv mit Hypoglykämiehäufigkeit, -dauer und Time Below Range assoziiert (alle p&lt;0,05). Bei Typ-1-Diabetes waren pro-inflammatorische Monozytenreaktionen invers assoziiert mit Hypoglykämieparametern; Neutrophil- und Monozytencount waren erniedrigt (alle p&lt;0,05).",
-    transfer:"Europäische Multizenterstudie; CGM-gesteuerte Analyse direkt übertragbar auf deutsches Versorgungssetting."
+    journal:"Diabetologia", year:"2026", pmid:"42603840",
+    author:"Yki-Järvinen H et al.", pubdate:"15.08.2026",
+    added:"15.08.2026",
+    title:"Hepatische Fettlebererkrankung bei Typ-2-Diabetes: Diagnose und Therapie",
+    sum:"Narrative Übersichtsarbeit zu Diagnose, Verlauf und Management von MASLD (metabolic dysfunction-associated steatotic liver disease) bei Typ-2-Diabetes, mit Fokus auf fehlende Screening-Standards und therapeutische Optionen.",
+    result:"Bis zu 95 % der MASLD-Fälle bleiben unerkannt. Nichtinvasive Tests unterschätzen Fibroserisiken. Typ-2-Diabetes plus metabolisches Syndrom sind starke Prädiktoren für Leberergebnisse, aber kardiovaskuläre Ereignisse sind häufigste Todesursache bei nichtzirrhötischen Patienten. Neue Therapien (hepatische Energiestoffwechsel-Inhibitoren, Gewichtsverlust-Promoter) vielversprechend für Fibrosebegrenzung.",
+    transfer:"Deutsche Koinzip-Autoren; kritische Versorgungslücke in DM-Praxis"
   },
   {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"42755122",
-    author:"Zhou Y et al.", pubdate:"17.09.2026",
-    added:"18.09.2026",
-    title:"Frühe Automatische Insulinabgabe bei neu diagnostiziertem Typ-1-Diabetes wirksam",
-    sum:"Prospektive Beobachtungsstudie in China mit 126 Personen, die innerhalb 3 Monate nach Typ-1-Diabetes-Diagnose ein AndroidAPS-System mit telemedizinischer Unterstützung initiierten; Verfolgung bis 12 Monate.",
-    result:"Time in Range (TIR 3,9–10,0 mmol/l) betrug 85,2% im ersten Monat und blieb bei 12 Monaten stabil. HbA1c fiel von 10,0% (64 mmol/mol) bei Diagnose auf 6,3% (45 mmol/mol) nach 12 Monaten. Keine schweren Hypoglykämien oder Ketoazidosen. Jedoch brachen 35,7% die Therapie ab, hauptsächlich wegen finanzieller Gründe (55,2%).",
-    transfer:"China; technologisches Konzept übertragbar, Finanzierungsmodell (Eigenfinanzierung) nicht auf deutsche GKV übertragbar."
+    journal:"Lancet Diabetes Endocrinol", year:"2026", pmid:"42567173",
+    author:"Mann JFE et al.", pubdate:"07.08.2026",
+    added:"07.08.2026",
+    title:"Semaglutid reduziert Nierenschäden bei Typ-2-Diabetes um 16%",
+    sum:"Gepoolte Analyse von drei Phase-3-Studien (SELECT, FLOW, SOUL) mit 30.787 Teilnehmern und kardio-renalen Erkrankungen, die über 39,5–47,5 Monate die Wirkung von Semaglutid auf Nierenergebnisse untersuchte.",
+    result:"Semaglutid reduzierte das primäre Nierenergebnis (persistente eGFR-Senkung ≥50 %, Nierenversagen, nierenbezogener Tod oder kardiovaskulärer Tod) mit Hazard Ratio 0,84 (95% KI 0,77–0,91) versus Placebo. Schmäleres Nierenergebnis (ohne kardiovaskulären Tod): HR 0,80 (95% KI 0,69–0,92). Sicherheit vergleichbar mit anderen GLP-1-Rezeptoragonisten.",
+    transfer:"Internationale Phase-3-Evidenz; Nierenschutz unabhängig von glykostatischem Effekt"
   },
   {
-    journal:"Diabetologia", year:"2026", pmid:"42644887",
-    author:"Kim SH et al.", pubdate:"26.08.2026",
-    added:"26.08.2026",
-    title:"Fünfzig Jahre Kohortenstudien zum Typ-2-Diabetes: Lehren und Perspektiven",
-    sum:"Narrative Übersichtsarbeit zur Rolle von Kohortenstudien in der Typ-2-Diabetes-Forschung der letzten 50 Jahre, ihre Bedeutung für Diagnostik, Komplikationen, Risikofaktoren und künftige Forschungsrichtungen.",
-    result:"Kohortenstudien haben das Verständnis von Typ-2-Diabetes erheblich vorangebracht und Leitlinien gestützt. Sie zeigen, dass Diagnostik, Screening, Komplikationen und Pathophysiologie am besten durch parallele Ansätze (Beobachtungsstudien und Experimente) untersucht werden. Künftige Richtungen: künstliche Intelligenz, Präzisions-Gesundheit und Exposom.",
-    transfer:"Multikontinentale Metaanalyse europäischer und globaler Kohorten; Methodologie direkt auf deutsche epidemiologische Forschung übertragbar."
-  },
-  {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"42552240",
-    author:"Muller P et al.", pubdate:"04.08.2026",
-    added:"04.08.2026",
-    title:"SGLT2-Hemmer in England: Unterversorgung trotz Leitlinienempfehlung",
-    sum:"Bevölkerungsbasierte Querschnittsstudie zur Uptake der NICE-Leitlinie (2022) für SGLT2-Hemmer bei Typ-2-Diabetes in England anhand von 587.826 Patienten mit klinischen Daten vom 1. September 2023.",
-    result:"18 Monate nach Leitlinienaktualisierung lag die SGLT2-Hemmer-Verordnung bei 19,5% (kardiovaskuläre Erkrankung), 29,4% (Herzinsuffizienz), 30,5% (beide) und 19,9–20,2% (hohes kardiovaskuläres Risiko). Unterversorgung war besonders bei Frauen, schwarzen Patienten und Personen aus benachteiligten Gebieten ausgeprägt.",
-    transfer:"England, NHS-System; direkt vergleichbar mit Deutschen DMP-Strukturen und Leitlinienimplementierung."
+    journal:"Cardiovasc Diabetol", year:"2026", pmid:"42568080",
+    author:"Ma S et al.", pubdate:"07.08.2026",
+    added:"07.08.2026",
+    title:"Drei-Stoffwechsel-Modell identifiziert Gestationsdiabetes-Risiko mit AUC 0,97",
+    sum:"Multizenter-Nested-Case-Control-Studie mit 2.693 Schwangeren, die Untargeted-Metabolomik und Metagenomik integrierten, um früh-schwangerschaftliche Biomarker für Gestationsdiabetes zu identifizieren; externe und prospektive Validierung.",
+    result:"Ein Drei-Stoffwechsel-Modell (3-Hydroxydecansäure, γ-Glu-Leu, Propionsäure) erreichte AUC 0,838 im Training, 0,840 in interner Validierung, 0,955 und 0,917 in zwei externen Kohorten und 0,969 in der prospektiven Kohorte. Frauen mit späterem GDM zeigten ungünstige früh-schwangerschaftliche Metaboliten und Mikrobiota-Struktur-Veränderungen.",
+    transfer:"China; Metaboliten als Biomarker; kardio-metabolisches Risikokonzept in Schwangerschaft"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1565,7 +1565,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-09-22"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "19.09.2026";
+const NEWS_STAND = "20.09.2026";
 const NEWS = [
   {titel:"15. Diabetes-Charity-Gala am 16. Oktober in Berlin: diabetesDE sammelt Spenden", datum:"2026-09-14", url:"https://www.monitor-versorgungsforschung.de/news/15-diabetes-charity-gala-am-16-oktober-in-berlin-diabetesde-sammelt-spenden/"},
   {titel:"Muskel-Botenstoffe und Krebs: ERC Starting Grant für DDZ-Forscherin", datum:"2026-09-07", url:"https://www.monitor-versorgungsforschung.de/news/muskel-botenstoffe-und-krebs-erc-starting-grant-fuer-ddz-forscherin/"},
