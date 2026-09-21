@@ -1485,71 +1485,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "20. Sept. 2026, 06:21 Uhr";
+const SNAP_DATE = "21. Sept. 2026, 06:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"J Diabetes Investig", year:"2026", pmid:"42762054",
-    author:"Shinagawa N et al.", pubdate:"19.09.2026",
+    journal:"Diabetes Res Clin Pract", year:"2026", pmid:"42764072",
+    author:"Tu CY et al.", pubdate:"20.09.2026",
+    added:"20.09.2026",
+    title:"Tirzepatid vs. GLP-1-RA: niedrigeres Risiko für Parodontitis und Zahnverlust",
+    sum:"Retrospektive Kohortenstudie (TriNetX Global Network) zu Unterschieden oraler und parodontaler Outcomes zwischen Tirzepatid und GLP-1-Rezeptoragonisten bei Typ-2-Diabetes über ein Jahr.",
+    result:"Nach Propensity-Score-Matching je 97.993 Patienten pro Gruppe. Tirzepatid assoziiert mit niedrigerem Risiko für Mortalität (HR 0,69, 95%-KI 0,59–0,80), Parodontitis (0,70, 0,57–0,86), Zahnextraktion (0,89, 0,84–0,94), Peri-Implantat-Komplikationen (0,61, 0,52–0,70), parodontale Verfahren (0,89, 0,85–0,94), orale/oromax Infektionen (0,70, 0,62–0,79). Komposit-Outcome Mund/Parodont (0,87, 0,84–0,91).",
+    transfer:"USA-Versicherungsdaten, retrospektiv und mit Beobachtungslimitationen (Recording-Bias), aber Endpunkt Parodontitis-Assoziationen neu"
+  },
+  {
+    journal:"Diabetes Technol Ther", year:"2026", pmid:"42762173",
+    author:"Castro M et al.", pubdate:"19.09.2026",
     added:"19.09.2026",
-    title:"Tofogliflozin verlangsamt nierenfunktionelle Verschlechterung um 6,1 mL/min",
-    sum:"Retrospektive Multizenterstudie von 598 Typ-2-Diabetes-Patienten (245 Tofogliflozin, 353 Kontrolle) mit Verfolgung der eGFR-Veränderung über 72 Monate in realer klinischer Praxis in Japan.",
-    result:"Nach 72 Monaten: eGFR-Rückgang −4,51 mL/min/1,73 m² unter Tofogliflozin vs. −10,64 unter Kontrollgruppe (Unterschied 6,14 mL/min/1,73 m²; p &lt; 0,001). Ebenso reduziert: HbA1c und Körpergewicht; Urin-Albumin-Kreatinin-Ratio zeigte keinen signifikanten Unterschied.",
-    transfer:"Japan-Realwelt-Daten; SGLT2-Inhibitor-Klasse, nierenschützend"
+    title:"MiniMed 780G: Stabile glycämische Kontrolle über 24 Monate in Lateinamerika",
+    sum:"Reale Daten von über 16.000 Typ-1-Diabetes-Patienten, die das automatisierte Insulinabgabesystem MiniMed 780G in 18 lateinamerikanischen Ländern über bis zu 24 Monate nutzten.",
+    result:"Zeit im Zielbereich (TIR) 73,4 % gesamt, Glukose-Managementindikator (GMI) 6,9 %. Mit empfohlenen optimalen Einstellungen (n=19,2 %): TIR 77,5 %, 83,9 % erreichten &gt; 70 % TIR, 66,4 % erreichten Komposit-Zielwert. Pädiatrische Patienten: TIR 70,0 % (74,2 % mit optimalen Einstellungen). Ergebnisse stabil über 24 Monate, unabhängig von Geschlecht, Land und Infrastruktur.",
+    transfer:"Lateinamerika, international vergleichbar, aber unterschiedliche Gesundheitssysteme; Techniktransfer relevant für Deutschland"
   },
   {
-    journal:"Diabetes Care", year:"2026", pmid:"42752803",
-    author:"Bakhshi B et al.", pubdate:"17.09.2026",
-    added:"17.09.2026",
-    title:"CGM-Profile zeigen Herzinfarkt-Risiken selbst ohne Diabetes",
-    sum:"Querschnittsanalyse von 1.356 Framingham-Heart-Study-Teilnehmern ohne Diabetes, die 7–10 Tage ein blinded CGM (Dexcom G6) trugen; Assoziation CGM-Maße mit 10-Jahres-Herzinfarkt-Risiko und kardiometabolischen Risikofaktoren.",
-    result:"Jede SD höherer Anteil der Zeit mit Glukose &gt;140 mg/dL (15,4 %) war assoziiert mit 2 % höherem 10-Jahres-CVD-Risiko und 21–26 % höheren Odds für Hypertonie und Dyslipidämie, auch nach Adjustierung für Nüchternglukose. CGM-Profile zeigten Diskordanz zu klassischen Glukoseparametern (HbA1c, Nüchternglukose).",
-    transfer:"USA-Kohorte; Konzept der kontinuierlichen Glukosemessung für Risikovorhersage"
-  },
-  {
-    journal:"Diabetes", year:"2026", pmid:"42752808",
-    author:"Xu W et al.", pubdate:"17.09.2026",
-    added:"17.09.2026",
-    title:"Ultra-verarbeitete Lebensmittel, Bewegung und Schlaf senken Diabetes-Risiko",
-    sum:"Prospektive Kohortenanalyse von 56.964 UK-Biobank-Teilnehmern ohne Diabetes mit erfasster Ernährung, Accelerometer-Bewegung und polygenetischem Risiko für Typ-2-Diabetes über median 8,6 Jahre.",
-    result:"Jede 10 % höhere Ultra-verarbeitete-Lebensmittel-(UPF-)Aufnahme war mit 7 % höherem Diabetes-Risiko assoziiert (HR 1,07; 95% KI 1,03–1,12). Bei hoher genetischer Suszeptibilität senkte niedrigere UPF-Aufnahme das Risiko (HR 0,65; 95% KI 0,49–0,85), wie auch ausreichend moderate-intensive körperliche Aktivität (HR 0,67) und adäquater Schlaf (HR 0,57).",
-    transfer:"UK-Biobank; Wearable-Daten zu Verhalten; international vergleichbar"
-  },
-  {
-    journal:"J Diabetes Complications", year:"2026", pmid:"42762771",
-    author:"Blomstrand H et al.", pubdate:"14.09.2026",
+    journal:"Diabetes Technol Ther", year:"2026", pmid:"42762166",
+    author:"Wright EE Jr et al.", pubdate:"19.09.2026",
     added:"19.09.2026",
-    title:"36 % mit neuer Typ-2-Diabetes-Diagnose entwickeln Komplikationen in 3 Jahren",
-    sum:"Retrospektive bevölkerungsbasierte Kohorte von 5.773 Personen (40–90 Jahre), bei denen zwischen 2015 und 2020 in Region Halland, Schweden, Typ-2-Diabetes diagnostiziert wurde; Verfolgung über 3 Jahre auf Mikro- und Makrovaskulärkomplikationen.",
-    result:"Innerhalb von 3 Jahren entwickelten 36 % Komplikationen (Mikro &gt; Makro), 4 % starben. Beeinträchtigte Nierenfunktion erhöhte Risiko (HR 2,70; 95% KI 2,08–3,52), schlechte Glykämie-Kontrolle (HR 1,38; 95% KI 1,19–1,59). Höheres Alter erhöhte Risiko; weibliches Geschlecht war protektiv.",
-    transfer:"Schweden, vergleichbares Versicherungssystem; frühe Risikostratifizierung"
+    title:"Kontinuierliche Glukosemessung mit GLP-1-Agonisten: 68,4 % Therapieadhärenz nach 12 Monaten",
+    sum:"Retrospektive Matched-Cohort-Analyse von Verwaltungsdaten aus USA: Adhärente CGM-Nutzung und Therapieadhärenz mit GLP-1-Rezeptoragonisten bei Typ-2-Diabetes.",
+    result:"Von 934 CGM-Nutzern (PDC ≥ 0,8) verblieben 68,4 % nach 12 Monaten auf GLP-1-RA vs. 51,9 % ohne CGM (p &lt; 0,001). Nach Adjustierung: Hazard Ratio für Absetzen 0,56 (95%-KI 0,49–0,63; p &lt; 0,001). CGM-Adhärenz senkt GLP-1-Abbruch um 44 %.",
+    transfer:"USA-Verwaltungsdaten, aber Adhärenzphänomen übertragbar; Versorgungsdaten zu CGM und Therapietreue relevant für DMP-Ausgestaltung"
   },
   {
-    journal:"Diabetologia", year:"2026", pmid:"42603840",
-    author:"Yki-Järvinen H et al.", pubdate:"15.08.2026",
-    added:"15.08.2026",
-    title:"Hepatische Fettlebererkrankung bei Typ-2-Diabetes: Diagnose und Therapie",
-    sum:"Narrative Übersichtsarbeit zu Diagnose, Verlauf und Management von MASLD (metabolic dysfunction-associated steatotic liver disease) bei Typ-2-Diabetes, mit Fokus auf fehlende Screening-Standards und therapeutische Optionen.",
-    result:"Bis zu 95 % der MASLD-Fälle bleiben unerkannt. Nichtinvasive Tests unterschätzen Fibroserisiken. Typ-2-Diabetes plus metabolisches Syndrom sind starke Prädiktoren für Leberergebnisse, aber kardiovaskuläre Ereignisse sind häufigste Todesursache bei nichtzirrhötischen Patienten. Neue Therapien (hepatische Energiestoffwechsel-Inhibitoren, Gewichtsverlust-Promoter) vielversprechend für Fibrosebegrenzung.",
-    transfer:"Deutsche Koinzip-Autoren; kritische Versorgungslücke in DM-Praxis"
+    journal:"Diabetes Res Clin Pract", year:"2026", pmid:"42762922",
+    author:"Jan Sarhandi PZ et al.", pubdate:"19.09.2026",
+    added:"19.09.2026",
+    title:"Glukose-6-Phosphat-Dehydrogenase-Mangel und Diabeteskomplikationen: Assoziation bestätigt",
+    sum:"Systematische Übersichtsarbeit (42 Studien, Suche bis August 2026) zu Zusammenhang zwischen G6PD-Mangel und Typ-2-Diabetes sowie Diabeteskomplikationen.",
+    result:"G6PD-Mangel häufiger in Typ-2-Diabetes-Patienten als Allgemeinbevölkerung. Diagnostische Komplikationen: künstlich erniedrigtes HbA1c. Spezifische G6PD-Varianten mit erhöhtem Risiko und Schweregrad der diabetischen Retinopathie assoziiert. G6PD-Mangel verlinkt mit erhöhtem Myokardinfarkt-, Schlaganfall- und arterieller Steifheit-Risiko. Konsistente Evidenz für höheres Komplikationsrisiko; Assoziationen mit Diabetes-Onset inkonsistent.",
+    transfer:"Internationale Studien, G6PD-Screening bei Diabetes in Deutschland nicht Standard, aber Befund relevant für Diagnostik-Interpretation bei betroffenen Populationen"
   },
   {
-    journal:"Lancet Diabetes Endocrinol", year:"2026", pmid:"42567173",
-    author:"Mann JFE et al.", pubdate:"07.08.2026",
-    added:"07.08.2026",
-    title:"Semaglutid reduziert Nierenschäden bei Typ-2-Diabetes um 16%",
-    sum:"Gepoolte Analyse von drei Phase-3-Studien (SELECT, FLOW, SOUL) mit 30.787 Teilnehmern und kardio-renalen Erkrankungen, die über 39,5–47,5 Monate die Wirkung von Semaglutid auf Nierenergebnisse untersuchte.",
-    result:"Semaglutid reduzierte das primäre Nierenergebnis (persistente eGFR-Senkung ≥50 %, Nierenversagen, nierenbezogener Tod oder kardiovaskulärer Tod) mit Hazard Ratio 0,84 (95% KI 0,77–0,91) versus Placebo. Schmäleres Nierenergebnis (ohne kardiovaskulären Tod): HR 0,80 (95% KI 0,69–0,92). Sicherheit vergleichbar mit anderen GLP-1-Rezeptoragonisten.",
-    transfer:"Internationale Phase-3-Evidenz; Nierenschutz unabhängig von glykostatischem Effekt"
+    journal:"Diabetologia", year:"2026", pmid:"42758305",
+    author:"Liang C et al.", pubdate:"18.09.2026",
+    added:"18.09.2026",
+    title:"Menopause-Hormontherapie und Typ-2-Diabetes: kleine therapeutische Effekte",
+    sum:"Systematische Übersichtsarbeit und Metaanalyse (49 Artikel, 15 Länder) zur Wirkung von Menopausen-Hormontherapie (MHT) auf Glukosemetabolismus und Typ-2-Diabetes-Risiko bei Frauen.",
+    result:"Ohne Typ-2-Diabetes: MHT assoziiert mit Senkung Fasten-Insulin −5,90 pmol/l (11 Studien, n=4.262, hochgradige Evidenz) und HOMA-IR −0,21 (4 Studien, n=2.883, moderate Evidenz); Diabetes-Risiko-Ratio 0,83 (14 Studien, n=1.450.134, sehr niedrige Evidenz). Mit Typ-2-Diabetes: Fasten-Glukose −1,07 mmol/l (16 Studien, n=1.379), HbA1c −5,47 mmol/mol (−0,50 %; 17 Studien, n=15.720). Effektgrößen zu klein für klinische Relevanz; Evidenzgrad durchweg niedrig bis sehr niedrig.",
+    transfer:"15 Länder, aber überwiegend RCT mit hohem Bias-Risiko; Fragestellung hormonabhängig, nicht übertragbarkeitsabhängig"
   },
   {
-    journal:"Cardiovasc Diabetol", year:"2026", pmid:"42568080",
-    author:"Ma S et al.", pubdate:"07.08.2026",
-    added:"07.08.2026",
-    title:"Drei-Stoffwechsel-Modell identifiziert Gestationsdiabetes-Risiko mit AUC 0,97",
-    sum:"Multizenter-Nested-Case-Control-Studie mit 2.693 Schwangeren, die Untargeted-Metabolomik und Metagenomik integrierten, um früh-schwangerschaftliche Biomarker für Gestationsdiabetes zu identifizieren; externe und prospektive Validierung.",
-    result:"Ein Drei-Stoffwechsel-Modell (3-Hydroxydecansäure, γ-Glu-Leu, Propionsäure) erreichte AUC 0,838 im Training, 0,840 in interner Validierung, 0,955 und 0,917 in zwei externen Kohorten und 0,969 in der prospektiven Kohorte. Frauen mit späterem GDM zeigten ungünstige früh-schwangerschaftliche Metaboliten und Mikrobiota-Struktur-Veränderungen.",
-    transfer:"China; Metaboliten als Biomarker; kardio-metabolisches Risikokonzept in Schwangerschaft"
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"42755112",
+    author:"Ji L et al.", pubdate:"17.09.2026",
+    added:"18.09.2026",
+    title:"BGM0504-Dual-GLP-1/GIP Receptor Agonist: Dose-abhängige Gewichtsreduktion bis 18,33 %",
+    sum:"Randomisierte Phase-2-Studie der Wirksamkeit und Sicherheit des dualen GLP-1/GIP-Rezeptoragonisten BGM0504 bei chinesischen Erwachsenen mit Übergewicht/Adipositas ohne Diabetes über 24 Wochen.",
+    result:"BGM0504 führte zu Gewichtsabnahmen von −10,68 % (5 mg), −16,07 % (10 mg) und −18,33 % (15 mg) vs. +0,13 % unter Placebo (p &lt; 0,0001 alle Dosen). Dosisabhängige Verbesserung mit 83,9 % der Patienten in der 15-mg-Gruppe erreichten &gt; 70 % Gewichtsverlust. Gastrointestinale Nebenwirkungen waren häufig (93,1 % mit 15 mg vs. 40 % Placebo), ein ernstes Unerwünschtes Ereignis unter 10 mg, keine Abbrüche wegen Nebenwirkungen.",
+    transfer:"China, Phase-2-Daten zu neuer Substanzklasse, noch nicht zur Kostenbewertung in Deutschland verfügbar"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1565,7 +1556,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-09-22"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "20.09.2026";
+const NEWS_STAND = "21.09.2026";
 const NEWS = [
   {titel:"15. Diabetes-Charity-Gala am 16. Oktober in Berlin: diabetesDE sammelt Spenden", datum:"2026-09-14", url:"https://www.monitor-versorgungsforschung.de/news/15-diabetes-charity-gala-am-16-oktober-in-berlin-diabetesde-sammelt-spenden/"},
   {titel:"Muskel-Botenstoffe und Krebs: ERC Starting Grant für DDZ-Forscherin", datum:"2026-09-07", url:"https://www.monitor-versorgungsforschung.de/news/muskel-botenstoffe-und-krebs-erc-starting-grant-fuer-ddz-forscherin/"},
