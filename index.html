@@ -1485,62 +1485,53 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "21. Sept. 2026, 06:01 Uhr";
+const SNAP_DATE = "22. Sept. 2026, 06:21 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Diabetes Res Clin Pract", year:"2026", pmid:"42764072",
-    author:"Tu CY et al.", pubdate:"20.09.2026",
+    journal:"Diabetologia", year:"2026", pmid:"42766003",
+    author:"Ehrmann D et al.", pubdate:"21.09.2026",
+    added:"21.09.2026",
+    title:"Schuldgefühle bei Diabetes als Auslöser für Distress und Depression",
+    sum:"Längsschnittstudie mit Ecological Momentary Assessment über bis zu 17 Tage bei 741 Personen mit Typ-1 und Typ-2-Diabetes, die tägliche Diabetes-spezifische emotionale Belastungen und deren Zusammenhänge untersuchte.",
+    result:"Schuldgefühle bezüglich suboptimaler Selbstmanagementmaßnahmen erwiesen sich als stärkster Auslöser weiterer negativer Gefühle. Bei Typ-1-Diabetes erhöhte ein höheres Maß an Schuldgefühlen an einem Tag signifikant die Wahrscheinlichkeit von Einsamkeitsgefühl (β=0,09, p&lt;0,001), Überfordertheit (β=0,05, p=0,016) und Restriktionsgefühl (β=0,05, p=0,015) am nächsten Tag. Höhere individuelle Netzwerkdichte sagte erhöhten Diabetes Distress voraus (OR 1,50, p=0,025) sowie depressive Symptome (OR 2,08, p&lt;0,001).",
+    transfer:"Deutsche Kohortendaten (Bad Mergentheim, DZD), deutsche Psychometrie direkt übertragbar"
+  },
+  {
+    journal:"Diabetes Care", year:"2026", pmid:"42765945",
+    author:"Rawshani A et al.", pubdate:"21.09.2026",
+    added:"21.09.2026",
+    title:"Manifestationsalter bei Typ-1-Diabetes: je früher, desto höher Mortalitätsrisiko",
+    sum:"Retrospektive Kohortenstudie mit 34.155 Personen mit Typ-1-Diabetes und 150.026 Vergleichspersonen aus dem Schwedischen Nationalen Diabetes-Register (1998–2020), die Sterblichkeit und kardiovaskuläre Outcome nach Manifestationsalter untersuchte.",
+    result:"Jedes Jahr jüngeres Manifestationsalter war mit 1,7 % höherer Mortalitätswahrscheinlichkeit assoziiert (HR pro 1-Jahr-Zunahme 0,98, 95% KI 0,98–0,99). Bei Manifestation im Alter 0–10 Jahren betrug das Sterberisiko gegenüber Vergleichspersonen das 3,23-Fache (KI 2,92–3,58); für kardiovaskulären Tod 5,73-fach (KI 4,32–7,59).",
+    transfer:"Skandinavisches Sozialversicherungssystem, teilweise auf Deutschland übertragbar"
+  },
+  {
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"42764409",
+    author:"Calderon E et al.", pubdate:"20.09.2026",
     added:"20.09.2026",
-    title:"Tirzepatid vs. GLP-1-RA: niedrigeres Risiko für Parodontitis und Zahnverlust",
-    sum:"Retrospektive Kohortenstudie (TriNetX Global Network) zu Unterschieden oraler und parodontaler Outcomes zwischen Tirzepatid und GLP-1-Rezeptoragonisten bei Typ-2-Diabetes über ein Jahr.",
-    result:"Nach Propensity-Score-Matching je 97.993 Patienten pro Gruppe. Tirzepatid assoziiert mit niedrigerem Risiko für Mortalität (HR 0,69, 95%-KI 0,59–0,80), Parodontitis (0,70, 0,57–0,86), Zahnextraktion (0,89, 0,84–0,94), Peri-Implantat-Komplikationen (0,61, 0,52–0,70), parodontale Verfahren (0,89, 0,85–0,94), orale/oromax Infektionen (0,70, 0,62–0,79). Komposit-Outcome Mund/Parodont (0,87, 0,84–0,91).",
-    transfer:"USA-Versicherungsdaten, retrospektiv und mit Beobachtungslimitationen (Recording-Bias), aber Endpunkt Parodontitis-Assoziationen neu"
+    title:"SGLT2-Inhibitoren und GLP-1RA: niedriger Sozialstatus verkürzt Nutzung",
+    sum:"Dänische Registerkohorte mit 81.361 Personen mit neu diagnostizierter Typ-2-Diabetes und kardiovaskulärer Erkrankung (2015–2022), die Initiierung kardioprotektor wirkender Glucose-senker nach Geschlecht und Sozialstatus untersuchte.",
+    result:"Arbeitslose Frauen begannen cardioprotektive Therapie seltener als erwerbstätige (IRR 0,81, KI 0,75–0,88); Arbeitslose Männer (IRR 0,77, KI 0,73–0,81). Geschiedene, verwitwete und unverheiratete Personen zeigten niedrigere Initiierungsraten. Bildungsgradienten verschwanden nach Adjustierung (Frauen IRR 0,95, KI 0,86–1,05).",
+    transfer:"Dänisches Sozialversicherungssystem, nordeuropäisches Versorgungsmodell ähnlich Deutschland"
   },
   {
-    journal:"Diabetes Technol Ther", year:"2026", pmid:"42762173",
-    author:"Castro M et al.", pubdate:"19.09.2026",
-    added:"19.09.2026",
-    title:"MiniMed 780G: Stabile glycämische Kontrolle über 24 Monate in Lateinamerika",
-    sum:"Reale Daten von über 16.000 Typ-1-Diabetes-Patienten, die das automatisierte Insulinabgabesystem MiniMed 780G in 18 lateinamerikanischen Ländern über bis zu 24 Monate nutzten.",
-    result:"Zeit im Zielbereich (TIR) 73,4 % gesamt, Glukose-Managementindikator (GMI) 6,9 %. Mit empfohlenen optimalen Einstellungen (n=19,2 %): TIR 77,5 %, 83,9 % erreichten &gt; 70 % TIR, 66,4 % erreichten Komposit-Zielwert. Pädiatrische Patienten: TIR 70,0 % (74,2 % mit optimalen Einstellungen). Ergebnisse stabil über 24 Monate, unabhängig von Geschlecht, Land und Infrastruktur.",
-    transfer:"Lateinamerika, international vergleichbar, aber unterschiedliche Gesundheitssysteme; Techniktransfer relevant für Deutschland"
+    journal:"Diabetes Res Clin Pract", year:"2026", pmid:"42764073",
+    author:"Amirvala R et al.", pubdate:"20.09.2026",
+    added:"20.09.2026",
+    title:"Typ-2-Diabetes-Prognosemodelle: externe Validierung wird zur Regel",
+    sum:"Scoping Review und systematische Aktualisierung von 1993–Januar 2026, die 50 historische und 20 aktuelle Prognosemodelle für Typ-2-Diabetes-Inzidenz analysierte und Qualitätsmängel dokumentierte.",
+    result:"Historische Studien: interne Validierung in 84 %, externe nur in 16 %; AUC-Berichte in 90 %. Aktuelle Studien (2019–2026): interne und externe Validierung je in 55 % bzw. 50 %, Kalibrierung in 75 %, AUC in 75 %. Hohes Verzerrungsrisiko in 70 % der aktualisierten Studien. Externe Validierung, Kalibrierung und Bias-Reporting bleiben inkonsistent.",
+    transfer:"Internationale Modellübersicht, Empfehlungen für Validierungsstandards global relevant"
   },
   {
-    journal:"Diabetes Technol Ther", year:"2026", pmid:"42762166",
-    author:"Wright EE Jr et al.", pubdate:"19.09.2026",
-    added:"19.09.2026",
-    title:"Kontinuierliche Glukosemessung mit GLP-1-Agonisten: 68,4 % Therapieadhärenz nach 12 Monaten",
-    sum:"Retrospektive Matched-Cohort-Analyse von Verwaltungsdaten aus USA: Adhärente CGM-Nutzung und Therapieadhärenz mit GLP-1-Rezeptoragonisten bei Typ-2-Diabetes.",
-    result:"Von 934 CGM-Nutzern (PDC ≥ 0,8) verblieben 68,4 % nach 12 Monaten auf GLP-1-RA vs. 51,9 % ohne CGM (p &lt; 0,001). Nach Adjustierung: Hazard Ratio für Absetzen 0,56 (95%-KI 0,49–0,63; p &lt; 0,001). CGM-Adhärenz senkt GLP-1-Abbruch um 44 %.",
-    transfer:"USA-Verwaltungsdaten, aber Adhärenzphänomen übertragbar; Versorgungsdaten zu CGM und Therapietreue relevant für DMP-Ausgestaltung"
-  },
-  {
-    journal:"Diabetes Res Clin Pract", year:"2026", pmid:"42762922",
-    author:"Jan Sarhandi PZ et al.", pubdate:"19.09.2026",
-    added:"19.09.2026",
-    title:"Glukose-6-Phosphat-Dehydrogenase-Mangel und Diabeteskomplikationen: Assoziation bestätigt",
-    sum:"Systematische Übersichtsarbeit (42 Studien, Suche bis August 2026) zu Zusammenhang zwischen G6PD-Mangel und Typ-2-Diabetes sowie Diabeteskomplikationen.",
-    result:"G6PD-Mangel häufiger in Typ-2-Diabetes-Patienten als Allgemeinbevölkerung. Diagnostische Komplikationen: künstlich erniedrigtes HbA1c. Spezifische G6PD-Varianten mit erhöhtem Risiko und Schweregrad der diabetischen Retinopathie assoziiert. G6PD-Mangel verlinkt mit erhöhtem Myokardinfarkt-, Schlaganfall- und arterieller Steifheit-Risiko. Konsistente Evidenz für höheres Komplikationsrisiko; Assoziationen mit Diabetes-Onset inkonsistent.",
-    transfer:"Internationale Studien, G6PD-Screening bei Diabetes in Deutschland nicht Standard, aber Befund relevant für Diagnostik-Interpretation bei betroffenen Populationen"
-  },
-  {
-    journal:"Diabetologia", year:"2026", pmid:"42758305",
-    author:"Liang C et al.", pubdate:"18.09.2026",
-    added:"18.09.2026",
-    title:"Menopause-Hormontherapie und Typ-2-Diabetes: kleine therapeutische Effekte",
-    sum:"Systematische Übersichtsarbeit und Metaanalyse (49 Artikel, 15 Länder) zur Wirkung von Menopausen-Hormontherapie (MHT) auf Glukosemetabolismus und Typ-2-Diabetes-Risiko bei Frauen.",
-    result:"Ohne Typ-2-Diabetes: MHT assoziiert mit Senkung Fasten-Insulin −5,90 pmol/l (11 Studien, n=4.262, hochgradige Evidenz) und HOMA-IR −0,21 (4 Studien, n=2.883, moderate Evidenz); Diabetes-Risiko-Ratio 0,83 (14 Studien, n=1.450.134, sehr niedrige Evidenz). Mit Typ-2-Diabetes: Fasten-Glukose −1,07 mmol/l (16 Studien, n=1.379), HbA1c −5,47 mmol/mol (−0,50 %; 17 Studien, n=15.720). Effektgrößen zu klein für klinische Relevanz; Evidenzgrad durchweg niedrig bis sehr niedrig.",
-    transfer:"15 Länder, aber überwiegend RCT mit hohem Bias-Risiko; Fragestellung hormonabhängig, nicht übertragbarkeitsabhängig"
-  },
-  {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"42755112",
-    author:"Ji L et al.", pubdate:"17.09.2026",
-    added:"18.09.2026",
-    title:"BGM0504-Dual-GLP-1/GIP Receptor Agonist: Dose-abhängige Gewichtsreduktion bis 18,33 %",
-    sum:"Randomisierte Phase-2-Studie der Wirksamkeit und Sicherheit des dualen GLP-1/GIP-Rezeptoragonisten BGM0504 bei chinesischen Erwachsenen mit Übergewicht/Adipositas ohne Diabetes über 24 Wochen.",
-    result:"BGM0504 führte zu Gewichtsabnahmen von −10,68 % (5 mg), −16,07 % (10 mg) und −18,33 % (15 mg) vs. +0,13 % unter Placebo (p &lt; 0,0001 alle Dosen). Dosisabhängige Verbesserung mit 83,9 % der Patienten in der 15-mg-Gruppe erreichten &gt; 70 % Gewichtsverlust. Gastrointestinale Nebenwirkungen waren häufig (93,1 % mit 15 mg vs. 40 % Placebo), ein ernstes Unerwünschtes Ereignis unter 10 mg, keine Abbrüche wegen Nebenwirkungen.",
-    transfer:"China, Phase-2-Daten zu neuer Substanzklasse, noch nicht zur Kostenbewertung in Deutschland verfügbar"
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"42750649",
+    author:"Zhou Z et al.", pubdate:"17.09.2026",
+    added:"17.09.2026",
+    title:"SGLT2-Inhibitoren überlegen bei Nieren- und Herzschutz in diabetischer Nierenkrankheit",
+    sum:"Netzwerk-Metaanalyse von 10 randomisierten Studien mit 37.923 Teilnehmern mit Typ-2-Diabetes und diabetischer Nierenkrankheit, die kardiorenale Wirksamkeit von Finerenon, SGLT2-Inhibitoren, Semaglutid und Kombinationen verglich.",
+    result:"SGLT2-Inhibitoren zeigten breitestes Nutzenspektrum über kardiorenale Endpunkte. Dapagliflozin senkte kombinierte Nierenereignisse stärker als Semaglutid (RR 0,71, KI 0,53–0,94). Finerenon erhöhte Hyperkaliämie (RR 2,03, KI 1,82–2,26) und Therapieabbrüche (RR 1,18, KI 1,02–1,35). Finerenon + Empagliflozin: noch höheres Hyperkaliämie-Risiko (RR 2,48, KI 1,22–5,06).",
+    transfer:"Randomisierte Studienevidenz, Zulassungsgrenzen ändern Deutschlands DMP-Vorgaben nicht automatisch"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1556,18 +1547,18 @@ const RADAR_FRISTEN = [[], [], ["2026-10-06", "2026-09-23", "2026-10-28", "2026-
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "21.09.2026";
+const NEWS_STAND = "22.09.2026";
 const NEWS = [
+  {titel:"Nachsorge nach Schwangerschaftsdiabetes bleibt lückenhaft: DDZ", datum:"2026-09-21", url:"https://www.monitor-versorgungsforschung.de/news/nachsorge-nach-schwangerschaftsdiabetes-bleibt-lueckenhaft-ddz/"},
   {titel:"15. Diabetes-Charity-Gala am 16. Oktober in Berlin: diabetesDE sammelt Spenden", datum:"2026-09-14", url:"https://www.monitor-versorgungsforschung.de/news/15-diabetes-charity-gala-am-16-oktober-in-berlin-diabetesde-sammelt-spenden/"},
-  {titel:"Muskel-Botenstoffe und Krebs: ERC Starting Grant für DDZ-Forscherin", datum:"2026-09-07", url:"https://www.monitor-versorgungsforschung.de/news/muskel-botenstoffe-und-krebs-erc-starting-grant-fuer-ddz-forscherin/"},
 ];
 // === NEWS-BLOCK-ENDE ===
 
 // Fremde Pressemeldungen zum Thema — taeglich von scripts/newsfeed.py
 // === PRESSE-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const PRESSE = [
+  {titel:"Prädiabetes erkennen und Diabetes Typ 2 frühzeitig gegensteuern", datum:"2026-09-21", url:"http://idw-online.de/de/news877706", quelle:"idw"},
   {titel:"International Recognition for DZD Research: Three awards at the EASD", datum:"2026-09-16", url:"http://idw-online.de/de/news877437", quelle:"idw"},
-  {titel:"Internationale Anerkennung für DZD-Forschung: Drei Auszeichnungen bei der EASD", datum:"2026-09-16", url:"http://idw-online.de/de/news877436", quelle:"idw"},
 ];
 // === PRESSE-BLOCK-ENDE ===
 
