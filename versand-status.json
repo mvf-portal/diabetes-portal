@@ -1,34 +1,34 @@
 {
  "hub": "Knowledge-Hub Diabetes",
  "domain": "diabetes.m-vf.de",
- "datum": "2026-09-24",
+ "datum": "2026-09-25",
  "stand": "terminiert",
- "titel": "MVF Diabetes-Newsletter 24.09.2026",
- "betreff": "Neueste Studien - Diabetes – 24. September 2026",
+ "titel": "MVF Diabetes-Newsletter 25.09.2026",
+ "betreff": "Neueste Studien - Diabetes – 25. September 2026",
  "anzahl": 6,
  "pmids": [
-  "42778221",
-  "42777923",
-  "42776165",
-  "42770563",
-  "42766134",
-  "42754334"
+  "42785671",
+  "42784530",
+  "42782573",
+  "42781972",
+  "42779444",
+  "42779197"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099064",
- "termin_utc": "2026-09-24T08:00:00+00:00",
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099090",
+ "termin_utc": "2026-09-25T08:00:00+00:00",
  "empfaenger": 3,
- "listengroesse": 5898,
+ "listengroesse": 5902,
  "beanstandungen": [],
  "aussortiert": [],
  "pool": {
   "geholt": 220,
-  "bekannt": 97,
+  "bekannt": 104,
   "pool": 51,
   "gewaehlt": 6,
   "neu": 6
  },
  "rubriken": {
-  "news": "4f41780d50b2ff85",
+  "news": "a444c58d77cb092f",
   "radar": "57841c38f1290e8c"
  }
 }
