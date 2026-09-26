@@ -1485,62 +1485,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "25. Sept. 2026, 06:25 Uhr";
+const SNAP_DATE = "26. Sept. 2026, 06:25 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Diabetes Ther", year:"2026", pmid:"42782573",
-    author:"Selvek M et al.", pubdate:"24.09.2026",
-    added:"24.09.2026",
-    title:"Strukturierte Schulung senkt Sterblichkeit um 57% in DMP-Programmen",
-    sum:"Retrospektive Kohortenstudie mit Propensity-Score-Matching evaluierte die Assoziation zwischen Teilnahme an strukturierter Diabetes-Schulung innerhalb eines Disease-Management-Programms (DMP) und Gesamtsterblichkeit bei T2DM-Patienten in der Slowakei (2013–2024).",
-    result:"Bei 4.702 geschulten Patienten und 14.106 Kontrollen traten über 5,04 Jahre Median 1.695 Todesfälle auf. Strukturierte Schulung zeigte 57% geringeres Sterblichkeitsrisiko in den ersten 2 Jahren (HR 0,43; 95% KI 0,30–0,60) und 32% danach (HR 0,68; 95% KI 0,57–0,81) vs. Kontrollen ohne DMP. IPTW-Analyse bestätigte ähnliche Muster (60% vs. 31% Reduktion). Nicht geschulte DMP-Patienten zeigten keinen Überlebensvorteil.",
-    transfer:"Slowakisches Versicherungssystem (Dôvera), vergleichbar mit europäischen Strukturierten Behandlungsprogrammen"
+    journal:"Diabetologia", year:"2026", pmid:"42789098",
+    author:"Carlsson S et al.", pubdate:"25.09.2026",
+    added:"25.09.2026",
+    title:"Übergewicht und Rauchen als konsistente Risikofaktoren für autoimmune Diabetes im Erwachsenenalter",
+    sum:"Systematische Übersicht zu Lebensstil- und Umweltfaktoren bei erwachsener autoimmun bedingter Diabetes (Typ-1-Diabetes und LADA): Übergewicht, Adipositas und Rauchen zeigen sich als konsistente Risikofaktoren mit stärkster Evidenz, unterstützt durch Beobachtungs- und Mendel-Randomisierungs-Studien.",
+    result:"Übergewicht, Adipositas und Rauchen erhöhen das Erkrankungsrisiko bei adulter autoimmun bedingter Diabetes; dieser Effekt ist stärker bei Personen mit hochrisiko-HLA-Genotyp. Ernährungsfaktoren wurden primär bei LADA untersucht – erhöhtes Risiko mit zuckerhaltigen Getränken und verarbeiteten Fleischprodukten, protektiv: fettreicher Fisch, n-3-Fettsäuren, moderater Alkoholkonsum. Vitamin-D- und E-Effekte noch unklar.",
+    transfer:"Europa, Schweden – vergleichbare Bevölkerungsstruktur und Dokumentation."
   },
   {
-    journal:"J Clin Endocrinol Metab", year:"2026", pmid:"42784530",
-    author:"Sabag A et al.", pubdate:"24.09.2026",
-    added:"24.09.2026",
-    title:"Incidental physical activity senkt T2DM-Risiko um 38% mit 4,75 min/Tag intensiv",
-    sum:"Prospektive Kohortenstudie an 22.857 körperlich inaktiven UK-Biobank-Teilnehmern (mittleres Alter 62,1 Jahre) untersuchte die Dosis-Wirkungs-Beziehung zwischen Wearable-gemessener incidental physical activity (IPA) und T2DM-Inzidenz über 7,8 Jahre.",
-    result:"721 T2DM-Fälle (3,2%). Moderate (3–6 METs; 23,70 min/Tag) und vigorous-intensity IPA (≥6 METs; 4,75 min/Tag), nicht aber light-intensity, zeigten inverse Assoziation mit T2DM. Mediane vigorous-intensity IPA: HR 0,62 (95% KI 0,53–0,73). Eine Minute vigorous-intensity entsprach 5,9 Minuten moderate oder 46,6 Minuten light-intensity zur Risikoreduktion.",
-    transfer:"UK Biobank, vergleichbar mit deutschen Bevölkerungskohorten; Wearable-Messung praxisrelevant"
+    journal:"J Clin Endocrinol Metab", year:"2026", pmid:"42788620",
+    author:"Takahara M et al.", pubdate:"25.09.2026",
+    added:"25.09.2026",
+    title:"Unterschiedliche Komplikationslast bei peripherer vs. koronarer Revaskularisierung trotz vergleichbarer Glukoseeinstellung",
+    sum:"Vergleich von Diabetes-assoziierter Krankheitslast bei 5.808 Patienten mit Diabetes und Revaskularisierung für periphere (LEAD) versus koronare (CAD) Arterienerkrankung: LEAD-Patienten hatten längere Diabetes-Dauer und höhere Komplikationsraten.",
+    result:"LEAD-Patienten zeigten längere Diabetes-Dauer und signifikant höhere Prävalenz fortgeschrittener Komplikationen: proliferative Retinopathie (adjustiertes Prävalenz-Ratio 1,57; 95%-KI 1,41–1,75), Loss of protective sensation (2,39; 1,82–3,13), dialysepflichtige Niereninsuffizienz (2,12; 1,82–3,13) – auch nach Adjustierung für Diabetes-Dauer. HbA1c unterschied sich nicht zwischen Gruppen.",
+    transfer:"Japan, klinische Routinedaten – Versorgungslast bei Hochrisiko-Patienten übertragbar."
   },
   {
-    journal:"Diabetes Metab", year:"2026", pmid:"42785671",
-    author:"Khadija HA et al.", pubdate:"24.09.2026",
-    added:"24.09.2026",
-    title:"GLP-1-Rezeptoragonisten senken bei PAD-Diabetes die Gliedmaßen-Amputationen um 35%",
-    sum:"Retrospektive Kohortenstudie aus dem Clalit-Datensatz (Israel) untersuchte die Auswirkung von GLP-1-Rezeptoragonisten (GLP1-RA)-Exposition auf Major Adverse Limb Events (MALE) bei 20.031 Patienten mit peripherer Verschlusskrankheit (PAD) und Diabetes.",
-    result:"5.960 GLP1-RA-Nutzer vs. 14.071 Nicht-Nutzer. GLP1-RA-Exposition assoziiert mit niedrigerem MALE-Risiko, Revaskularisierung und Amputation. In Zeit-ausgerichteter Analyse: Reduktion der Gesamtsterblichkeit HR 0,80 (95% KI 0,73–0,88; p&lt;0,001). Sustained GLP1-RA-Nutzung: HR 0,65 (95% KI 0,44–0,94; p=0,022) für MALE. Befunde sind observativ; Kausalität unklar.",
-    transfer:"Israel (Clalit-System ähnlich europäisch); Limb-Outcomes sind harte Endpunkte"
+    journal:"Diabetes Technol Ther", year:"2026", pmid:"42786775",
+    author:"Rodríguez de Vera Gómez P et al.", pubdate:"24.09.2026",
+    added:"25.09.2026",
+    title:"CGM reduziert Hospitalisierungen bei älteren Diabetes-Patienten mit Komplexbetreuung um 72 %",
+    sum:"Bevölkerungsbasierte spanische Studie zu CGM-Initiation bei 5.281 älteren Patienten (Durchschnittsalter 79 Jahre) mit insulinbehandeltem Typ-2-Diabetes und Komplexbetreuungsbedarf: Vergleich von Hospitalisierungsraten vor und nach CGM-Einführung.",
+    result:"Diabetes-bedingte akute Hospitalisierungen sanken von 144,27 auf 41,04 pro 10.000 Personen-Jahre (Rate Ratio 0,28; 95%-KI 0,19–0,42); kardiovaskuläre Aufnahmen von 387,25 auf 251,96 pro 10.000 Personen-Jahre (RR 0,65; 95%-KI 0,54–0,78). Durchschnittliche Krankenhausdauer sank um 3,68 Tage (95%-KI -5,26 bis -2,10), Kosten um 657,39 USD pro Patienten-Jahr.",
+    transfer:"Spanien, öffentliches Gesundheitssystem – Modell für vulnerable Bevölkerungen übertragbar."
   },
   {
-    journal:"J Diabetes Investig", year:"2026", pmid:"42779444",
-    author:"Zhao D et al.", pubdate:"24.09.2026",
-    added:"24.09.2026",
-    title:"Früher Lipidindex vorhersagt GDM und hohes Geburtsgewicht mit 2,08-fachem Risiko",
-    sum:"Prospektive Kohortenstudie mit 5.706 Schwangeren ohne Diabetes analysierte die Assoziation des Atherogenic Index of Plasma (AIP) im ersten Trimenon mit Gestationsdiabetes und Neugeborenengewicht, inklusive Mediationseffekte durch Glukose.",
-    result:"Prävalenz GDM 20,64%. Eine Einheit AIP-Anstieg: Geburtsgewicht +93,12 g (95% KI 39,38–146,87), GDM-Risiko RR 2,08 (95% KI 1,52–2,85), Large-for-Gestational-Age RR 1,67 (95% KI 1,09–2,58). Non-linear Assoziation ab AIP &gt;0,14 mit +158,95 g. Fasten-Plasmaglukose vermittelte 28,35% der AIP-Gewichts-Assoziation (60,04% bei GDM-Frauen).",
-    transfer:"China, aber Gestationsdiabetes-Früherkennung international relevant; AIP-Screening praktizierbar"
+    journal:"Diabetes Technol Ther", year:"2026", pmid:"42786561",
+    author:"Jansen TJP et al.", pubdate:"24.09.2026",
+    added:"25.09.2026",
+    title:"Bihormonal Closed Loop über 3 Jahre stabil bei stabilen Glucagon-Bedingungen",
+    sum:"Retrospektive Real-World-Studie von 102 Patienten mit Typ-1-Diabetes unter bihormonal vollständigem Closed-Loop-System über 3 Jahre: Messung kontinuierlicher Glukose-Parameter über 6-Monats-Intervalle mit Fokus auf Glucagon-Verfügbarkeit.",
+    result:"Bei Patienten mit stabiler Glucagon-Verfügbarkeit (GlucaGen, n=60) zeigten sich stabile Outcomes über 3 Jahre mit Time in Range (70–180 mg/dL) von 79,5–80,8 %, Time Below Range (&lt;70 mg/dL) von 0,95–1,56 %. In der Gesamtgruppe leichter Leistungsrückgang im letzten Zeitraum. Nach Wechsel auf alternatives Glucagon sank die TIR signifikant von 79,3 ±7,1 auf 75,8 ±7,9 % (p&lt;0,001).",
+    transfer:"Niederlande, klinisches Setting – technische Stabilität und Ressourcenthematik relevant."
   },
   {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"42779197",
-    author:"Griffiths B et al.", pubdate:"23.09.2026",
+    journal:"Diabetes Care", year:"2026", pmid:"42782208",
+    author:"T1D Pregnancy &amp; Me Study Group*", pubdate:"24.09.2026",
     added:"24.09.2026",
-    title:"REWIND-Programm erreicht 8,1% Remissionsquote durch strukturierte Gewichtsreduktion",
-    sum:"Prospektive Beobachtungsstudie in Nordwest-London evaluierte die Wirkeffektivität des REWIND-Programms (Totaldienst-Replacement oder kohlenhydratarm) auf Gewichtsverlust, Glukosekontrolle, Medikamenteneinsatz und Diabetes-Remission bei T2DM in der Routineversorgung.",
-    result:"1.051 REWIND-Teilnehmer vs. 66.376 nicht überweisene Kontrollen. Bei 12 Monaten: Gewichtsverlust um 2,1 kg (95% KI -2,7 bis -1,5), Reduktion glukose-senkender Medikamente um 12,2% (-13,1 bis -11,3), Remissionsanstieg um 4,2% (3,9–4,5). Totaldienst-Pathway: +6,9% Remission; kohlenhydratarm: +2,9%. Programmabsolventen erreichten +8,1% Remission vs. Kontrollen.",
-    transfer:"NHS-Daten England, vergleichbar mit deutschen DMP-Strukturen zur Gewichtsreduktion"
+    title:"Automated-Insulin-Delivery-Systeme für Schwangerschaft mit Typ-1-Diabetes bislang nicht optimiert",
+    sum:"Stellungnahme der T1D Pregnancy &amp; Me Study Group zur Notwendigkeit, Automated-Insulin-Delivery-Systeme für schwangere Frauen mit Typ-1-Diabetes zu optimieren: Analyse der Limitationen der FDA-zugelassenen AID-Systeme im Schwangerschaftskontext.",
+    result:"Keine der in den USA zugelassenen AID-Systeme ist für Schwangerschaftsziele konzipiert oder gekennzeichnet; die meisten reduzieren die Insulinabgabe, wenn CGM-Werte im optimalen Bereich liegen. Schwangere mit Typ-1-Diabetes wurden systematisch aus klinischen Studien ausgeschlossen. Forderungen: Einschluss Schwangerer in Studien, Systeme mit Schwangerschafts-Algorithmen, Real-World-Studien während Entwicklung.",
+    transfer:"USA – Innovationslücke und Forschungsexklusionspraxis international relevant, unabhängig von Gesundheitssystem."
   },
   {
-    journal:"Diabetes Metab Res Rev", year:"2026", pmid:"42781972",
-    author:"Kapoor S et al.", pubdate:"Sept. 2026",
+    journal:"Diabetes Res Clin Pract", year:"2026", pmid:"42785638",
+    author:"Manganas K et al.", pubdate:"24.09.2026",
     added:"24.09.2026",
-    title:"Aminosäure-Signaturen markieren postpartale Dysglykämie nach GDM um Faktor 1,69–1,99",
-    sum:"Nested-Case-Control-Metabolomik-Studie (CHIP-F Kohorte) bei 216 indischen Frauen mit prior GDM identifizierte differentielle Metabolit-Signaturen assoziiert mit postpartaler Prediabetes (88 Fälle) und Diabetes (22 Fälle) vs. normoglykämischen Kontrollen (106).",
-    result:"Jede 1-SD Erhöhung: Tyrosin aOR 1,71 (95% KI 1,01–2,91) und L-Kynurenin aOR 1,69 (1,02–2,80) mit Diabetes; 2-Aminoisobuttersäure aOR 1,50, Butyrylcarnitin aOR 1,99, L-Norleucin aOR 1,96, Propionylcarnitin aOR 1,94 mit Prediabetes. Pathwayanalyse zeigte aromatische Aminosäure-Dysregulation (Prediabetes) und Lipidstoffwechsel-Störungen (Diabetes).",
-    transfer:"Indien/Südasien; Metabolomik-Biomarker sind Forschungswerkzeug, noch nicht klinisch"
+    title:"Hämoglobinopathien mit Diabetes: HbA1c unzuverlässig, CGM und Nüchternglukose empfohlen",
+    sum:"Narrative Übersicht zur Pathophysiologie, Diagnostik und Therapie von Diabetes bei Patienten mit β-Thalassämie und Sichelzellerkrankung, unter Berücksichtigung der diagnostischen Fallstricke und therapeutischen Strategien.",
+    result:"HbA1c ist aufgrund von analytischen Störungen (hämolytische Anämie, Erythrozyten-Transfusionen) und biologischen Verzerrungen (verkürzte Erythrozytenüberlebenszeit) häufig ungenau. Formale Diagnostik muss auf Nüchternglukose und oralen Glukosetoleranztest stützen; CGM-Metriken sind wertvoll. Therapie: Basal-Bolus-Insulin als Eckpfeiler, SGLT2-Hemmer und GLP-1-Rezeptoragonisten als vielversprechende Adjuvanzien, intensive Eisenchelationstherapie kann frühe Dysglykämie umkehren.",
+    transfer:"Griechenland – seltene Erkrankung, spezialisierte Zentren empfohlen, Übertragbarkeit auf deutsche Zentren."
+  },
+  {
+    journal:"BMJ Open Diabetes Res Care", year:"2026", pmid:"42778342",
+    author:"Qiu L et al.", pubdate:"23.09.2026",
+    added:"23.09.2026",
+    title:"Höhere kardiovaskuläre Gesundheit verbunden mit weniger Mikroangiopathien bei Typ-2-Diabetes, stärker bei prämenopausalen Frauen",
+    sum:"Querschnittsstudie an 4.527 chinesischen Typ-2-Diabetes-Patienten zur Assoziation des Life's Essential 8 Kardio-Gesundheitsscores mit Prävalenz von Mikroangiopathien, stratifiziert nach Geschlecht und Menopausenstatus.",
+    result:"Höhere LE8-Scores waren mit niedrigerer Prävalenz zusammengesetzter Mikroangiopathien assoziiert: adjustiertes Prävalenz-OR für hohen vs. niedrigen LE8-Score 0,43 (95%-KI 0,36–0,52). Assoziation war signifikant unterschiedlich nach Geschlecht und Menopausenstatus (p Interaktion=0,027) und am stärksten bei prämenopausalen Frauen (OR 0,17; 95%-KI 0,09–0,33).",
+    transfer:"China, aber LE8-Framework international – Geschlecht und Menopause als Modifikatoren relevant für Versorgungsstrategien."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1556,7 +1565,7 @@ const RADAR_FRISTEN = [["2026-10-19", "2026-10-06", "2026-10-15"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "25.09.2026";
+const NEWS_STAND = "26.09.2026";
 const NEWS = [
   {titel:"Netzhautschäden durch Diabetes oft unbemerkt: DDG mahnt Kontrollen an", datum:"2026-09-24", url:"https://www.monitor-versorgungsforschung.de/news/netzhautschaeden-durch-diabetes-oft-unbemerkt-ddg-mahnt-kontrollen-an/"},
   {titel:"Nachsorge nach Schwangerschaftsdiabetes bleibt lückenhaft: DDZ", datum:"2026-09-21", url:"https://www.monitor-versorgungsforschung.de/news/nachsorge-nach-schwangerschaftsdiabetes-bleibt-lueckenhaft-ddz/"},
