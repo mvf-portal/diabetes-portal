@@ -1529,62 +1529,53 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "2. Okt. 2026, 06:01 Uhr";
+const SNAP_DATE = "3. Okt. 2026, 06:26 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Lancet Diabetes Endocrinol", year:"2026", pmid:"42822480",
-    author:"Rosenzwajg M et al.", pubdate:"01.10.2026",
+    journal:"Diabetologia", year:"2026", pmid:"42825923",
+    author:"Davies MJ et al.", pubdate:"02.10.2026",
+    added:"02.10.2026",
+    title:"ADA/EASD-Leitlinie: Früher SGLT2i/GLP-1 zur Organprotektion bei Typ-2-Diabetes",
+    sum:"Konsensusupdate 2026 von American Diabetes Association und EASD zur Therapie des Typ-2-Diabetes empfiehlt frühere, potenziell ab Diagnose einsetzbare SGLT2-Inhibitoren und GLP-1-basierte Therapien für Organprotektion und verbesserte Langzeitergebnisse.",
+    result:"Systematische Literaturreview seit 2022 mit Fokusverschiebung von Hyperglykämiemanagement auf holistische Versorgung einschließlich Lebensstiländerungen, psychologischer Unterstützung und frühem Einsatz von SGLT2i/GLP-1-Therapeutika. Kombination beider Substanzklassen wird bei kardiovaskulären Erkrankungen, chronischer Nierenerkrankung und Herzinsuffizienz empfohlen.",
+    transfer:"Leitlinie für USA und Europa, direkt in DMP-Anpassung umsetzbar."
+  },
+  {
+    journal:"Prim Care Diabetes", year:"2026", pmid:"42827071",
+    author:"Rader A et al.", pubdate:"02.10.2026",
+    added:"02.10.2026",
+    title:"Diabetische Nervenkompression: Screening-Algorithmus für Hausarztpraxen",
+    sum:"Systematische Review und Evidenzbewertung zu klinischer Erkennung und chirurgischen Dekompressionseffekten bei Nerveneinklemmung überlagert auf diabetischer Polyneuropathie, mit Algorithmus für Überweisungsentscheidungen.",
+    result:"Randomisierte und beobachtende Studien zeigen: Dekompression assoziiert mit Schmerzreduktion, Besserung sensibler Parameter und niedrigerer Ulkusrezidivrate in selektierten Patienten mit Einklemmungsmerkmalen. Klinischer Algorithmus mit Schritten: DPN-Bestätigung → Screening für Einklemmungszeichen → prognostische Marker → konservative Optimierung → Überweisungskriterien.",
+    transfer:"USA-Evidenz, Algorithmus adaptierbar für deutsche Primärversorgung und Spezialisierung."
+  },
+  {
+    journal:"Nat Med", year:"2026", pmid:"42823485",
+    author:"Tuttle KR et al.", pubdate:"01.10.2026",
     added:"01.10.2026",
-    title:"Low-dose IL-2 erhöht regulatorische T-Zellen, bewahrt aber keine β-Zellfunction bei frühem Typ-1-Diabetes",
-    sum:"Randomisierte Phase-2b-Studie mit 141 Personen (6–35 Jahre) mit neu diagnostiziertem Typ-1-Diabetes zur Prüfung, ob niedrig dosiertes Interleukin-2 die Restfunktion der Betazellen erhält.",
-    result:"Trotz markanter Treg-Expansion (adjustierte Mittelwertdifferenz –0,27) war die C-Peptid-AUC bei Monat 12 gleich zwischen IL-2 und Placebo (geometrisches Mittelwertsverhältnis 1,06; p = 0,85). Ernsthafte Nebenwirkungen traten bei 10 % der IL-2-Gruppe und 20 % der Placebogruppe auf, keine Unterschiede in Sicherheit zwischen Altersgruppen. Das biologische Ziel wurde erreicht, therapeutisch aber nicht wirksam.",
-    transfer:"Multizenter-RCT, 5 europäische Länder (Belgien, Frankreich, Deutschland, Schweiz, Niederlande)"
+    title:"Semaglutid reduziert Nierenfibrose bei Typ-2-Diabetes und CKD",
+    sum:"Randomisierte 52-Wochen-Studie zu Mechanismen der Nierenschutzeffekte von Semaglutid (1 mg/Woche subkutan) versus Placebo bei Typ-2-Diabetes und chronischer Nierenerkrankung mit integrierten bildgebenden und molekularen Analysen.",
+    result:"Semaglutid reduzierte Nierenkranialresistivitätsindex signifikant und stabilisierte Wasserdiffusionskoeffizient (Marker für Fibrosischutz). Transkriptomanalysen zeigten Effekte auf glomeruläre Endothelzellen mit Reduktion proximaler Immunzellzahl. Koprimäre MRT-Outcomes (Oxygenierung, Perfusion, Inflammation) erreichten Signifikanz gegenüber Placebo nicht.",
+    transfer:"USA-Studie, Nierenschutz-Mechanismen relevant für deutsche GLP-1-Indikationen."
   },
   {
-    journal:"Diabetologia", year:"2026", pmid:"42820970",
-    author:"Freckmann G et al.", pubdate:"01.10.2026",
-    added:"01.10.2026",
-    title:"Digital-therapeutisches glucura mit CGM senkt HbA1c um 0,46 % mehr als CGM allein bei Typ-2-Diabetes",
-    sum:"Offene randomisierte Studie mit 320 Erwachsenen (HbA1c 7,0–11,0 %) ohne Insulintherapie, die 6 Monate glucura (personalisierte Lebensstilintervention) plus intermittente CGM oder nur CGM erhielten.",
-    result:"glucura + CGM: HbA1c-Reduktion 8,7 mmol/mol (0,80 %), Kontrolle (CGM allein): 3,3 mmol/mol (0,30 %); adjustierte Differenz –5 mmol/mol (–0,46 %; 95% KI –7 bis –3; p = 0,00003). HbA1c &lt; 7 %: 55 % vs. 31 % (OR 3,38); Gewichtsverlust 4,11 % vs. 1,79 % (p &lt; 0,0001). Keine schwerwiegenden Geräte-Nebenwirkungen.",
-    transfer:"Deutsche Multicenterstudie, 24 Standorte, vergleichbare Dokumentationspflichten"
+    journal:"Diabetes Metab Res Rev", year:"2026", pmid:"42823755",
+    author:"Peng R et al.", pubdate:"Okt. 2026",
+    added:"02.10.2026",
+    title:"Abdominales MRT verbessert Vorhersage von Typ-2-Diabetes-Inzidenz",
+    sum:"UK-Biobank-Studie (n=36.833) zu Verbesserung der Typ-2-Diabetes-Inzidenzvorhersage durch MRT-Phänotypen der Bauchorgane (Leber, Bauchfett, Pankreas) zusätzlich zu klinischen Risikoscores.",
+    result:"Nach Median 7,38 Jahren entwickelten 570 Probanden Typ-2-Diabetes. Vier MRT-Phänotypen (Leberfettanteil, Lebervolumen, Bauchfettvolumen, Pankreasvolumen) wurden mittels LASSO-Analyse selektiert. C-Index: Original-CDRS 0,765 (95%-KI 0,731–0,800) → klinisches CDRS-Modell 0,820 (0,786–0,849) → CDRS-MRI 0,849 (0,818–0,877). Verbesserung gegenüber Original um 0,084, gegenüber klinischem um 0,029; kontinuierliche NRI 56,2 % (95%-KI 40,6–70,0 %), IDI 0,022 (95%-KI 0,010–0,037).",
+    transfer:"UK Biobank, Sekundärnutzung bestehender Daten, externe Validierung ausstehend."
   },
   {
-    journal:"N Engl J Med", year:"2026", pmid:"42820639",
-    author:"Wharton S et al.", pubdate:"01.10.2026",
-    added:"01.10.2026",
-    title:"Survodutide reduziert Körpergewicht um 8,2–9,8 % bei Adipositas und Typ-2-Diabetes in Phase-3-Studie",
-    sum:"Multinationaler, doppelblinder Vergleich von wöchentlichem Survodutide (3,6 oder 6,0 mg) versus Placebo bei 752 Erwachsenen mit Typ-2-Diabetes und BMI ≥ 27 über 76 Wochen.",
-    result:"Gewichtsreduktion (treatment-regimen-Estimand): 3,6 mg –8,2 % (95% KI –9,2 bis –7,2), 6,0 mg –9,8 % (–10,8 bis –8,8) vs. Placebo –3,9 % (–4,9 bis –2,9); alle p &lt; 0,001. ≥ 5 % Gewichtsreduktion: 57,6 %, 64,5 % vs. 35,1 %. HbA1c-Reduktion: 3,6 mg –0,9 %, 6,0 mg –0,8 % vs. Placebo –0,2 %. Gastrointestinale Nebenwirkungen (mild–moderat): 72,8–77,7 % unter Survodutide vs. 38,6 % Placebo.",
-    transfer:"Internationale Phase-3-RCT, aber kardiovaskulärer Endpunkt nicht primär; Gewicht im Mittelpunkt (adipositas.m-vf.de relevant)"
-  },
-  {
-    journal:"Diabetologia", year:"2026", pmid:"42820970",
-    author:"Freckmann G et al.", pubdate:"01.10.2026",
-    added:"01.10.2026",
-    title:"Insulinresistenz im 21. Jahrhundert: Expertenforum fordert gezielt wirkende Insulinsensitizer statt indirekter Effekte",
-    sum:"Konsensuspaper von Experten der European Association for the Study of Diabetes (EASD), das aktuelle Konzepte, Messprinzipien und Therapieoptionen bei Insulinresistenz in Typ-2-Diabetes erörtert.",
-    result:"Kernaussage: Insulinresistenz ist kein uniformer Zustand, sondern heterogene, plastische Adaptation mit Gewebe- und Individuen-Unterschieden. Aktuelle Therapien wirken überwiegend indirekt. Prioritär werden gefordert: (1) verbesserte Messmethoden für Gewebe-spezifische Insulinresistenz, (2) gezielte Insulinsensitizer-Entwicklung statt nur kardiovaskulärer Risikomodulation, (3) Untersuchung signalweg-spezifischer Defekte. Keine Zahlenergebnisse – Grundlagenkonsens.",
-    transfer:"Europäisches Expertengremium (Deutschland, Schweden, Finnland, Niederlande, UK), überträgt Forschungsprioritäten"
-  },
-  {
-    journal:"Nat Med", year:"2026", pmid:"42811187",
-    author:"Yu M et al.", pubdate:"29.09.2026",
-    added:"29.09.2026",
-    title:"Orales Safiglipron senkt HbA1c um 1,2–1,45 % bei frühem Typ-2-Diabetes in China – wenig Gewichtsverlust",
-    sum:"Phase-3-Studie mit 284 Erwachsenen (mittleres HbA1c 7,95 %) mit diät- und bewegungstherapiegeleitetem Typ-2-Diabetes, randomisiert zu täglich Safiglipron 30, 60, 90 mg oder Placebo über 32 Wochen.",
-    result:"Placebo-adjustierte HbA1c-Reduktion: 30 mg –1,22 % (95% KI –1,53 bis –0,91), 60 mg –1,20 %, 90 mg –1,45 % (alle p &lt; 0,0001). HbA1c &lt; 7,0 %: 71,4–77,8 % vs. 25,0 % (Placebo). Nüchternglukose-Differenzen –1,58 bis –2,08 mmol/l. Gewichtsreduktion bescheiden: –0,65 % bis –3,56 % vs. Placebo. Gastrointestinale Nebenwirkungen häufig, meist mild–moderat; Abbruch wegen Nebenwirkungen 1,4–6,9 % (Safiglipron) vs. 0 % (Placebo).",
-    transfer:"China, aber Pathophysiologie und glykämischer Endpunkt generalisierbar; weitere Zulassungsstudien laufen"
-  },
-  {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"42806286",
-    author:"Riveline JP et al.", pubdate:"28.09.2026",
-    added:"28.09.2026",
-    title:"Diabetische Ketoazidose bei Typ-1-Diabetes in Frankreich: 4,5 % pro Jahr, höher bei jungen Erwachsenen trotz Closed-Loop-Systeme",
-    sum:"Retrospektive Kohortenstudie aus dem französischen SFDT1-Register mit 2685 Erwachsenen mit Typ-1-Diabetes (Durchschnittsalter 36,8 Jahre) zur Erfassung von DKA-Häufigkeit und Risikofaktoren.",
-    result:"DKA-Prävalenz (≥ 1 Ereignis in 12 Monaten vor Indexdatum) 4,5 % (95% KI 3,8–5,4 %). DKA-Rate höchst in 18–24-Jährigen: 10,3 % (95% KI 7,5–13,7 %). DKA assoziiert mit jüngerem Alter (p &lt; 0,001), höherem HbA1c (p = 0,001), kürzerer Erkrankungsdauer (p &lt; 0,001). Automated Insulin Delivery: 3,1 % DKA vs. offene Systeme 5,4 % (p = 0,034). CGM-Nutzer: 4,3 % vs. Blutzuckerselbstmessung 8,1 % (p = 0,034). DKA-Patienten hatten mehr schwere Hypoglykämien (27,0 % vs. 8,5 %; p &lt; 0,001).",
-    transfer:"Französische Registerdaten, vergleichbar mit Deutschland DM-Programm-Struktur"
+    journal:"Prim Care Diabetes", year:"2026", pmid:"42827072",
+    author:"Mackett K et al.", pubdate:"22.09.2026",
+    added:"02.10.2026",
+    title:"Kanada: Kardiovaskuläre Präventionsziele bei Diabetes zu wenig erreicht",
+    sum:"Retrospektive Querschnittsanalyse von 38.901 Personen aus dem kanadischen National Diabetes Repository zu Einhaltung der 2018-Diabetes-Canada-Leitlinien für kardiovaskuläre Prävention 2021–2022.",
+    result:"Nur 56 % mit Blutdruckmessung dokumentiert, 36 % mit Gewichtsmessung, 12 % mit HbA1c-Monitoring (Zielwert), 9 % mit Lipidmonitoring in 2022. 2 % wurden zu Ernährungsberatung überwiesen. Etwa 50 % bekamen kardioprotek­tive Medikamente (Statine); urbane Bevölkerung mit weniger Blutdruckmonitoring (adjustierte OR 0,49), männliche Personen häufiger mit Statinen (aOR 1,42). Ergebnisse 2021 ähnlich.",
+    transfer:"Kanada (ähnliches Versicherungssystem wie Deutschland), zeigt versorgungspolitisches Implementierungs-Problem."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1600,7 +1591,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20"], [], ["2026-10-28", "2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "02.10.2026";
+const NEWS_STAND = "03.10.2026";
 const NEWS = [
   {titel:"Netzhautschäden durch Diabetes oft unbemerkt: DDG mahnt Kontrollen an", datum:"2026-09-24", url:"https://www.monitor-versorgungsforschung.de/news/netzhautschaeden-durch-diabetes-oft-unbemerkt-ddg-mahnt-kontrollen-an/"},
   {titel:"Nachsorge nach Schwangerschaftsdiabetes bleibt lückenhaft: DDZ", datum:"2026-09-21", url:"https://www.monitor-versorgungsforschung.de/news/nachsorge-nach-schwangerschaftsdiabetes-bleibt-lueckenhaft-ddz/"},
