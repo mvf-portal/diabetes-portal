@@ -1529,53 +1529,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "3. Okt. 2026, 06:26 Uhr";
+const SNAP_DATE = "4. Okt. 2026, 06:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Diabetologia", year:"2026", pmid:"42825923",
+    journal:"Diabetes Care", year:"2026", pmid:"42825450",
     author:"Davies MJ et al.", pubdate:"02.10.2026",
     added:"02.10.2026",
-    title:"ADA/EASD-Leitlinie: Früher SGLT2i/GLP-1 zur Organprotektion bei Typ-2-Diabetes",
-    sum:"Konsensusupdate 2026 von American Diabetes Association und EASD zur Therapie des Typ-2-Diabetes empfiehlt frühere, potenziell ab Diagnose einsetzbare SGLT2-Inhibitoren und GLP-1-basierte Therapien für Organprotektion und verbesserte Langzeitergebnisse.",
-    result:"Systematische Literaturreview seit 2022 mit Fokusverschiebung von Hyperglykämiemanagement auf holistische Versorgung einschließlich Lebensstiländerungen, psychologischer Unterstützung und frühem Einsatz von SGLT2i/GLP-1-Therapeutika. Kombination beider Substanzklassen wird bei kardiovaskulären Erkrankungen, chronischer Nierenerkrankung und Herzinsuffizienz empfohlen.",
-    transfer:"Leitlinie für USA und Europa, direkt in DMP-Anpassung umsetzbar."
+    title:"Typ-2-Diabetes-Management 2026: SGLT2-Inhibitoren und GLP-1-Therapien früher einsetzen",
+    sum:"ADA/EASD-Konsensus empfiehlt eine Neubewertung der Typ-2-Diabetes-Therapie mit frühzeitiger Verwendung von SGLT2-Inhibitoren und/oder GLP-1-basierten Therapien bereits von der Diagnose an für Organprotektion.",
+    result:"Kernempfehlung: SGLT2-Inhibitoren und GLP-1-Therapeutika sollten früher, potenziell ab Diagnose, eingesetzt werden; Kombination beider Klassen wird bei kardiovaskulären Erkrankungen, chronischer Nierenerkrankung und Herzinsuffizienz empfohlen. Dies markiert Paradigmenwechsel von reiner Glukosekontrolle zu organoprotektiver Therapie.",
+    transfer:"USA/Europa, aber Verfügbarkeit und Erstattung in Deutschland (DMP, Hilfsmittelverordnung) klären."
   },
   {
-    journal:"Prim Care Diabetes", year:"2026", pmid:"42827071",
-    author:"Rader A et al.", pubdate:"02.10.2026",
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"42823888",
+    author:"Cosson E et al.", pubdate:"02.10.2026",
     added:"02.10.2026",
-    title:"Diabetische Nervenkompression: Screening-Algorithmus für Hausarztpraxen",
-    sum:"Systematische Review und Evidenzbewertung zu klinischer Erkennung und chirurgischen Dekompressionseffekten bei Nerveneinklemmung überlagert auf diabetischer Polyneuropathie, mit Algorithmus für Überweisungsentscheidungen.",
-    result:"Randomisierte und beobachtende Studien zeigen: Dekompression assoziiert mit Schmerzreduktion, Besserung sensibler Parameter und niedrigerer Ulkusrezidivrate in selektierten Patienten mit Einklemmungsmerkmalen. Klinischer Algorithmus mit Schritten: DPN-Bestätigung → Screening für Einklemmungszeichen → prognostische Marker → konservative Optimierung → Überweisungskriterien.",
-    transfer:"USA-Evidenz, Algorithmus adaptierbar für deutsche Primärversorgung und Spezialisierung."
+    title:"Diabetische Retinopathie und schwere Hypoglykämien nach Ketoazidose-Debut bei Typ-1-Diabetes",
+    sum:"Französische Kohortenstudie mit 3.548 erwachsenen Typ-1-Diabetikern verglich Patienten mit oder ohne Aufnahme auf die Intensivstation beim Debüt als Ketoazidose.",
+    result:"10,6 % mit initialer Intensivstationsaufnahme zeigten erhöhte Retinopathieprävalenz (36,6 % vs. 31,4 %; p&lt;0,05) und schwere Hypoglykämien im Vorjahr (15,4 % vs. 10,5 %; p&lt;0,01), auch nach Adjustierung signifikant. Retinopathierisiko war bei Diagnose vor Alter 17 Jahren erhöht (OR 1,5; 95%-KI 1,1–2,1; p=0,015).",
+    transfer:"Französische Spezialzentren, vergleichbare Dokumentation; weist auf langfristige Folgen dramatischer Erstmanifestation hin."
   },
   {
-    journal:"Nat Med", year:"2026", pmid:"42823485",
-    author:"Tuttle KR et al.", pubdate:"01.10.2026",
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"42823911",
+    author:"Li Y et al.", pubdate:"02.10.2026",
+    added:"02.10.2026",
+    title:"Crisugabalin lindert diabetische Neuropathieschmerzen besser als Pregabalin",
+    sum:"Randomisierte kontrollierte Studie bei 93 Patienten mit diabetisch-peripherer Neuropathie und unzureichender Pregabalin-Antwort verglich Crisugabalin 40 mg/Tag mit Pregabalin 300 mg/Tag über 4 Wochen.",
+    result:"Crisugabalin zeigte größere Schmerzreduktion (SF-MPQ-Differenz −7,2 Punkte; 95%-KI −12,4 bis −2,0; p=0,007). Unerwünschte Ereignisse traten bei 29,5 % (Crisugabalin) vs. 47,8 % (Pregabalin) auf.",
+    transfer:"China, GABA-Analog, ggf. Substanzliste bei Kostenträgern klären."
+  },
+  {
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"42823091",
+    author:"Liu Y et al.", pubdate:"01.10.2026",
     added:"01.10.2026",
-    title:"Semaglutid reduziert Nierenfibrose bei Typ-2-Diabetes und CKD",
-    sum:"Randomisierte 52-Wochen-Studie zu Mechanismen der Nierenschutzeffekte von Semaglutid (1 mg/Woche subkutan) versus Placebo bei Typ-2-Diabetes und chronischer Nierenerkrankung mit integrierten bildgebenden und molekularen Analysen.",
-    result:"Semaglutid reduzierte Nierenkranialresistivitätsindex signifikant und stabilisierte Wasserdiffusionskoeffizient (Marker für Fibrosischutz). Transkriptomanalysen zeigten Effekte auf glomeruläre Endothelzellen mit Reduktion proximaler Immunzellzahl. Koprimäre MRT-Outcomes (Oxygenierung, Perfusion, Inflammation) erreichten Signifikanz gegenüber Placebo nicht.",
-    transfer:"USA-Studie, Nierenschutz-Mechanismen relevant für deutsche GLP-1-Indikationen."
+    title:"LinX-Glukosemesssystem erreicht 8,66 % mittlere Genauigkeit in 15-Tage-Studie",
+    sum:"Prospektive multizentrische Leistungsstudie an 87 Erwachsenen mit Diabetes evaluierte Genauigkeit und Sicherheit des LinX-CGM-Systems über 15 Tage Tragezeit.",
+    result:"Mittlere absolute relative Differenz (MARD) 8,66 % (95%-KI 8,27–9,05 %). Im Bereich 3,9–10,0 mmol/L: 87,2 % der Messwerte ±15 % des Referenzwertes; bei ≥10,0 mmol/L: 90,2 %. Sensorüberlebensrate nach 15 Tagen: 96 %. Keine schwerwiegenden Nebenwirkungen.",
+    transfer:"China, aber CGM-Geräte sind Diabetestechnik unabhängig von Ursprungsland."
   },
   {
-    journal:"Diabetes Metab Res Rev", year:"2026", pmid:"42823755",
-    author:"Peng R et al.", pubdate:"Okt. 2026",
-    added:"02.10.2026",
-    title:"Abdominales MRT verbessert Vorhersage von Typ-2-Diabetes-Inzidenz",
-    sum:"UK-Biobank-Studie (n=36.833) zu Verbesserung der Typ-2-Diabetes-Inzidenzvorhersage durch MRT-Phänotypen der Bauchorgane (Leber, Bauchfett, Pankreas) zusätzlich zu klinischen Risikoscores.",
-    result:"Nach Median 7,38 Jahren entwickelten 570 Probanden Typ-2-Diabetes. Vier MRT-Phänotypen (Leberfettanteil, Lebervolumen, Bauchfettvolumen, Pankreasvolumen) wurden mittels LASSO-Analyse selektiert. C-Index: Original-CDRS 0,765 (95%-KI 0,731–0,800) → klinisches CDRS-Modell 0,820 (0,786–0,849) → CDRS-MRI 0,849 (0,818–0,877). Verbesserung gegenüber Original um 0,084, gegenüber klinischem um 0,029; kontinuierliche NRI 56,2 % (95%-KI 40,6–70,0 %), IDI 0,022 (95%-KI 0,010–0,037).",
-    transfer:"UK Biobank, Sekundärnutzung bestehender Daten, externe Validierung ausstehend."
+    journal:"Diabetes Care", year:"2026", pmid:"42808984",
+    author:"Ferm ML et al.", pubdate:"29.09.2026",
+    added:"29.09.2026",
+    title:"IDAA1c ≤9 unterschätzt β-Zellfunktion bei übergewichtigen Jugendlichen mit Typ-1-Diabetes",
+    sum:"SEARCH-Kohortenstudie mit 422 Jugendlichen prüfte, ob die Partialremissions-Marke IDAA1c≤9 (Insulindosis-adjustiertes HbA1c) tatsächlich C-Peptid-Remission vorhersagt, differenziert nach BMI.",
+    result:"IDAA1c≤9 zeigte insgesamt 61 % Sensitivität und 79 % Spezifität (ROC-AUC 0,77). Bei übergewichtigen/adipösen Jugendlichen war Sensitivität nur 45 %; BMI-spezifischer Cutoff IDAA1c≤11,6 verbesserte Sensitivität auf 93 % bei 54 % Spezifität.",
+    transfer:"USA, aber methodisches Problem betrifft auch deutsche Praxen und Studienprotokolle."
   },
   {
-    journal:"Prim Care Diabetes", year:"2026", pmid:"42827072",
-    author:"Mackett K et al.", pubdate:"22.09.2026",
-    added:"02.10.2026",
-    title:"Kanada: Kardiovaskuläre Präventionsziele bei Diabetes zu wenig erreicht",
-    sum:"Retrospektive Querschnittsanalyse von 38.901 Personen aus dem kanadischen National Diabetes Repository zu Einhaltung der 2018-Diabetes-Canada-Leitlinien für kardiovaskuläre Prävention 2021–2022.",
-    result:"Nur 56 % mit Blutdruckmessung dokumentiert, 36 % mit Gewichtsmessung, 12 % mit HbA1c-Monitoring (Zielwert), 9 % mit Lipidmonitoring in 2022. 2 % wurden zu Ernährungsberatung überwiesen. Etwa 50 % bekamen kardioprotek­tive Medikamente (Statine); urbane Bevölkerung mit weniger Blutdruckmonitoring (adjustierte OR 0,49), männliche Personen häufiger mit Statinen (aOR 1,42). Ergebnisse 2021 ähnlich.",
-    transfer:"Kanada (ähnliches Versicherungssystem wie Deutschland), zeigt versorgungspolitisches Implementierungs-Problem."
+    journal:"Diabetes Res Clin Pract", year:"2026", pmid:"42810591",
+    author:"Zhao J", pubdate:"29.09.2026",
+    added:"29.09.2026",
+    title:"Zu wenige Länder werden Typ-1-Diabetes-Mortalität bis 2030 senken",
+    sum:"Ökologische Zeitreihenanalyse (2000–2021) mit Prognose bis 2030 zur Ungleichverteilung der Mortalität-zu-Inzidenz-Ratio (MIR) bei Typ-1-Diabetes weltweit nach Ländereinkommensgruppe.",
+    result:"Historische Median-MIR in Hocheinkommensländern: 0,142 vs. Tiefeinkommensländern: 0,646. Prognose zeigt persistente Ungleichheiten bis 2030; nur 14 von 204 Ländern/Territorien haben ≥50 % Wahrscheinlichkeit, SDG-3.4-Benchmark zu erreichen. 158 Länder sind High-Confidence-Non-Attainer.",
+    transfer:"Global; zeigt strukturelle Versorgungslücken, die Praxis in Deutschland indirekt betreffen (Migration, Lehren für vulnerable Gruppen)."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1591,7 +1600,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20"], [], ["2026-10-28", "2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "03.10.2026";
+const NEWS_STAND = "04.10.2026";
 const NEWS = [
   {titel:"Netzhautschäden durch Diabetes oft unbemerkt: DDG mahnt Kontrollen an", datum:"2026-09-24", url:"https://www.monitor-versorgungsforschung.de/news/netzhautschaeden-durch-diabetes-oft-unbemerkt-ddg-mahnt-kontrollen-an/"},
   {titel:"Nachsorge nach Schwangerschaftsdiabetes bleibt lückenhaft: DDZ", datum:"2026-09-21", url:"https://www.monitor-versorgungsforschung.de/news/nachsorge-nach-schwangerschaftsdiabetes-bleibt-lueckenhaft-ddz/"},
