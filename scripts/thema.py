@@ -276,14 +276,16 @@ Gib ausschliesslich das geforderte JSON zurueck.
 # Neue Begriffe VOR dem Eintragen messen:
 #     py scripts/newsfeed.py --probe
 NEWS_SUCHE = [
-    "Diabetes",
-    "Diabetologie",
+    "DDG",
     "Typ-2-Diabetes",
     "Typ-1-Diabetes",
-    "Blutzucker",
+    "Diabetes",
+    "Diabetesversorgung",
+    "Diabetesprävention",
+    "Diabetestherapie",
+    "Diabetologie",
     "Insulin",
     "Disease-Management-Programm",
-    "Diabetisches Fußsyndrom",
 ]
 
 # Der Ausschreibungsradar steht NICHT mehr hier. Er laeuft seit dem 28.08.2026
