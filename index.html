@@ -1486,53 +1486,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "6. Okt. 2026, 06:01 Uhr";
+const SNAP_DATE = "7. Okt. 2026, 06:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"42833877",
-    author:"Jiao B et al.", pubdate:"05.10.2026",
-    added:"05.10.2026",
-    title:"Hochintensives Intervalltraining senkt Insulinresistanz-Marker stärker als andere Trainingsformen",
-    sum:"Netzwerk-Metaanalyse von 86 randomisierten Studien mit 4.358 Erwachsenen mit Übergewicht oder Adipositas zur Wirkung verschiedener Trainingsmethoden auf Insulinresistenz-Biomarker.",
-    result:"HIIT reduzierte Nüchterninsulin um 2,24 μU/mL und HOMA-IR um 0,67 stärker als aerobe oder Krafttraining. Optimale wöchentliche Trainingsmenge: etwa 1.000-1.200 MET-Minuten. HIIT rangierte bei Reduktion von Nüchterninsulin (SUCRA 85,1%), Nüchternglukose (97,8%) und HOMA-IR (80,0%) an erster Stelle.",
-    transfer:"Randomisierte Studien aus globalem Pool, prinzipiell auf Deutschland übertragbar; Trainingsintensität und -volumen sind universell anwendbar."
+    journal:"Prim Care Diabetes", year:"2026", pmid:"42838835",
+    author:"Cohen DA et al.", pubdate:"06.10.2026",
+    added:"06.10.2026",
+    title:"Frühe Diabetesschulung reduziert kardiovaskuläre Folgen um 16–23 %",
+    sum:"Retrospektive Kohortenstudie mit 134.411 Patienten mit Typ-2-Diabetes aus dem Datensatz eines US-amerikanischen Versicherers (Kaiser Permanente), um zu klären, ob strukturierte Diabetesschulung innerhalb von 3 Monaten nach Diagnose langfristig Herzinfarkt, Herzinsuffizienz und Schlaganfall reduziert.",
+    result:"Patienten, die Schulung erhielten, hatten über 12 Jahre nach Diagnose niedrigere Raten von Myokardinfarkt (HR 0,77; 95%-KI 0,69–0,87), Herzinsuffizienz (HR 0,84; 0,75–0,94) und Schlaganfall (HR 0,84; 0,75–0,93) im Vergleich zu ungeschulten Patienten. Der Nutzen war unabhängig von demografischen und klinischen Risikofaktoren.",
+    transfer:"USA, integrierte Krankenversicherung; Grundprinzip auf deutsche DMP-Programme übertragbar, deren Umsetzung jedoch variabel ist."
   },
   {
-    journal:"Diabetologia", year:"2026", pmid:"42831899",
-    author:"Barbosa R et al.", pubdate:"05.10.2026",
-    added:"05.10.2026",
-    title:"Viszerales Fettgewebe produziert überproportional Endocannabinoide bei Typ-2-Diabetes",
-    sum:"Studie an Mäusen und Menschen zur Rolle von Endocannabinoiden im viszeralen Fettgewebe als Treiber von Insulinresistenz.",
-    result:"Typ-2-Diabetes (nicht bloße Adipositas) war mit 1,7-fach erhöhter 2-AG-Produktion (p&lt;0,05) und 1,8-fach erhöhter Anandamid-Produktion (p&lt;0,05) im viszeralen Fettgewebe assoziiert. AEA-Produktion korrelierte mit HbA1c (ρ=0,48, p=0,003). Transgenomische Analyse zeigte insulinresistenz- und inflammationsgetriebene Dysregulation als Mechanismus.",
-    transfer:"Französische Universitätskliniken mit Biosicherheitsstandards; Grundlagenmodell für potenzielle Therapieziele bei Insulinresistenz."
+    journal:"Endocrine", year:"2026", pmid:"42837084",
+    author:"Lin X et al.", pubdate:"06.10.2026",
+    added:"06.10.2026",
+    title:"Globale Last der diabetischen Retinopathie wächst kontinuierlich, Typ-2-Diabetes trägt am meisten bei",
+    sum:"Zeitreihenanalyse mit Age-Period-Cohort-Modellierung der Global-Burden-of-Disease-Daten von 1990 bis 2021 zur Häufigkeit diabetisbezogener Sehverschlechterung und Blindheit weltweit.",
+    result:"Die altersstandardisierte Prävalenz der Blindheit durch Typ-1-Diabetes stieg kontinuierlich (Männer: durchschnittliche jährliche prozentuale Veränderung 0,82 %; Frauen: 1,31 %). Bevölkerungswachstum war der Haupttreiber für moderate und schwere Sehverschlechterung; epidemiologische Änderungen trugen am meisten zu Blindheitsfällen bei. Ältere Bevölkerung und Typ-2-Diabetes waren mit höherer Last assoziiert.",
+    transfer:"Globale Surveillance-Daten; relevant für Präventionspriorisierung, zeigt aber keine regionale Spezifität für Deutschland."
   },
   {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"42833666",
-    author:"Choi MS et al.", pubdate:"05.10.2026",
-    added:"05.10.2026",
-    title:"Finerenon zusätzlich zu SGLT2-Inhibitor reduziert Albuminurie bei residualer Proteinurie um 46 %",
-    sum:"Retrospektive Kohortenstudie von 86 Patienten mit Typ-2-Diabetes und persistenter Albuminurie trotz SGLT2-Inhibitor-Therapie, Nachbeobachtung 12 Monate nach Finerenon-Addition.",
-    result:"Albuminurie-zu-Kreatinin-Verhältnis (UACR) sank um 46,2 % bei erste Nachfolgebestimmung (Median 1,6 Monate) und verblieb um 35,2 % niedriger nach 12 Monaten (95 %-KI -47,1 bis -20,7). Gesamt-Protein-zu-Kreatinin um 39,9 % bzw. 23,1 %. 51,3 % erreichten UACR-Reduktion ≥30 %. Serumkalium stieg von 4,6 auf 4,8 mmol/L; Kalium &gt;5,5 mmol/L bei 17,4 %, &gt;6,0 mmol/L bei 4,7 %.",
-    transfer:"Südkorea mit vergleichbarem Gesundheitssystem; Real-World-Evidenz für Sekundär-Intervention bei residualer Albuminurie."
+    journal:"Diabetologia", year:"2026", pmid:"42836860",
+    author:"Azhar M et al.", pubdate:"06.10.2026",
+    added:"06.10.2026",
+    title:"Südostasiaten haben höhere de-novo-Lipogenese in der Leber – Mechanismus erhöhten Diabetesrisikos",
+    sum:"Proof-of-Concept-Fallkontrollstudie mit 7 Südostasiaten und 6 Europäern, matched für Alter und BMI, unter Verwendung von Deuterium-Magnetresonanz zur direkten Messung der Leberfetteinlagerung durch de-novo-Lipogenese (DNL).",
+    result:"Südostasiaten zeigten höhere fraktionale und absolute DNL-abgeleitete Leberfettmengen als Europäer (beide p=0,041). DNL korrelierte mit Gesamtleberfett (r=0,874–0,888; p=0,001) und Insulinresistenz (HOMA-IR: r=0,659, p=0,014). Diese Unterschiede könnten den um 6-fach höheren Diabetesrisiko bei Südostasiaten erklären.",
+    transfer:"Britische akademische Zentren mit NHS-Infrastruktur; Mechanismus ethnischer Variation, nicht direkt für deutsche Primärversorgung umsetzbar."
   },
   {
-    journal:"J Diabetes Complications", year:"2026", pmid:"42833180",
-    author:"Thomsen M et al.", pubdate:"02.10.2026",
+    journal:"Ann Intern Med", year:"2026", pmid:"42832803",
+    author:"Reis G et al.", pubdate:"06.10.2026",
     added:"05.10.2026",
-    title:"Diabetische Fußgeschwüre hinterlassen psychische Belastungen trotz verbesserter Fußpflege",
-    sum:"Dänische Querschnittsstudie aus regionaler Diabetes-Umfrage (n=6.912) zur Assoziation diabetischer Fußgeschwüre mit Fußpflegeverhalten und Lebensqualität mittels NAFF, SF-36, HADS.",
-    result:"Patienten mit vorherigen Fußgeschwüren zeigten bessere Fußpflege-Scores (NAFF 50 vs. 47, p&lt;0,01), aber signifikant höhere Angst (HADS-A: 5 [2;8] vs. 3 [1;6], p&lt;0,01) und Depression (HADS-D: 3 [1;7] vs. 2 [0;4], p&lt;0,01) sowie niedrigere Lebensqualität (SF-36: 59,3 vs. 78,2, p&lt;0,01).",
-    transfer:"Dänisches öffentliches Gesundheitssystem; zeigt psychosoziale Langfolgenlast trotz verbesserter Prävention, relevant für deutsche Rehabilitations-Programme."
+    title:"Fluvoxamin verbessert Fatigue bei Long COVID mit 58 % höherer Wahrscheinlichkeit bei Tag 90",
+    sum:"Randomisierte, adaptive Studie mit 399 Erwachsenen in Brasilien, die Fluvoxamin oder Metformin oder Placebo über 60 Tage gegen Long-COVID-assoziierte Fatigue testete; Outcome Fatigue Severity Scale (FSS).",
+    result:"Fluvoxamin vs. Placebo: FSS-Differenz -0,43 (Tag 60) und -0,58 (Tag 90), beide mit posteriorer Überlegenheitswahrscheinlichkeit 99 %. Metformin zeigte inklusiven Nutzen wegen Dosisreduktion durch Nebenwirkungen (Häufigkeit 45,1 % vs. 35,5 % Placebo bei 750 mg). Schwerwiegende Nebenwirkungen ≤2,7 %.",
+    transfer:"Brasilien; Long COVID ist kein primäres Diabetesthema; Fluvoxamin-Signal beachtenswert, aber Relevanz für diabetische Patientengruppen unklar."
   },
   {
-    journal:"Diabetologia", year:"2026", pmid:"42803809",
-    author:"Gastaldelli A et al.", pubdate:"28.09.2026",
-    added:"28.09.2026",
-    title:"Insulinresistenz im 21. Jahrhundert: Neubewertung als heterogenes Spektrum statt uniforme Störung",
-    sum:"Expertenforum von Diabetologia, Diabetes und Diabetes Care mit internationalen Grundlagen- und Kliniker:innen zur Neudefinition von Insulinresistenz und therapeutischen Perspektiven.",
-    result:"Konsens: Insulinresistenz ist nicht eine single pathophysiologische Entität, sondern ein heterogenes, hochplastisches Spektrum adaptiver und maladaptiver, akuter und chronischer Reaktionen, die unterschiedlich in Organen und biologischen Prozessen manifest werden. Bestehende Therapien wirken meist indirekt; true Insulinsensierer sind noch nicht etabliert. Forderung nach Forschung zu Weg-spezifischen Defekten.",
-    transfer:"Deutschland vertreten (Universitäten Düsseldorf, Ulm, Tübingen); europäischer Konsens-Standard zu Pathophysiologie-Konzepten."
+    journal:"Diabetes Care", year:"2026", pmid:"42832327",
+    author:"Stimpson JP et al.", pubdate:"05.10.2026",
+    added:"05.10.2026",
+    title:"Diagnostische und therapeutische Lücken: Ein Drittel der Patienten mit Diabetes bleibt ohne dokumentierte Versorgung",
+    sum:"Retrospektive Kohortenstudie mit 27.650 Erwachsenen aus US-amerikanischen Krankenversicherungsdaten (2017–2023), die Lücken zwischen laborchemisch bestätigtem Diabetes und dokumentierter ärztlicher Diagnose oder Therapieeinleitung quantifiziert.",
+    result:"66,6 % erhielten innerhalb eines Jahres sowohl Diagnosecodierung als auch medikamentöse Behandlung; 19,7 % nur Diagnose, 4,1 % nur Behandlung, 9,6 % weder noch. Höheres HbA1c war mit Diagnose und Therapie assoziiert; größere Komorbiditätslast war mit niedrigeren Raten beider Outcomes assoziiert.",
+    transfer:"USA; illustriert Implementierungslücke, die in Deutschland durch Abrechnungsdokumentation und DMP-Strukturen teilweise adressiert wird."
+  },
+  {
+    journal:"Diabetes Care", year:"2026", pmid:"42821443",
+    author:"Slack SD et al.", pubdate:"01.10.2026",
+    added:"01.10.2026",
+    title:"Mütterliche Exposition schützt vor Typ-1-Diabetes im Kindesalter – nicht genetisch erklärbar",
+    sum:"Prospektive Kohorte von 6.942 Lebendgeburten aus TEDDY-Studie, um zu klären, ob niedriges genetisches Risiko bei Kindern mit Typ-1-Diabetes-Müttern deren bekannte relative Schutzwirkung (50 % niedrigeres Risiko) erklärt.",
+    result:"Der Typ-1-Diabetes-GRS2x unterschied sich nicht zwischen Kindern mit diabetischen Müttern vs. Vätern vs. Geschwistern (alle p&gt;0,27). Mütterlicher Schutz vor Typ-1-Diabetes (HR 0,50, p=0,01) und Inselzell-Autoimmunität (HR 0,38, p=0,006) persistierte nach Anpassung für genetisches Risiko. Dieser Schutz ließ nach Alter 6 Jahren nach.",
+    transfer:"USA-Population mit europäischen Ursprüngen; demonstriert Intrauterineffekt, mechanistisch relevant, aber ohne unmittelbare Klinikimplikation."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1548,7 +1557,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-12-31", "2026-10-28"],
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "06.10.2026";
+const NEWS_STAND = "07.10.2026";
 const NEWS = [
   {titel:"Zugang zu Diabetes- und Adipositasmedikamenten weltweit: Lilly-Zusage bis 2040", datum:"2026-10-05", url:"https://www.monitor-versorgungsforschung.de/news/zugang-zu-diabetes-und-adipositasmedikamenten-weltweit-lilly-zusage-bis-2040/"},
   {titel:"Screening auf Typ-1-Diabetes: DDG sieht keine ausreichende Grundlage", datum:"2026-10-05", url:"https://www.monitor-versorgungsforschung.de/news/screening-auf-typ-1-diabetes-ddg-sieht-keine-ausreichende-grundlage/"},
