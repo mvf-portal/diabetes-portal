@@ -1876,53 +1876,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "10. Okt. 2026, 06:01 Uhr";
+const SNAP_DATE = "11. Okt. 2026, 06:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"42852477",
-    author:"Zapardiel-Gonzalo J et al.", pubdate:"09.10.2026",
+    journal:"Diabet Med", year:"2026", pmid:"42856017",
+    author:"Manta A et al.", pubdate:"10.10.2026",
+    added:"10.10.2026",
+    title:"Ethnische Unterschiede in Sterblichkeit und Verweildauer bei Diabetes-Notfällen in UK",
+    sum:"Retrospektive Multicenter-Studie von 6859 Episoden (DKA, HHS, Hypoglykämie) 2020–2023 im DEKODE-Programm; Ethnizität als Prädiktor für Outcome analysiert.",
+    result:"Bei DKA: Black und Asian ethnicity assoziiert mit längerer Verweildauer vs. White (p &lt; 0,001); Black-Ethnizität auch mit prolongierter DKA-Dauer (p = 0,006). Bei HHS: Asian-Ethnizität mit längerer Verweildauer (p = 0,014), aber niedrigerer Krankenhaussterblichkeit (p = 0,002). Bei Hypoglykämie: Black-Ethnizität mit niedrigerer Mortalität (p = 0,037).",
+    transfer:"UK National Health Service; vergleichbar für deutsche Versorgungsforschung zu Chancengleichheit."
+  },
+  {
+    journal:"Diabetes Care", year:"2026", pmid:"42853204",
+    author:"Zayed MG et al.", pubdate:"09.10.2026",
     added:"09.10.2026",
-    title:"Polygenic Risk Scores identifizieren Früh-Stadium-Typ-1-Diabetes präziser",
-    sum:"Deutsche Studie an 16335 Personen zur Validierung geschlechtsspezifischer polygener Risiko-Scores für Früh-Stadium-Typ-1-Diabetes (autoantikörper-positiv, aber normoglykämisch).",
-    result:"PRS vergleichbar zwischen Früh-Stadium und Stadium-3-T1D (p=0,81 bzw. 0,1). Bei 99,2. Perzentil: geschlechtsspezifische PRS zeigten Früh-Stadium-T1D-Risiko von 12,6 % (Jungen) und 9,3 % (Mädchen), mit ~90 % AUC-Diskrimination. Geschlechtsspezifische Anpassung reduzierte, aber eliminierte nicht, Geschlechtsdifferenzen.",
-    transfer:"Deutschland, Peking-Universität; Präventionsforschung, Grundlagen mit translationalem Weg."
+    title:"Fenofibrat bremst diabetische Retinopathie-Progression bei Typ-1-Diabetes (LENS-Trial)",
+    sum:"Randomisierte Studie zur Wirkung von Fenofibrat auf Progression der diabetischen Retinopathie bei Patienten mit Typ-1-Diabetes.",
+    result:"Ergebnisse werden angekündigt, aber das Abstract berichtet keine konkreten Zahlen zur Retinopathie-Progression.",
+    transfer:"UK-Oxford; Studiendesign klassische RCT für harte ophthalmische Endpunkte."
   },
   {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"42842950",
-    author:"Sehtman-Shachar DR et al.", pubdate:"07.10.2026",
+    journal:"Diabetes Care", year:"2026", pmid:"42849058",
+    author:"Kerlogot L et al.", pubdate:"08.10.2026",
+    added:"08.10.2026",
+    title:"CGM-gesteuerte Insulinoptimierung bei parenteraler Ernährung: Glukosekontrolle und Ernährungsstatus verbessert",
+    sum:"Bei 12 Patienten mit chronischer Darminsuffizienz unter nächtlicher zyklischer parenteraler Ernährung wurde eine CGM-gesteuerte Insulinoptimierung durch Diabetologen durchgeführt.",
+    result:"Nach der Intervention: Zeit über 250 mg/dL von 27 % auf 17 % reduziert (−139 ± 113 min/Tag, p = 0,02), Time in Range von 44 % auf 59 % erhöht (+206 ± 118 min/Tag, p = 0,002), HbA1c um 0,7 % gesenkt (p = 0,04). Körpergewicht stieg um +5 kg (p = 0,006), Serumalbumin um +8 g/L (p = 0,006), Mangelernährung resolute bei 8 von 11 Teilnehmern.",
+    transfer:"Französische Einzelzentrum-Daten, Prinzipien auf deutsches Versorgungssetting übertragbar."
+  },
+  {
+    journal:"Endocrine", year:"2026", pmid:"42842073",
+    author:"Wais P et al.", pubdate:"07.10.2026",
     added:"07.10.2026",
-    title:"GLP-1/GIP-Rezeptoragonisten senken Nierenversagen-Risiko vs. Finerenon",
-    sum:"Real-World-Kohortenstudie an 4554 Patienten mit Typ-2-Diabetes und CKD Stadium 3–4 über ≤2,5 Jahre zum Vergleich GLP-1/GIP-Agonisten versus Finerenon auf composite Nierenendpunkte.",
-    result:"Composite Endpunkt (ESKD/Stage 5/Dialyse): 4,8 % unter GLP-1/GIP-RA versus 6,0 % unter Finerenon (Hazard Ratio 0,71, 95%-CI 0,55–0,91). Absolute Risikodifferenz nach 2,5 Jahren −1,14 %. eGFR-Slope (total): 1,04 mL/min/1.73m²/Jahr Unterschied zugunsten GLP-1/GIP-RA.",
-    transfer:"Israel, vergleichbares Gesundheitssystem; harter Endpunkt Nierenversagen."
+    title:"Akute Stoffwechselkomplikationen verschlechtern Aufmerksamkeit bei Kindern mit Typ-1-Diabetes",
+    sum:"117 Kinder und Jugendliche mit T1D wurden mit dem MOXO-Continuous Performance Test auf Aufmerksamkeit untersucht und nach DKA und schwerer Hypoglykämie stratifiziert.",
+    result:"Patienten mit Hypoglykämie-Anamnese zeigten signifikant niedrigere Aufmerksamkeit (p &lt; 0,001) und Schnelligkeit (p &lt; 0,001) vs. Kontrollen. DKA war mit schlechterer Impulskontrolle assoziiert (p = 0,008). Nach Adjustierung für Alter, Geschlecht, HbA1c, Diabetesdauer blieben Unterschiede in Aufmerksamkeit/Schnelligkeit erhalten, Impulsivität-Assoziation schwächer.",
+    transfer:"Polen, vergleichbare Pädiatrie-Versorgung; Neurokognitives Screening als Element der Diabetes-Nachsorge."
   },
   {
-    journal:"Diabetes Care", year:"2026", pmid:"42844149",
-    author:"Matsui K et al.", pubdate:"07.10.2026",
-    added:"07.10.2026",
-    title:"Schulische Betreuung bei Typ-1-Diabetes korreliert mit Glykämiekontrolle",
-    sum:"Japanische Multizenterstudie mit 1105 Kindern zur Assoziation zwischen Ort der Diabetesbetreuung in der Schule und HbA1c-Kontrolle.",
-    result:"Mittleres HbA1c 8,01 % (64 mmol/mol). HbA1c war signifikant höher in Toiletten-Nutzung 8,56 % (70,1 mmol/mol) versus Klassenzimmer 8,00 % (63,9 mmol/mol) und Beratungsräume 7,95 % (63,4 mmol/mol; p&lt;0,001). Toiletten-Nutzung und Auslassen von Blutzuckermessungen waren unabhängig mit höherem HbA1c assoziiert.",
-    transfer:"Japan, aber Schulübergänge und Stigmatisierung universal; Versorgungsorganisation."
-  },
-  {
-    journal:"Endocrine", year:"2026", pmid:"42837085",
-    author:"Tan Y et al.", pubdate:"06.10.2026",
+    journal:"Diabetes Res Clin Pract", year:"2026", pmid:"42838140",
+    author:"Xu Y et al.", pubdate:"06.10.2026",
     added:"06.10.2026",
-    title:"Einsamkeit und soziale Isolation erhöhen Depression bei Diabetes deutlich",
-    sum:"UK-Biobank-Kohortenstudie mit 7712 Diabetikern zur Assoziation von Einsamkeit, sozialer Isolation und Lebenszufriedenheit mit Inzidenz major depressiver Störung über 11,1 Jahre.",
-    result:"Während 11,1 Jahre Nachbeobachtung: 442 depressive Episoden (Inzidenz 5,73 %). Hohe Einsamkeit: 176 % Risikosteigerung; hohe soziale Isolation: 82 %; niedrige Lebenszufriedenheit: 493 % (alle p&lt;0,001). Kombiniert (niedrige Zufriedenheit + hohe Einsamkeit): 8,06fach erhöhtes MDD-Risiko versus hohe Zufriedenheit + niedrige Einsamkeit.",
-    transfer:"UK, aber psychosoziale Risikofaktoren gelten universal; harter Endpunkt Depression."
+    title:"GA/HbA1c-Ratio vorhersagend für Sterblichkeit bei Typ-2-Diabetes: U-förmige Assoziation",
+    sum:"Kohortenstudie mit 20.012 Patienten mit Typ-2-Diabetes aus elektronischen Gesundheitsakten (PREMIRE-Kohorte); Assoziation zwischen Glykiertes-Albumin-zu-HbA1c-Ratio und Mortalität über Median 3,39 Jahre Nachverfolgung.",
+    result:"3293 Todesfälle insgesamt, 1313 kardiovaskulär. GA/HbA1c-Ratio &gt; 3,00 assoziiert mit erhöhter Gesamt-Mortalität (HR 1,60, 95 % KI 1,49–1,73) und kardiovaskulärer Mortalität (HR 1,61, 95 % KI 1,43–1,81). Ratio &lt; 2,00 ebenfalls assoziiert mit erhöhter Gesamt-Mortalität (HR 1,89, 95 % KI 1,64–2,18) und kardiovaskulärer Mortalität (HR 1,61, 95 % KI 1,26–2,06). U-förmige Assoziation auch in NHANES-Daten validiert.",
+    transfer:"China; Biomarkerprinzip potenziell auf deutsches Gesundheitssystem übertragbar."
   },
   {
-    journal:"Cardiovasc Diabetol", year:"2026", pmid:"42850638",
-    author:"Won KB et al.", pubdate:"05.09.2026",
-    added:"09.10.2026",
-    title:"Diabetes beschleunigt koronare Atherosklerose stärker als Prädiabetes",
-    sum:"Multizentrische Registerstudie mit CT-Angiographie an 1296 Patienten über median 3,2 Jahre zur Progression der koronaren Plaque in Relation zum glykämischen Status.",
-    result:"Patienten mit Diabetes zeigten signifikant schnellere Plaqueprogression: jährliche PAV-Zunahme 0,65 %/Jahr versus 0,30 % (normal) und 0,35 % (Prädiabetes; p&lt;0,001). Schnelle Progression trat bei 38,5 % der Diabetiker, aber nur 25,6 % der Normalgewichtigen auf (p&lt;0,001). Diabetes war unabhängig assoziiert mit erhöhter Odds Ratio für schnelle Progression; Prädiabetes nicht.",
-    transfer:"Multinationaler Datensatz, Deutschland mit Zentren beteiligt; kardialer Endpunkt."
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"42832816",
+    author:"Moon JS et al.", pubdate:"05.10.2026",
+    added:"05.10.2026",
+    title:"Teneligliptin als Add-on: HbA1c um 0,67 % besser als Placebo über 24 Wochen",
+    sum:"Randomisierte, doppelblinde Phase-3-Studie (TERA305) mit 214 Patienten mit Typ-2-Diabetes unter Metformin und Empagliflozin; Teneligliptin 20 mg vs. Placebo, 24 Wochen + 28-Wochen offene Verlängerung.",
+    result:"Week 24: HbA1c-Reduktion Teneligliptin −0,70 % ± 0,06 % vs. Placebo −0,03 % ± 0,06 %, placebo-adjustierte Differenz −0,67 % (95 % KI −0,84 bis −0,49, p &lt; 0,0001). Signifikante Reduktion bereits Week 4 (−0,36 %, p &lt; 0,0001). Nüchternglukose, glykiertes Albumin, β-Zell-Funktion verbessert. Sicherheit ähnlich.",
+    transfer:"Südkorea, Multicenter; DPP-4-Inhibitor als Sequenztherapie-Option, in Deutschland erstattbar."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1938,7 +1947,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-12-31", "2026-10-28"],
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "10.10.2026";
+const NEWS_STAND = "11.10.2026";
 const NEWS = [
   {titel:"Früherkennung und Ketoazidose: Abbott Big City Talk in Berlin", datum:"2026-10-07", url:"https://www.monitor-versorgungsforschung.de/news/frueherkennung-und-ketoazidose-abbott-big-city-talk-in-berlin/"},
   {titel:"Zugang zu Diabetes- und Adipositasmedikamenten weltweit: Lilly-Zusage bis 2040", datum:"2026-10-05", url:"https://www.monitor-versorgungsforschung.de/news/zugang-zu-diabetes-und-adipositasmedikamenten-weltweit-lilly-zusage-bis-2040/"},
