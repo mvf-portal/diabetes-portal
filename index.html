@@ -1876,62 +1876,53 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "12. Okt. 2026, 06:02 Uhr";
+const SNAP_DATE = "13. Okt. 2026, 06:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Endocrine", year:"2026", pmid:"42859302",
-    author:"Liang S et al.", pubdate:"10.10.2026",
+    journal:"Diabet Med", year:"2026", pmid:"42857893",
+    author:"Zhen XM et al.", pubdate:"10.10.2026",
     added:"10.10.2026",
-    title:"Progression von Prädiabetes zu Typ-2-Diabetes erhöht Herzinfarkt-Risiko um 53 Prozent",
-    sum:"Chinesische Langzeitstudie (7.927 Teilnehmer mit Prädiabetes, 4 Jahre Beobachtung) zu glykämischen Übergängen und kardiovaskulären Ereignissen.",
-    result:"Von 3.313 Prädiabetikern: 21 % revertierend zu Normoglykämie, 61 % persistierend prä-diabetisch, 18 % progredient zu Typ-2-Diabetes. Progression zur Typ-2-Diabetes assoziiert mit erhöhtem Risiko für Herzinfarkt (adjustierte Odds Ratio [aOR] 1,53; 95%-KI 1,13–2,09); Assoziation mit Schlaganfall nicht signifikant (aOR 1,29; 95%-KI 0,90–1,87).",
-    transfer:"China-Daten, nationale Gesundheitserhebung; Übertragbarkeit auf europäische Kohorten begrenzt"
+    title:"Bariatrische Chirurgie: BMI ≥50 zeigt höhere Diabetes-Remissionsrate",
+    sum:"Kohortenstudie von 2018–2024 an australischem Tertiärkrankenhaus: Vergleich der kompletten Diabetes-Remission (HbA1c&lt;6,0%) nach bariatrischer Chirurgie zwischen BMI≥50 und BMI&lt;50 kg/m² bei Typ-2-Diabetes.",
+    result:"Nach 12 Monaten: BMI≥50-Gruppe 66,7% vs. BMI&lt;50-Gruppe 37,8% komplette Remission (p=0,014). Nach Adjustierung für Diabetes-Dauer und Baseline-HbA1c nicht mehr signifikant. BMI≥50 hatte höheren Gewichtsverlust (kg) aber niedrigeres %EWL; keines war unabhängiger Remissions-Prädiktor.",
+    transfer:"Australien; frühe chirurgische Intervention bei weniger fortgeschrittener Diabetes trotz höherer Adipositas relevant"
   },
   {
-    journal:"Diabetes Ther", year:"2026", pmid:"42853346",
-    author:"Alenazi FZ et al.", pubdate:"09.10.2026",
+    journal:"Diabetes Ther", year:"2026", pmid:"42853347",
+    author:"Brazg R et al.", pubdate:"09.10.2026",
     added:"09.10.2026",
-    title:"Höheres Alter und männliches Geschlecht erhöhen diabetisches Fußsyndrom-Risiko unabhängig von HbA1c",
-    sum:"Querschnittsstudie in Saudi-Arabien (710 Patienten) zu Assoziationen von glykämischer Kontrolle, Alter und Geschlecht mit diabetischem Fußsyndrom und aktiven Ulzera.",
-    result:"53,2 % der Patienten mit Fußsyndrom; aktive Ulzera in 3 %. Höheres Alter (OR 1,028; 95%-KI 1,016–1,039) und männliches Geschlecht (OR 1,403; 95%-KI 1,036–1,901) unabhängig assoziiert mit Fußrisiko. HbA1c nicht unabhängig mit Risiko assoziiert (p = 0,422); Ulzerenprävalenz jedoch über HbA1c-Kategorien erhöht (1,9 % bis 6,3 %).",
-    transfer:"Saudi-Arabien, Setting außerhalb deutschsprachig, aber Befund zu Alterseffekt universal"
+    title:"Ascorbinsäure und Exercise beeinflussen CGM-Genauigkeit nicht klinisch relevant",
+    sum:"Randomisierte Doppelblind-Studie mit 16 Typ-1-Diabetes-Patienten zur Prüfung von Interferenzen durch Bewegung und Ascorbinsäure auf CGM-Messgenauigkeit (iCan System mit GDH-FAD).",
+    result:"Im Gesamtbereich (35–450 mg/dL): 92,0% Genauigkeit (%20/20). Mittlere absolute Differenz (MAD) bei Bewegung/ohne: −1,3 mg/dL; bei Ascorbinsäure/ohne: −1,1 mg/dL. Mittlere absolute relative Differenz (MARD) −1,5% bzw. −1,6%. Keine klinisch relevanten Unterschiede, keine schwerwiegenden Nebenwirkungen.",
+    transfer:"USA/China; technische Validierung relevant für CGM-Zuverlässigkeit im Alltag"
   },
   {
-    journal:"Diabetes Res Clin Pract", year:"2026", pmid:"42854921",
-    author:"Garg P et al.", pubdate:"09.10.2026",
+    journal:"Diabetes Technol Ther", year:"2026", pmid:"42854204",
+    author:"Marks BE et al.", pubdate:"09.10.2026",
     added:"09.10.2026",
-    title:"Cystatin C besser als Kreatinin zur Früherkennung der diabetischen Nierenerkrankung",
-    sum:"Systematischer Review (21 Studien) zur diagnostischen und prognostischen Rolle von Cystatin C gegenüber Kreatinin-basierter eGFR bei Typ-2-Diabetes und Hypertonie.",
-    result:"Cystatin C-basierte eGFR lieferte zuverlässigere und genauere Schätzung der Nierenfunktion als Kreatinin, besonders zur Früherkennung von Nierenfunktionsstörungen. Cystatin C empfohlen als früher diagnostischer und prognostischer Marker; Einbindung in Routinetestung würde klinische Utility durch verbesserte Risikostratifizierung erhöhen.",
-    transfer:"Internationale Evidenz, aber Laborparameter universell einsetzbar"
+    title:"Framework für vollständige Closed-Loop-Systeme: &gt;50–90% Time in Tight Range",
+    sum:"Expertenkonsens international führender Kliniker und Forscher zur Definition vollständig automatisierter Insulinabgabe ohne Mahlzeiten- oder Aktivitätsankündigungen und deren Leistungsstandards.",
+    result:"Drei-Klassen-Definition: Alle FCL-Systeme müssen &gt;50% Time in Tight Range (70–140 mg/dL), &lt;1% Time Below Range (&lt;54 mg/dL) erreichen und validierte Lebensqualitäts-Messungen verbessern. Klasse 3: &gt;50% TITR; Klasse 2: &gt;70%; Klasse 1: &gt;90% TITR. Klasse 1a zusätzlich: 0% TBR bei standardisierter Bewegung.",
+    transfer:"International konsensbasiert; Benchmarks für Technologie-Bewertung und Zulassung übertragbar"
   },
   {
-    journal:"J Diabetes Investig", year:"2026", pmid:"42852796",
-    author:"Matsubara D et al.", pubdate:"09.10.2026",
-    added:"09.10.2026",
-    title:"Begleitende Diabetes vermindert Leberfibrosebesserung nach bariatrischer Chirurgie um 70 Prozent",
-    sum:"Prospektive japanische Kohorte (27 Patienten mit BMI &gt; 35 kg/m²) mit Leberbiopsien prä und 1 Jahr post Sleeve-Gastrektomie, Vergleich: Gewichtsverlust allein vs. mit Diabetes..",
-    result:"Nach Sleeve-Gastrektomie: signifikante Reduktion von Steatosis, Ballooning, Entzündung und Fibrose. Steatosisreduktion assoziiert mit besserer Glykämie, Entzündungsreduktion mit niedrigerem HbA1c. Änderungen der Hepatische Fibrose jedoch nicht mit metabolischen Parametern assoziiert, sondern mit Baseline-Fibrose und Diabetes-Präsenz: Diabetes-Komorbidität korrelierte mit attenuierter Fibrosebesserung – Diabetes-Status Schlüsselmodifikator der Fibroserevierbarkeit.",
-    transfer:"Japan-Daten, bariatrische Chirurgie in Spezialisierungszentren; Ergebnis zu Diabetes-Einfluss universal"
+    journal:"Diabetes Res Clin Pract", year:"2026", pmid:"42838141",
+    author:"Yang X et al.", pubdate:"06.10.2026",
+    added:"06.10.2026",
+    title:"KI-gestützte Retinal-Analyse verbessert Diabetes-Prädiktion über ADART hinaus",
+    sum:"Analyse von UK Biobank (n=63.968) und BRAVE-Kohort (n=1.159) zur inkrementellen prädiktiven Kraft von KI-abgeleiteten retinalen Gefäßparametern für Typ-2-Diabetes-Inzidenz über hinaus Diabetes Association Risk Test.",
+    result:"Retinale arterielle fraktale Dimension (FDa) und Tortuosität (atts) unabhängig mit Diabetes assoziiert. UK Biobank-Validierung: C-Index 0,746→0,751 (Δ=0,005; 95%-KI 0,003–0,008); kontinuierliche NRI 0,258. BRAVE extern: C-Index 0,618→0,631 (Δ=0,013; 95%-KI 0,009–0,016).",
+    transfer:"UK/China; retinales Imaging als Screening-Instrument, aber Kosteneffektivität und Implementierung offen"
   },
   {
-    journal:"BMJ Open Diabetes Res Care", year:"2026", pmid:"42850023",
-    author:"Liu S et al.", pubdate:"08.10.2026",
-    added:"08.10.2026",
-    title:"Finanzielle Belastung und Zeit-Stress erhöhen Risiko für Prä- und Typ-2-Diabetes",
-    sum:"Prospektive niederländische Kohortenstudie (152.861 Teilnehmer, 2006-2018) zur Assoziation von chronischem und akutem Stress mit Inzidenz von Prä- und Typ-2-Diabetes.",
-    result:"Moderate finanzielle Belastung war assoziiert mit Prä-Diabetes (Hazard Ratio [HR] 1,17; 95%-KI 1,10–1,25) und Typ-2-Diabetes (HR 1,28; 95%-KI 1,17–1,41). Begrenzte freie Zeit verbunden mit Prä-Diabetes, gesundheitlicher Stress mit Typ-2-Diabetes. Kumulativer Stress zeigte limitierte Assoziationen; Domänen-spezifische Muster dominant.",
-    transfer:"Niederlande, vergleichbares Versicherungssystem, Versorgungsforschungsansatz"
-  },
-  {
-    journal:"Diabet Med", year:"2026", pmid:"42830445",
-    author:"Wentzell K et al.", pubdate:"04.10.2026",
-    added:"05.10.2026",
-    title:"Finanzielle Belastung durch Insulinkosten treibt Diabetes Distress bei jungen Erwachsenen mit Typ-1-Diabetes",
-    sum:"Qualitative Interviewstudie (15 Personen, 24 Jahre Median) zu finanziellem Stress, Versicherungsproblemen und Bewältigungsstrategien bei Typ-1-Diabetes.",
-    result:"80 % weiße Hautfarbe, 60 % noch auf elterlicher Versicherung, 100 % nutzen Diabetes-Technologie. Vier zentrale Themen: erheblicher Diabetes Distress in dieser Entwicklungsphase; Verantwortung für finanzierbare Eigenversorgung als emotionale Belastung; Versicherungsbarrieren führen zu unzureichendem Zugang zu Ressourcen; Patienten nutzen Kosteneinsparungsstrategien (gegenwärtig und geplant).",
-    transfer:"USA-Studie, aber Kostenbarrieren für Insulinpumpen und CGM auch in Deutschland relevant"
+    journal:"Diabetes Metab Res Rev", year:"2026", pmid:"42861867",
+    author:"Zhang Y et al.", pubdate:"Okt. 2026",
+    added:"12.10.2026",
+    title:"Schlechter Schlaf erhöht Typ-2-Diabetes-Risiko – Schlafmuster-Übergänge entscheidend",
+    sum:"Longitudinale Analyse von 60.249 UK-Biobank-Teilnehmern zur Assoziation von Schlafqualitäts-Übergängen zwischen zwei Erhebungen mit Diabetes-Inzidenz.",
+    result:"Über 4,2 Jahre traten 1.284 Diabetes-Fälle auf. Stabiler schlechter Schlaf war mit erhöhtem Risiko assoziiert (HR 2,07, 95%-KI 1,32–3,27). Verbesserungen vom schlechten oder mittleren Schlafstatus zeigten kein erhöhtes Risiko gegenüber stabiler Kategorie. Die Assoziation war nichtlinear (p&lt;0,001).",
+    transfer:"UK Biobank, vergleichbare Dokumentation; Schlafqualität ist modifizierbarer Risikofaktor"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1947,7 +1938,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-12-31"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "12.10.2026";
+const NEWS_STAND = "13.10.2026";
 const NEWS = [
   {titel:"Früherkennung und Ketoazidose: Abbott Big City Talk in Berlin", datum:"2026-10-07", url:"https://www.monitor-versorgungsforschung.de/news/frueherkennung-und-ketoazidose-abbott-big-city-talk-in-berlin/"},
   {titel:"Zugang zu Diabetes- und Adipositasmedikamenten weltweit: Lilly-Zusage bis 2040", datum:"2026-10-05", url:"https://www.monitor-versorgungsforschung.de/news/zugang-zu-diabetes-und-adipositasmedikamenten-weltweit-lilly-zusage-bis-2040/"},
