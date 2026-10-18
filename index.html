@@ -1876,71 +1876,53 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "17. Okt. 2026, 06:26 Uhr";
+const SNAP_DATE = "18. Okt. 2026, 06:25 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Diabetologia", year:"2026", pmid:"42886236",
-    author:"Kirshner D et al.", pubdate:"16.10.2026",
+    journal:"J Diabetes Sci Technol", year:"2026", pmid:"42891564",
+    author:"Alamoudi R et al.", pubdate:"17.10.2026",
+    added:"17.10.2026",
+    title:"Insulingleiche Timing beim Ramadan-Fasten: Frühabend- vs. Schlafenszeit-Gabe",
+    sum:"Randomisierte Kontrollstudie an 185 Typ-1-Diabetes-Patienten beim Ramadan-Fasten zur Frage, ob früherer Insulinglardin-Zeitpunkt die Hypoglykämien senkt.",
+    result:"Hypoglykämie trat bei 75,9% vs. 76,3% auf (p=0,94); Zeitpunkt-Wechsel reduzierte Hypoglykämien nicht signifikant. Time in Range 44,6% vs. 46,1% (p=0,70); schwere Hypoglykämien in 2 vs. 5 Fällen. Die Studie zeigt, dass universales Umtiming nicht nötig ist.",
+    transfer:"Saudi-Arabien, aber Fragestellung und Therapiealgorithmen sind international übertragbar."
+  },
+  {
+    journal:"Diabetologia", year:"2026", pmid:"42886235",
+    author:"Sharma A et al.", pubdate:"16.10.2026",
     added:"16.10.2026",
-    title:"Typ-2-Diabetes-Phenotyp seit 2008 älter, multimorbid – aber früher erkannt",
-    sum:"Vergleich von 80.201 Patienten mit neuer Typ-2-Diabetes-Diagnose 2005–2008 gegenüber 101.392 Patienten 2020–2023 in Israel zu Alter, Begleiterkrankungen und initialer Therapiewahl.",
-    result:"Medianalter bei Diagnose von 63 auf 66,7 Jahre gestiegen, Charlson-Komorbidität-Score von 4 auf 6 erhöht (SMD 0,48); metabolisch-dysfunktionale Steatose-Hepatitis von 4,4 % auf 18,6 % zugenommen. HbA1c bei Diagnose sank von 56 auf 53 mmol/mol (7,3 % auf 7,0 %), LDL-Cholesterin von 2,90 auf 2,21 mmol/l. SGLT2-Hemmer innerhalb von 31–90 Tagen von 0,07 % auf 15,0 % gestiegen, GLP-1-Rezeptoragonisten von 0 % auf 11,1 %, Sulfonylharnstoffe von 20,8 % auf 4,5 % gesunken – Paradigmenwechsel weg von Glukose-, hin zu kardiorenalen und Gewichtszielen.",
-    transfer:"Israelische Klinikdaten; Versorgungsmuster vergleichbar mit westeuropäischen Systemen."
+    title:"Südäsident vs. nordisch: Verschiedene Hormonmuster nach Gestationsdiabetes",
+    sum:"Vergleichsstudie mit 178 Südasiatinnen und 107 Skandinavierinnen 1–3 Jahre nach Schwangerschaftsdiabetes: Unterschiede in Glukagon-, GLP-1- und GIP-Antworten.",
+    result:"Südasiatinnen zeigen schwächere frühe Glukagon-Suppression (p=0,002) und höhere Glukagon-Gesamtexposition (p=0,013) bei Normoglykämie. GIP-Antworten sind bei Prä-/Diabetes bei Südasiatinnen trotz höherer Insulin niedriger (p&lt;0,001). Höhere Insulin korreliert mit niedrigerer Sensitivität, nicht mit Inkretin-Unterschieden.",
+    transfer:"Norwegen; mechanistische Ethnographie relevant für Risikostratifizierung nach GDM."
   },
   {
-    journal:"J Diabetes Investig", year:"2026", pmid:"42885985",
-    author:"Sato J et al.", pubdate:"16.10.2026",
-    added:"16.10.2026",
-    title:"Low-Carb-Diät assoziiert mit weniger Makrovaskulären Ereignissen bei Typ-1-Diabetes",
-    sum:"Prospektive Multizenterstudie an 352 erwachsenen Typ-1-Diabetes-Patienten in Japan mit Erfassung von Lebensstilfaktoren (Ernährung, Aktivität, Schlaf) und Vergleich von Diät-Kohlenhydrat-Scores gegenüber primärem zusammengesetztem Endpunkt (koronare Herzerkrankung, Schlaganfall, periphere Arterienerkrankung oder Tod).",
-    result:"Bei 35 primären Ereignissen über Follow-up: Total Low-Carb-Diet-Score (HR 0,90; 95%-KI 0,82–0,98; p=0,012), pflanzlicher Score (HR 0,85; KI 0,76–0,94; p=0,003) und tierischer Score (HR 0,93; KI 0,87–0,996; p=0,037) invers mit Ereignis assoziiert. Pflanzen-Low-Carb-Score stärkster Effekt.",
-    transfer:"Japan, vergleichbare Diabetesversorgung; Ernährungsanamnese-Fragebogen kulturabhängig."
-  },
-  {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"42881122",
-    author:"Herranz-Antolín S et al.", pubdate:"15.10.2026",
+    journal:"Diabetes Technol Ther", year:"2026", pmid:"42876070",
+    author:"Sullivan-Ingram ER et al.", pubdate:"14.10.2026",
     added:"15.10.2026",
-    title:"GMI/HbA1c-Ratio sagt mikrovaskuläre Komplikationen in Typ-1-Diabetes voraus",
-    sum:"1.315 Patienten mit Typ-1-Diabetes unter CGM (Mindestabdeckung ≥80 % über 56 Tage) wurden nach GMI/HbA1c-Quotienten-Terzilen eingeteilt und auf Netzhaut-, Nieren- und Nervenbeteiligung untersucht.",
-    result:"Mikrovaskuläre Komplikationen lagen bei 38,9 % (hohe Glykatoren) vs. 28,2 % (Intermediate) vs. 23,7 % (niedrige Glykatoren); p&lt;0,001. Augenbeteiligung: 31 % vs. 20,2 % vs. 19,7 %; Nephropathie: 14,9 % vs. 8,3 % vs. 6,2 %; Polyneuropathie: 10,6 % vs. 6,8 % vs. 3,4 %. GMI/HbA1c-Ratio unabhängig assoziiert mit Komplikationen (OR 0,71; 95%-KI 0,61–0,81; p&lt;0,001) und Augenbeteiligung (OR 0,71; 95%-KI 0,61–0,82).",
-    transfer:"Spanische Multizenterstudie; CGM-Metriken verfügbar in deutschen DMP und Spezialisierungszentren."
+    title:"Automatische Insulinabgabe bei Kindern: HbA1c-Abfall um 1,8 Prozentpunkte ohne mehr Unterzucker",
+    sum:"Retrospektive Kohortenstudie mit 71 Kindern/Jugendlichen (6–21 Jahre) mit Typ-1-Diabetes zu klinischen Ergebnissen der iLet-Pumpe über 12 Monate.",
+    result:"Baseline HbA1c 9,4% (79 mmol/mol); nach 3 Monaten Abfall um 1,8±1,7 Prozentpunkte (p&lt;0,0001), Time in Range von 30,1% auf 52,5 Prozentpunkte (p&lt;0,0001) ohne Hypoglykämie-Anstieg. Nach 12 Monaten HbA1c 7,6%, Time in Range 55,8%. Besser bei Baseline HbA1c≥9,5%.",
+    transfer:"USA-Realwelt-Daten; algorithmisches Dosieren ist technisch unterschiedlich, Zielkontrolle vergleichbar."
   },
   {
-    journal:"Diabetes Metab", year:"2026", pmid:"42880695",
-    author:"Metghalchi S et al.", pubdate:"15.10.2026",
-    added:"15.10.2026",
-    title:"Mütterliche Antikörper verfälschen Typ-1-Diabetes-Screening bei Neugeborenen; Screening ab 2 Jahren empfohlen",
-    sum:"Prospektive französische TRAKR-Kohortenstudie an 148 Neugeborenen von Eltern mit Typ-1-Diabetes mit Blutabnahmen bei Geburt, 8, 18, 30 und 42 Monaten zur Prüfung von Inselzell-Autoantikörpern (IAA, GADA, IA-2A, ZnT8A) und Vergleich mit mütterlichen Antikörpern.",
-    result:"Von 138 Kindern mit 8-Monats-Probe waren 20,3 % (28/138) IAb-positiv; 89,3 % (25/28) hatten eine IAb und 89,3 % (25/28) eine Mutter mit T1D. Von 21 IAb+-Kindern mit mütterlichen Daten teilten 85,7 % (18/21) Antikörper-Spezifität mit Mutter (überwiegend GADA 83,3 %). Neun GADA+-Kinder bei 8 Monaten: 6 zeigten Seroreversion bis 18 Monate, 1 bis 30 Monate. Alle 5 IAA+-Kinder zeigten Seroreversion bis 18 Monate. Ein Kind serokonvertierte später (Stage 3 bei 30 Monaten ohne Ketoazidose).",
-    transfer:"Frankreich, öffentliches Gesundheitssystem; Implikation für Screening-Protokolle und Elternberatung in Deutschland."
-  },
-  {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"42875725",
-    author:"Robinson H et al.", pubdate:"14.10.2026",
+    journal:"J Diabetes Sci Technol", year:"2026", pmid:"42872823",
+    author:"Al Hayek A et al.", pubdate:"14.10.2026",
     added:"14.10.2026",
-    title:"GLP-1-Rezeptoragonisten senken Amputationsrisiko bei Diabetes-Fußulkus ohne PAD",
-    sum:"Propensity-Score-gematchte Real-World-Kohortenstudie (TriNetX) an 21.325 Patientenpaaren mit Typ-2-Diabetes und diabetischem Fußulkus, Vergleich GLP-1-RA vs. andere glucose-senkende Therapie über 5 Jahre.",
-    result:"GLP-1-RA-Nutzer hatten niedrigeres 5-Jahres-Amputationsrisiko (HR 0,60; 95%-KI 0,54–0,67). Assoziierung beschränkt auf Patienten ohne kodierte PAD (HR 0,21; KI 0,13–0,33) vs. mit PAD (HR 0,97; KI 0,78–1,20); HR-Ratio 0,21 (KI 0,13–0,36; p&lt;0,001). Gesamtmortalität auch niedriger (HR 0,48; KI 0,45–0,50). Befund stabil über sechs Sensitivitätsanalysen.",
-    transfer:"USA, TriNetX-Netzwerk; Sicherheitsbefund und klinische Endpunkte übertragbar, Verursachung erfordert prospektive Studien."
+    title:"Glukose-Messung bei Nicht-Insulin-Typ-2: HbA1c senkt sich um 0,34%, Time in Range +7,85 Punkte",
+    sum:"Systematische Übersicht und Metaanalyse von 25 RCTs zu CGM bei Typ 2 ohne intensives Insulin oder Nicht-Insulin-Therapien bezüglich HbA1c, Zeit im Bereich, Körpergewicht, Patientenberichte.",
+    result:"CGM reduziert HbA1c um 0,34% (95%-KI: -0,46 bis -0,23), mittlere Glukose um 13,97 mg/dL, Zeit über Bereich um 6,75 Punkte, erhöht Time in Range um 7,85 Punkte (95%-KI: 4,32–11,38). Keine signifikanten Effekte auf BMI oder Hypoglykämie-Zeit. Vorteile stärker bei Nicht-Insulin-Therapie. Evidenzqualität: moderat.",
+    transfer:"Internationale Studien; CGM bei nicht-intensiv behandeltem Typ 2 hat gutes Evidenz-Niveau, Transfer auf Praxen prüft Kostenerstattung."
   },
   {
-    journal:"Diabetes Res Clin Pract", year:"2026", pmid:"42874784",
-    author:"Ohene-Agyei P et al.", pubdate:"14.10.2026",
-    added:"14.10.2026",
-    title:"IADPSG-Diagnosekriterien für GDM beeinträchtigen mütterliche psychische Gesundheit nicht",
-    sum:"Sekundäranalyse der GEMS-RCT mit 3.452 schwangeren Frauen, randomisiert zu niedrigeren (IADPSG) oder höheren (Neuseeland) GDM-Diagnosekriterien; Ergebnis: Angst, Depression, Lebensqualität bei 36 Wochen und 6 Monate postpartal.",
-    result:"Keine signifikanten Unterschiede in Angst, Depression oder mentaler Gesundheit zwischen Gruppen nach Adjustierung. Frauen mit milder GDM unter IADPSG-Kriterien berichteten bessere Allgemeingesundheit, Vitalität, soziale Funktionsfähigkeit und postpartale psychische Komponente (SF-36-Subskalen).",
-    transfer:"Australien/Neuseeland; vergleichbare Versorgungsstrukturen, validiertes RCT-Design."
-  },
-  {
-    journal:"Diabetes Res Clin Pract", year:"2026", pmid:"42869252",
-    author:"Desiderio A et al.", pubdate:"13.10.2026",
-    added:"13.10.2026",
-    title:"DNA-Methylierungsmuster unterscheiden Prädiabetes-Phänotypen und sagen T2D-Progression voraus",
-    sum:"Epigenomweite Analyse an 78 Teilnehmern (26 mit IFG, 27 mit IGT, 25 normoglykämisch) zur Blut-DNA-Methylierung, stratifiziert nach Verbleib oder Fortschreiten zu Typ-2-Diabetes über Resampling-Feature-Selektion.",
-    result:"8.082 differenziell methylierte CpGs in IFG vs. Normoglykämie, 1.992 in IGT vs. Normoglykämie, 9.488 in IFG vs. IGT. Nach Resampling behielten 3 CpGs pro Phänotyp Vorhersagekraft; cg23913182 in beiden. Niedrigere Baseline-Methylierung an diesen CpGs assoziiert mit T2D-Fortschreitung; OR pro 1%-Punkt Methylierungsanstieg 0,291 (IFG) bis 0,171 (IGT); AUC 0,757–0,791.",
-    transfer:"Italien; Biomarker-Discovery-Studie, Validierung in unabhängigen Kohorten ausstehend."
+    journal:"Diabetes Res Clin Pract", year:"2026", pmid:"42863636",
+    author:"Graversen JL et al.", pubdate:"12.10.2026",
+    added:"12.10.2026",
+    title:"Diabetische Neuropathie: Schlechtere Muskelqualität, Funktionsabfall, fragile Knochen",
+    sum:"Querschnittsstudie mit 123 Typ-2-Diabetes-Patienten: Vergleich Neuropathie ja/nein bezüglich Muskelstruktur, Kraft, Leistung und Knochenstabilität.",
+    result:"Neuropathie mit niedrigerem Muskelvolumen und niedrigerer Muskeldichte assoziiert (p&lt;0,05), aber keine Unterschiede in Handgriffstärke. Jedoch schlechtere Leistung: weniger Chair-Stand-Wiederholungen, längere Timed-Up-and-Go, langsamerer Gang. Höhere Muskeldichte korreliert mit besserem Femoral-Neck-BMD und stärkeren Knochen.",
+    transfer:"Dänemark; mechanistisches Phänotypisierungs-Modell für Komplikationen bei Typ 2."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1956,7 +1938,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-12-31"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "17.10.2026";
+const NEWS_STAND = "18.10.2026";
 const NEWS = [
   {titel:"Früherkennung und Ketoazidose: Abbott Big City Talk in Berlin", datum:"2026-10-07", url:"https://www.monitor-versorgungsforschung.de/news/frueherkennung-und-ketoazidose-abbott-big-city-talk-in-berlin/"},
   {titel:"Zugang zu Diabetes- und Adipositasmedikamenten weltweit: Lilly-Zusage bis 2040", datum:"2026-10-05", url:"https://www.monitor-versorgungsforschung.de/news/zugang-zu-diabetes-und-adipositasmedikamenten-weltweit-lilly-zusage-bis-2040/"},
