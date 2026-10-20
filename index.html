@@ -1876,71 +1876,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "19. Okt. 2026, 06:26 Uhr";
+const SNAP_DATE = "20. Okt. 2026, 06:26 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Diabetologia", year:"2026", pmid:"42892651",
-    author:"Choe HJ et al.", pubdate:"17.10.2026",
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"42896857",
+    author:"Crenier L et al.", pubdate:"19.10.2026",
+    added:"19.10.2026",
+    title:"Smart-MDI-System bei Typ-1-Diabetes: Alertbenachrichtigungen verbessern Glukosekontrolle",
+    sum:"Randomisierte Studie, die ein intelligentes Mehrfachinjektionssystem (Smart MDI) mit kontinuierlicher Glukosemessung (CGM) bei 143 Patienten mit Typ-1-Diabetes und HbA1c ≥8 % über 6 Monate verglich.",
+    result:"Der Smart MDI war gegenüber MDI+CGM nicht unterlegen bezüglich Time in Range (TIR-Differenz 0,19 Prozentpunkte, 95%-KI -4,9 bis 5,3) und HbA1c (Differenz -0,13, -0,46 bis 0,19). Patienten, die auf &gt;28 % der Alerts reagierten, zeigten jedoch signifikante Gewinne: +8,12 Prozentpunkte TIR und -0,6 % HbA1c-Reduktion (p=0,02 bis 0,04).",
+    transfer:"Multinationale europäische Studie; Technologien sind in deutschen DMP verfügbar."
+  },
+  {
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"42897087",
+    author:"Nyström T et al.", pubdate:"19.10.2026",
+    added:"19.10.2026",
+    title:"Insulin Degludec senkt Sterblichkeit gegenüber Insulin Glargine in Schwedenregister",
+    sum:"Target-Trial-Emulation mit Daten aus dem Schwedischen Nationalen Diabetesregister, die 44.890 Patienten mit Typ-2-Diabetes verglichen, die Insulin Degludec oder Glargine zwischen 2012 und 2022 angesetzt bekamen.",
+    result:"Im Trial-geeigneten Kohort war MACE (Myokardinfarkt, Schlaganfall, kardiovaskulärer Tod) zwischen Degludec und Glargine nicht signifikant unterschiedlich (HR 1,10, 95%-KI 0,91–1,34), doch Degludec zeigte niedrigere Gesamtsterblichkeit (HR 0,75, 95%-KI 0,62–0,92, p=0,002). Im Trial-ungeeigneten Kohort war MACE unter Degludec günstiger (HR 0,80, 95%-KI 0,67–0,95, p=0,004) und alle untersuchten Sicherheitsergebnisse verbessert.",
+    transfer:"Schwedische Registerdaten, vergleichbares Gesundheitssystem; Ergebnis relevant für Insulinwahl in Deutschland."
+  },
+  {
+    journal:"Diabet Med", year:"2026", pmid:"42896096",
+    author:"Carro G et al.", pubdate:"19.10.2026",
+    added:"19.10.2026",
+    title:"Saint-Elian-Wund-Score prognostiziert Majoramputationen im diabetischen Fußsyndrom",
+    sum:"Retrospektive Kohorte von 406 Patienten mit diabetischem Fußsyndrom in Argentinien 2025; Competing-Risks-Modell prüfte Vorhersagekraft des Saint-Elian-Scores für Majoramputation, unter Berücksichtigung von Wundheilung und Tod als konkurrierende Ereignisse.",
+    result:"Bei jedem Punkt Anstieg im SEWSS erhöhte sich die Subdistribution-Hazard für Majoramputation um 41 % (sHR 1,41, 95%-KI 1,31–1,51, p&lt;0,001), alteradjustiert. Das Modell zeigte gute Diskriminationsfähigkeit über 180 Tage (bootstrap-korrigierte AUC 0,848, Brier-Score 0,097) und adäquate Kalibrierung.",
+    transfer:"Lateinamerikanisches Register; externe Validierung erforderlich; Methodik übertragbar auf deutsche Kohorten."
+  },
+  {
+    journal:"Diabet Med", year:"2026", pmid:"42896077",
+    author:"Yen CL et al.", pubdate:"19.10.2026",
+    added:"19.10.2026",
+    title:"SGLT2-Inhibitoren günstiger und sicherer als DPP-4-Inhibitoren in Taiwans Versorgung",
+    sum:"Target-Trial-Emulation mit Taiwans Nationaler Krankenversicherungsdatenbank; 224.510 Patienten mit neuem SGLT2i versus 698.012 mit neuem DPP4i verglichen, Sicherheitsergebnisse über durchschnittlich 2 Jahre.",
+    result:"SGLT2i zeigten niedrigere Inzidenzen von Harnwegsinfekt (23,84 vs. 27,88 pro 1000 Personenjahre, HR 0,86, 95%-KI 0,84–0,87), Frakturen/Stürze (16,55 vs. 17,79, HR 0,93, 95%-KI 0,91–0,95), akutem Nierenschaden (1,06 vs. 1,91, HR 0,55, 95%-KI 0,51–0,59) und Gesamtsterblichkeit (13,05 vs. 19,72, HR 0,66, 95%-KI 0,65–0,67); Genitalmykosen erhöht (HR 1,44).",
+    transfer:"Asiatisches Versicherungssystem, vergleichbare administrative Daten; Sicherheitsprofil-Befunde übertragbar auf deutsche Nutzenabwägung."
+  },
+  {
+    journal:"Diabetes Metab Res Rev", year:"2026", pmid:"42895779",
+    author:"Gatti F et al.", pubdate:"Okt. 2026",
+    added:"19.10.2026",
+    title:"Früherkennung Typ-1-Diabetes im Kindesalter: Fachkräfte sehen Chancen und Hürden",
+    sum:"Systematische Übersichtsarbeit zur Sicht von Fachkräften (Ärzte, Pflegende, Psychologen) auf Früherkennung und Screening bei Kindern mit erhöhtem Typ-1-Diabetes-Risiko, mit Analyse von 12 Studien.",
+    result:"Fachkräfte befürworten Screening bei Hochrisiko-Gruppen mehr als bei der Allgemeinbevölkerung. Nutzen: Prävention diabetischer Ketoazidose, frühere klinische Einbindung, bessere Familienvorbereitung. Bedenken: psychosoziale Belastung, begrenzte Fachkapazität, unklare Überweisungs- und Verlaufspfade. Strukturierte Programme zeigten Zustimmung, möglicherweise durch Selektionsbias.",
+    transfer:"Europäische und internationale Perspective; Transfer auf Deutschland hängt von Programmaufbau in DMP-Struktur ab."
+  },
+  {
+    journal:"Nutr Diabetes", year:"2026", pmid:"42894020",
+    author:"Li X et al.", pubdate:"22.07.2026",
     added:"18.10.2026",
-    title:"Prediabetes-Subtypen unterscheiden sich deutlich im Diabetes-Progressionsrisiko",
-    sum:"Prospektive koreanische Kohortenstudie über 20 Jahre: Klassifikation von Prädiabetiswerte nach IFG, IGT oder HbA1c, differenziert nach Insulinsekretion und -sensitivität.",
-    result:"Gegenüber normaler Glukose betrugen die Hazard Ratios: 5,84 (IFG), 4,60 (IGT), 4,68 (HbA1c-definiert). Mit drei erfüllten Kriterien: HR 15,3 (95%-KI 12,2–19,3). Personen mit beeinträchtigter Insulinsekretion und -sensitivität: HR 4,06 (3,37–4,90). Markov-Modelle zeigten kürzeste Prädiabesusdauer (1,7 Jahre) und niedrigste Rückbildungsrate (5,4%) bei drei Kriterien.",
-    transfer:"Südkorea, 20-Jahres-Longitudinalkohorte; Konzept auf deutsche DMP-Prädiabesprävention übertragbar"
-  },
-  {
-    journal:"Diabetes Res Clin Pract", year:"2026", pmid:"42892504",
-    author:"Ma C et al.", pubdate:"17.10.2026",
-    added:"18.10.2026",
-    title:"Kardiale Autonomie-Störung korreliert mit Nervenschädigung-Schweregrad",
-    sum:"Querschnittstudie an 794 Personen mit DPN (268 mit Fußulzera, 526 ohne): Vergleich der Assoziation von Nervenleitungsparametern mit Herzfrequenzvariabilität (SDNN).",
-    result:"Mit sinkendem SDNN (Zeichen kardialer Autonomie-Dysfunktion) nahmen Nervenleitgeschwindigkeiten und -amplituden aller getesteten Nerven ab (p&lt;0,01). In der neuropathischen-Fußulzera-Gruppe: 29,6–31,1% mit Leitungs- und Amplituden-Anomalien hatten SDNN&lt;50 ms. Keine signifikanten Interaktionen nach Fußulzera-Status (p&gt;0,05).",
-    transfer:"China (Sichuan), spezialisierte Diabetologie-Zentren; Nervenschädigung und kardiale Autonomie eng assoziiert unabhängig von Ulzera-Status"
-  },
-  {
-    journal:"Diabetes Ther", year:"2026", pmid:"42886425",
-    author:"Alenazi FZ et al.", pubdate:"16.10.2026",
-    added:"16.10.2026",
-    title:"IWGDF-Risikoklassifikation präzise für Fußgeschwür-Erkennung, Geschlecht nicht relevant",
-    sum:"Retrospektive Querschnittsstudie an 713 Patienten mit Diabetes in einem Spezialistenzentr: Validierung der IWGDF-Risikoklassifikation für aktive Fußgeschwüre.",
-    result:"Aktive DFU in 2,9% (3,8% Männer, 2,1% Frauen). 17,3% moderat/hohes Risiko. Geschwürprävalenz stieg über IWGDF-Kategorien: 0,0% sehr niedrig bis 38,5% hoch (p&lt;0,001). Exzellente Diskriminanz (c-Statistik 0,938), Sensitivität 90,5%, negativ-prädiktiver Wert 99,7% bei moderat/hohes-Risiko-Schwellwert. Älteres Alter und HbA1c unabhängig mit erhöhtem Risiko assoziiert; Geschlecht nicht.",
-    transfer:"Saudi-Arabien, spezialisierte Diabetes-Klinik; IWGDF-System verlässlich für Risikoidentifikation, prospektive Studien für Vorhersage zukünftiger Ulzera nötig"
-  },
-  {
-    journal:"Diabetes Res Clin Pract", year:"2026", pmid:"42874781",
-    author:"Li J et al.", pubdate:"14.10.2026",
-    added:"14.10.2026",
-    title:"Dapagliflozin erhöht eGFR marginal bei Post-Transplantations-Diabetes",
-    sum:"Randomisierte, kontrollierte 54-Wochen-Studie an Nierentransplantierten mit PTDM: Vergleich Dapagliflozin 10 mg täglich + Standard gegen Standard allein.",
-    result:"Basis-adjustierte eGFR-Differenz in Woche 54: 6,81 mL/min/1,73 m² (95%-KI 1,68–11,94; p=0,010), nach multivariabler Adjustierung jedoch nicht signifikant. HbA1c und Tacrolimus-Spiegel ähnlich, Magnesium-Abfall geringer mit Dapagliflozin. Sicherheit ähnlich, Studie nicht für seltene Ereignisse gepowert.",
-    transfer:"China, Nieren-Transplantationen; kleine Stichprobe, Effekt sensitiv für Adjustierung, keine klaren Vorteile etabliert"
-  },
-  {
-    journal:"Acta Diabetol", year:"2026", pmid:"42873316",
-    author:"Zhao S et al.", pubdate:"14.10.2026",
-    added:"14.10.2026",
-    title:"Mineralokortikoide bei Typ-2-Diabetes: Biologische Plausibilität ohne klare klinische Stratifikation",
-    sum:"Narrative Übersichtsarbeit über Aldosteron-Mineralokortikoid-Rezeptor (MR)-Signalisierung als Beitrag zum residuellen kardialen und renalen Risiko bei T2DM.",
-    result:"Experimentelle Evidenz verlinkt MR-Signalisierung mit Inflammation, oxidativem Stress, Fibrose und kardiorenal remodeling. Bei T2DM mit CKD unter maximaler RAS-Blockade: Finerenon reduziert vorspezifizierte Nieren- und kardiovaskuläre Composite-Outcome. CONFIDENCE und BI 690.517 zeigen primär Surrogat-Effekte. MR-Signalisierung als biologisch plausibel beitragender Faktor im multifaktoralen Residualrisikomodell eingestuft; prospektive Validierung erforderlich vor Biomarker-geleiteter Therapie.",
-    transfer:"Narrative Review mit internationaler Evidenzbasis; MR-Antagonisten derzeit keine evidenzgeleitete Standardtherapie in Deutschland"
-  },
-  {
-    journal:"BMJ Open Diabetes Res Care", year:"2026", pmid:"42869604",
-    author:"Turlea S et al.", pubdate:"13.10.2026",
-    added:"13.10.2026",
-    title:"BMI und Gewicht sagen Insulindosis bei Gestationsdiabetes schlecht voraus",
-    sum:"Retrospektive Kohortenstudie an 58 Frauen mit GDM: Prüfung, ob Gewicht und BMI die Insulindosis zur Erreichung von Glukosezielen vorhersagen.",
-    result:"Starke Variabilität zwischen Personen. Gewicht und BMI erklärten nur wenig der Insulinvariation: R²=0,61 bzw. 0,58 für initiale Dosis, R²=0,30 bzw. 0,36 für maximale Dosis. Gewicht-basierte Verschreibung war für individuelle Dosierung unzureichend.",
-    transfer:"Großbritannien; festes Dosierungsschema mit glukosegeleitetem Titrisieren empfehlenswerter als Gewichtsformel"
-  },
-  {
-    journal:"J Clin Endocrinol Metab", year:"2026", pmid:"42867450",
-    author:"Eisa N et al.", pubdate:"13.10.2026",
-    added:"13.10.2026",
-    title:"Tirzepatid senkt entzündliche Marker und BNP bei Herzinsuffizienz – Funktionsverbesserung unklar",
-    sum:"Systematische Übersichtsarbeit und Metaanalyse: sieben Studien (5 RCTs, 2 observational, 5406 Teilnehmende) zu Tirzepatid-Effekten auf kardiorenale Biomarker und Funktionsfähigkeit versus Placebo/Standard.",
-    result:"Tirzepatid reduzierte hsCRP um 34,3% (95%-KI −38,4 bis −30,1%; p&lt;0,0001) und NT-proBNP um 17,6% (−26,7 bis −8,5%; p=0,0001). Im SUMMIT-Trial: KCCQ-CSS um 5,1 Punkte besser (p&lt;0,001), 6-Minuten-Gehtest um 15,8 m länger (p=0,004). Einzelne Studien: eGFR-Stabilisierung (+2,90 mL/min/1,73m²/Jahr), UACR-Reduktion −25,0%. Gewissheit moderat; funktionelle und renale Endpunkte auf eine Studie begrenzt.",
-    transfer:"Internationale RCT- und Beobachtungsdaten; stärkste Anti-Inflammations-Effekte, weitere HI-Studien ausstehend"
+    title:"Mandel-kohlenhydratarme Diät verbessert nächtliche Glukosekontrolle bei Typ-2-Diabetes",
+    sum:"Randomisierte Studie mit 33 hospitalisierten Patienten mit Typ-2-Diabetes, die CGM trugen; Vergleich einer mandel-angereicherten kohlenhydratarmen Diät (LCD) versus fettarmer Diät (LFD) über definierte Zeiträume.",
+    result:"LCD-Gruppe zeigte nächtlich höhere Time in Range (TIR) (98,51 % vs. 91,67 %, p&lt;0,01), höhere Time in Tight Range (TITR) (94,14 % vs. 77,58 %, p&lt;0,05), niedrigere Time Above Range (0,00 % vs. 1,39 %, p&lt;0,01) und niedrigere Standardabweichung (15,57 vs. 23,62 mg/dL, p&lt;0,05). Multivariable Regression zeigte unabhängige Assoziation der LCD mit +6,65 % TIR und +14,60 % TITR.",
+    transfer:"Chinesische Klinik mit standardisierter Ernährungsintervention; Übertragbar auf deutsche Diabetesberatung im stationären Setting."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1956,7 +1947,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-12-31", "2027-01-07"],
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "19.10.2026";
+const NEWS_STAND = "20.10.2026";
 const NEWS = [
   {titel:"Früherkennung und Ketoazidose: Abbott Big City Talk in Berlin", datum:"2026-10-07", url:"https://www.monitor-versorgungsforschung.de/news/frueherkennung-und-ketoazidose-abbott-big-city-talk-in-berlin/"},
   {titel:"Zugang zu Diabetes- und Adipositasmedikamenten weltweit: Lilly-Zusage bis 2040", datum:"2026-10-05", url:"https://www.monitor-versorgungsforschung.de/news/zugang-zu-diabetes-und-adipositasmedikamenten-weltweit-lilly-zusage-bis-2040/"},
