@@ -2047,62 +2047,53 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "26. Okt. 2026, 05:01 Uhr";
+const SNAP_DATE = "27. Okt. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Diabetologia", year:"2026", pmid:"42926238",
-    author:"Godinez Leiva E et al.", pubdate:"24.10.2026",
+    journal:"Diabetes Care", year:"2026", pmid:"42930457",
+    author:"Adler AI et al.", pubdate:"26.10.2026",
+    added:"26.10.2026",
+    title:"Hohe HbA1c-Werte erhöhen Sterblichkeit bei Mukoviszidose-Diabetes deutlich",
+    sum:"Kohortenstudie mit UK-Registerdaten zu 4.477 Patienten mit Mukoviszidose-assoziiertem Diabetes über 31.311 Personenjahre, die Zusammenhang zwischen langfristiger Glykämie und Mortalität untersuchte.",
+    result:"Mortalität stieg mit HbA1c progressiv: Adjustierte Hazard Ratios betrugen 1,41 (95%-KI 1,15–1,73) für HbA1c &gt;42–53 mmol/mol, 1,66 (1,33–2,07) für &gt;53–69 mmol/mol und 1,93 (1,53–2,43) für &gt;69 mmol/mol (verglichen mit ≤42 mmol/mol). Dies zeigt einen starken klinischen Endpunkt (Sterblichkeit), nicht nur Laborwertveränderung.",
+    transfer:"UK-Gesundheitssystem mit vergleichbarem Register; Ergebnis übertragbar auf europäische Versorgung diabetischer Komplikationen."
+  },
+  {
+    journal:"Diabet Med", year:"2026", pmid:"42928587",
+    author:"Cotterill S et al.", pubdate:"25.10.2026",
+    added:"26.10.2026",
+    title:"Web-basierte Diabetesschulung im NHS senkt Blutzucker, aber Retention bleibt schwach",
+    sum:"Evaluationsmix aus Interviews, Inhaltsanalyse und Kosten-Nutzen-Analyse des NHS-Programms 'Healthy Living' zur digitalen Typ-2-Diabetes-Selbstmanagement in England.",
+    result:"Bei Registrierten sank HbA1c um 1 mmol/mol (95%-KI: −2, −1; −0,1% [95%-KI: −0,2%, −0,1%]) gegenüber Standardbehandlung; Programm war kosteneffektiv. Schwächen: große Unterschiede in Aufnahme und Bindung, viele Nutzer zeitlich limitiert aktiv; bessere Ergebnisse bei intensiverem Programmgebrauch.",
+    transfer:"Englische NHS-Daten; Versorgungsmodell und Barrieren (Retention, ethnische Disparitäten, Deprivation) direkt auf deutsches Diabetes-Management übertragbar."
+  },
+  {
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"42928040",
+    author:"Yamamoto S et al.", pubdate:"25.10.2026",
     added:"25.10.2026",
-    title:"Prädiabetes und Diabetes treiben Leberfibroserisiko nur bei Adipositas",
-    sum:"Prospektive Real-World-Kohortenstudie an 1.446 Personen aus Primär- und Endokrinologie-Praxen zu Assoziation zwischen glykämischen Kategorien, BMI, Insulinresistenz und klinisch signifikanter Leberfibrose (≥F2).",
-    result:"MASLD-Prävalenz stieg von 39% (Normoglykämie) auf 55% (Prädiabetes) und 68% (Typ-2-Diabetes). Klinisch signifikante Fibrosis: 1%, 6% und 12% entsprechend. Bei Prädiabetes blieb Fibrosis selten ohne Adipositas (1%), stieg aber auf 4% mit Adipositas und schwerer Insulinresistenz. Typ-2-Diabetes + Adipositas + hohe Insulinresistenz: 16% Fibrose-Prävalenz.",
-    transfer:"USA-Klinikdaten; Erkenntnisse zur Insulinresistenz und Fibrose-Risikostratifikation übertragbar."
+    title:"Rauchen aufzugeben senkt Diabetes-Risiko langfristig, kurzzeitig aber nicht",
+    sum:"Target-Trial-Emulation mit wiederholtem jährlichem Einschluss von japanischen Arbeitnehmern (2008–2022) ohne Diabetes; Inverse Wahrscheinlichkeitsgewichtung zur Adjustment von Confounding in 331.701 Teilnehmern aus 52.880 Individuen.",
+    result:"Risikoquotient für Diabetes bei Rauchstopp versus fortgesetztem Rauchen: 1,15 (95%-KI 1,07–1,24) nach 3 Jahren, aber 0,95 (0,85–1,06) nach 15 Jahren. Kurzzeitige Risikoerhöhung durch Gewichtszunahme löst sich auf; langfristig ist Rauchstopp metabolisch günstig.",
+    transfer:"Japanische Betriebsdaten; Befund zur Langzeitprävention unabhängig vom Gesundheitssystem, relevant für Diabetes-Prävention und Patientenberatung weltweit."
   },
   {
-    journal:"J Diabetes Investig", year:"2026", pmid:"42921716",
-    author:"Ogiso K et al.", pubdate:"24.10.2026",
-    added:"24.10.2026",
-    title:"Autonome Neuropathie vorhersagt Semaglutid-Unverträglichkeit und Abbruch",
-    sum:"Multizentrische retrospektive Studie an 61 Typ-2-Diabetes-Patienten unter oralem Semaglutid zur Vorhersage von Therapieabbruch wegen Übelkeit/Erbrechen innerhalb von 6 Monaten durch parasympathale Dysfunktion (CVR-R).",
-    result:"21 Patienten brachen Therapie ab, 40 setzten sie fort. CVR-R_DB (tiefe Atemzüge) war deutlich niedriger in Abbruch-Gruppe (Median 1,93% vs. 3,26%, p&lt;0,001). CVR-R_DB blieb unabhängig assoziiert (adjustiertes OR 0,191; 95%-KI 0,071–0,512; p=0,001; AUC 0,832). Cutoff 2,55% CVR-R_DB stratifizierte 6-Monats-Persistenz: 43,3% vs. 87,1% (p&lt;0,001).",
-    transfer:"Japan; autonome Neuropathie als Prädiktorbiomarker für GLP-1-RA-Verträglichkeit könnte praktisch relevant sein."
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"42928425",
+    author:"Baik SH et al.", pubdate:"25.10.2026",
+    added:"26.10.2026",
+    title:"GLP-1-Agonisten erhöhen Depression, senken aber Substanzmissbrauch und Suizidalität",
+    sum:"Populationsbasierte Kohortenstudie von Medicare-Versicherten mit Typ-2-Diabetes: GLP-1-Agonisten vs. andere Antidiabetika; acht neuropsychiatrische Endpunkte über propensity-score-matched, multivariate Cox-Regression mit zeitvarianten Kovariaten.",
+    result:"GLP-1-RA assoziiert mit HR für Depressionen 1,11 (3,0 Überschuss-Events/1.000 Personenjahre) und aggregierte psychiatrische Störungen HR 1,04 (1,03–1,06). Aber HR für Substanzmissbrauch 0,84 (4,1 weniger Events/1.000 PJ), Demenz 0,87 (2,8 weniger) und Suizid/Selbstverletzung 0,81 (0,4 weniger). Effekte variierten nach Behandlungsmuster: Monotherapie zeigte erhöhtes Risiko.",
+    transfer:"USA-Versichertendaten; Sicherheitssignal (Depression) nicht US-spezifisch, aber Beobachtungsdaten – Generalisierbarkeit auf deutsche Nutzung limitiert; externe Validierung erforderlich."
   },
   {
-    journal:"Diabetes", year:"2026", pmid:"42925124",
-    author:"Reste-Ferreira D et al.", pubdate:"23.10.2026",
-    added:"24.10.2026",
-    title:"Diabetische Retinopathie: OCTA-Imaging identifiziert Progressionsrisiko",
-    sum:"10-Jahres-Kohortenstudie an 115 Typ-2-Diabetes-Patienten zur Charakterisierung der Progression der nicht-proliferativen diabetischen Retinopathie mittels optische Kohärenztomographie-Angiographie (OCTA).",
-    result:"27% der Augen verschlechterten sich, 50% blieben stabil, 21% verbesserten sich. Progression der Mikrogefäß-Minderperfusion im OCTA unterschied signifikant zwischen Verschlechterung/Stabilität und Verbesserung. OCTA-erkannte Perfusionsverschlechterung ermöglichte Identifikation von Patienten mit höherem Progressionsrisiko.",
-    transfer:"Portugal (europäische Kohortenstudie); OCTA-Screening ergänzt etablierte Retinopathie-Diagnostik."
-  },
-  {
-    journal:"Diabetes Technol Ther", year:"2026", pmid:"42921964",
-    author:"Shah VN et al.", pubdate:"22.10.2026",
-    added:"24.10.2026",
-    title:"Automatisierte Insulinabgabe Twiist: Glykämische Kontrolle im Alltag",
-    sum:"Real-World-Studie zur glykämischen Wirksamkeit des Twiist-Systems (automatisierte Insulinabgabe) bei Typ-1- und Typ-2-Diabetes über bis zu 365 Tage.",
-    result:"Bei 4.000 Patienten betrug die mittlere Time in Range 73,5±14,5%, nachts 77,9±16,5%. Hypoglykämie-Exposition sehr niedrig (TBR 54–70 mg/dL: 1,9±2,0%, &lt;54 mg/dL: 0,2±0,4%). Bei HbA1c &lt;7% erreichte TIR 81,5±10,2%; bei &gt;8% nur 61,7±16,3%. Häufigere Bolus-Abgaben waren mit besseren Outcomes assoziiert.",
-    transfer:"USA-Registerdaten; Closed-Loop-Systeme sind in Deutschland DMP-relevant und Hilfsmittel."
-  },
-  {
-    journal:"BMJ Open Diabetes Res Care", year:"2026", pmid:"42907139",
-    author:"Eren E et al.", pubdate:"21.10.2026",
-    added:"22.10.2026",
-    title:"21-Tage-CGM in Kindern: Genauigkeit stabil, Zufriedenheit hoch",
-    sum:"Prospektive Real-World-Studie an 52 Kindern und Jugendlichen mit Typ-1-Diabetes zur Genauigkeit und Trageakzeptanz des 21-Tage-CGM-Systems Instara-1.",
-    result:"2.386 Messwertpaare analysiert: MARD 8,4%, medianes relatives mittleres Abweichung 5,4%, Korrelation CGM-Referenz r=0,965. 90,7% der Werte im ±20/20-Übereinstimmungsband. Bland-Altman-Analyse: kleine negative Abweichung (−6,2 mg/dL; 95%-Grenzen −50,6 bis +38,2). Tägliches MARD stabil über 21 Tage, alle außer ein Sensor komplett. Glukose-Mittel 176,98±42,37 mg/dL, TIR 52,74±20,34%, Variationskoeffizient 39,36±8,24%. Zufriedenheit: 4,35±0,61 (Skala), 78,4% Score ≥4.",
-    transfer:"Türkei; erweiterte CGM-Tragezeiten sind klinisch und nutzerakzeptabel für pädiatrische Versorgung."
-  },
-  {
-    journal:"Diabetes Technol Ther", year:"2026", pmid:"42897887",
-    author:"Blevins TC et al.", pubdate:"19.10.2026",
-    added:"20.10.2026",
-    title:"Inhaliertes Insulin: Strategien zur Überwindung von Zugangsbarrieren",
-    sum:"Ein Expertenteam analysierte Hindernisse für die Nutzung von inhaliertem Insulin (Technosphere®) trotz nachgewiesener Wirksamkeit und Sicherheit.",
-    result:"Identifizierte Barrieren: Kostenträgerrestriktionen, Prior-Authorization-Anforderungen, Formularbeausschlüsse, unzureichendes Kliniker-Wissen, Zeitmangel, Sicherheitsmisstrauen und geringe Patientenbewusstheit. Panel empfahl konkrete Strategien für Kostenträger, Kliniker, Gesundheitspolitik und Patientengruppen.",
-    transfer:"USA-basierte Analyse; Zugangsbarrieren sind in deutschen Erstattungssystemen ähnlich strukturiert."
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"42928048",
+    author:"Roland N et al.", pubdate:"25.10.2026",
+    added:"25.10.2026",
+    title:"Semaglutid senkt Asthma-, Psoriasis- und Analgetika-Verordnungen, hebt aber Anxiolytika",
+    sum:"Dänische Registeranalyse: Unterbrochene Zeitreihe mit 189.392 Personen, die Semaglutid zur Gewichtsreduktion begannen (2022–2024); monatliche Verschreibungsvolumina in 10 Medikamentenklassen in 24 Monaten vorher und 12 Monaten nachher.",
+    result:"Bei 12 Monaten Semaglutid-Therapie Rate Ratios für Verordnungen vs. vorhergesagter Trend: Antiasthmatika 0,82 (95%-KI 0,79–0,86), topische Kortikosteroide 0,91 (0,87–0,96), Analgetika 0,93 (0,90–0,96), Antidepressiva 0,93 (0,89–0,98). Aber Anxiolytika stiegen auf 1,16 (1,08–1,24) und blieben erhöht nach 2 Jahren.",
+    transfer:"Dänische nationale Daten, vergleichbares skandinavisches Gesundheitssystem; Befund zu Begleitmedikation und Gewichtseffekt übertragbar auf deutsches Versorgungsmuster."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2127,7 +2118,7 @@ const ZUL_DIGA = 1;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "26.10.2026";
+const NEWS_STAND = "27.10.2026";
 const NEWS = [
   {titel:"Früherkennung und Ketoazidose: Abbott Big City Talk in Berlin", datum:"2026-10-07", url:"https://www.monitor-versorgungsforschung.de/news/frueherkennung-und-ketoazidose-abbott-big-city-talk-in-berlin/"},
   {titel:"Zugang zu Diabetes- und Adipositasmedikamenten weltweit: Lilly-Zusage bis 2040", datum:"2026-10-05", url:"https://www.monitor-versorgungsforschung.de/news/zugang-zu-diabetes-und-adipositasmedikamenten-weltweit-lilly-zusage-bis-2040/"},
