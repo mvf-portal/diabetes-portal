@@ -1,5 +1,18 @@
 [
  {
+  "pmid": "42962686",
+  "journal": "Lancet Diabetes Endocrinol",
+  "year": "2026",
+  "author": "Prystupa K et al.",
+  "pubdate": "30.10.2026",
+  "added": "30.10.2026",
+  "transfer": "Deutsche Klinikdaten, Dokumentation aus strukturiertem DM-Programm übertragbar, Grundlage für Subtyp-gerechte Prävention",
+  "title": "Drei Subtypen des Typ-1-Diabetes: Mixed-Typ zeigt frühere Betazellfunktion-Abnahme",
+  "sum": "Deutsche Multicenter-Studie mit 600 Erwachsenen mit Typ-1-Diabetes in den ersten 12 Monaten nach Diagnose, die unsupervised machine learning zur Identifikation klinisch-metabolischer Subtypen nutzte.",
+  "result": "Drei Subtypen identifiziert: zwei GADA-positive (klassisch mit niedriger Insulinsensitivität und schwerer Betazelldysfunktion; gemischt mit höherer Insulinsensitivität und besserer Betazellfunktion) und ein GADA-negativer. Die gemischte Gruppe war auf der Betazellabfall-Trajektorie 6,1 Jahre (95%-KI 4,6–7,8) früher positioniert. Hypoglykämierisiko, Retinopathie (aHR 4,93) und kardiovaskuläre autonome Neuropathie unterschieden sich zwischen Gruppen (p=0,0019 bzw. p=0,028).",
+  "aufgenommen": "2026-10-31"
+ },
+ {
   "pmid": "42957437",
   "journal": "Diabetes Obes Metab",
   "year": "2026",
