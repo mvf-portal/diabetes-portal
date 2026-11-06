@@ -2169,68 +2169,86 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "5. Nov. 2026, 14:38 Uhr";
+const SNAP_DATE = "6. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"42982610",
-    author:"Hossain MA et al.", pubdate:"04.11.2026",
-    added:"04.11.2026",
-    title:"Hochfaserbrot mit Proteinzusatz verbessert Glukosekontrolle bei Typ-2-Diabetes",
-    sum:"Randomisierte Crossover-Studie an 31 Personen mit Typ-2-Diabetes, die handelsübliches hochfaseriges, proteinreiches Brot (8,1 g Faser, 19,5 g Protein pro 100 g) mit Standard-Weißbrot über je 2 Wochen testeten.",
-    result:"Das angereicherte Brot senkte die postprandiale Glukoseexkursion (iAUC um 21 mmol·L⁻¹·min⁻¹), erhöhte Time in Range um 4,1 Prozentpunkte, senkte Time above Range um 4,3 Prozentpunkte und reduzierte Glukosevariabilität (CONGA −0,4). Systolischer und diastolischer Blutdruck sanken jeweils um 7,2 mmHg. Lipidprofil und C-reaktives Protein änderten sich nicht signifikant.",
-    transfer:"Neuseeland; Ernährungsintervention technisch übertragbar, Reformulierung von Grundnahrungsmitteln ist skalierbar."
+    journal:"Diabetologia", year:"2026", pmid:"42986405",
+    author:"Misra S et al.", pubdate:"05.11.2026",
+    added:"05.11.2026",
+    title:"Real-World-Daten in der Diabetesversorgung: Rahmen für robuste Evidenz",
+    sum:"Die REDDIE-Studie entwickelte einen praktischen Rahmen für Design, Analyse und Interpretation von Real-World-Evidence (RWE)-Studien in der Diabetologie, indem sie nationale Registerdaten analysierte und zeigte, wie gut durchgeführte Beobachtungsstudien große Studienergebnisse replizieren und auf breitere Populationen übertragen können.",
+    result:"Sorgfältig designte Beobachtungsstudien können Haupttrialsergebnisse reproduzieren und auf unterrepräsentierte Populationen ausweiten, aber Erfolg hängt kritisch von Übereinstimmung zwischen Forschungsfrage, Datenbankeignung, Studiendesign und analytischen Methoden ab. Target-Trial-Emulation und moderne kausale Inferenzmethoden können Hauptverzerrungen mindern, können aber grundlegende Limitationen (unmessbare Verwirrungsfaktoren, unvollständige Variablenerfassung) nicht überwinden.",
+    transfer:"Europäisches Konsortium, mehrere nationale Registerbasis, vergleichbare Gesundheitssysteme"
   },
   {
-    journal:"Diabetes Ther", year:"2026", pmid:"42980924",
-    author:"Alonso-Carril N et al.", pubdate:"04.11.2026",
-    added:"04.11.2026",
-    title:"Online-Schulung für Typ-1-Diabetes so wirksam wie Präsenz-Unterricht",
-    sum:"Pilot-RCT aus Spanien (51 Personen mit Typ-1-Diabetes und HbA1c ≥7,5 %): Online-Gruppe-Schulung versus identische Präsenz-Schulung (≥10 h), primärer Endpunkt HbA1c nach 12 Monaten.",
-    result:"Keine signifikante Differenz in HbA1c zwischen Online und Präsenz (−0,07 %; 95%-KI: −0,71 bis 0,57; p = 0,831). Keine Unterschiede in CGM-Metriken oder Patientenergebnissen. Mediterranische Diätadhärenz verbesserte sich online signifikant (+2,48 Punkte; p = 0,009). Programmabschluss insgesamt 41,2 % (60,0 % Präsenz vs. 23,1 % Online), bei Abschluss hohe Zufriedenheit.",
-    transfer:"Spanien, vergleichbares Versicherungssystem; Versorgungsmodell für DMP übertragbar, aber Engagement-Strategien erforderlich."
+    journal:"Diabetes Care", year:"2026", pmid:"42986362",
+    author:"Li JH et al.", pubdate:"05.11.2026",
+    added:"05.11.2026",
+    title:"SLC2A2-Variante vorhersagt Glimepirid-Ansprechen: Genetik für Präzisions-Diabetestherapie",
+    sum:"Eine genomweite Assoziationsstudie in der GRADE-Studie (1.347 Teilnehmer mit Typ-2-Diabetes unter Metformin-Basis) identifizierte die rs2129019-Variante im SLC2A2-Gen (GLUT2) als unabhängigen genetischen Prädiktor für Glimepirid-Ansprechen, insbesondere bei afrikanischen/afrikanisch-amerikanischen Teilnehmern.",
+    result:"Die A-Allele der rs2129019-Variante war mit 38 % erhöhtem Risiko für metabolisches Therapieversagen unter Glimepirid assoziiert (p = 1,55 × 10⁻⁸). Träger zeigten beeinträchtigte β-Zellfunktion (niedrigerer C-Peptid-Index im oralen Glukose-Toleranztest) und verminderte Glukosesenkung auf akute Sulfonylharnstoff-Belastung. Zebrafish-Modell mit slc2a2-Mutation bestätigte gedämpfte Glimepirid-Wirkung.",
+    transfer:"USA-Studie, aber genetischer Befund ist populationsunabhängig, Präzisionstherapie-Ansatz übertragbar"
   },
   {
-    journal:"Diabetes Ther", year:"2026", pmid:"42980925",
-    author:"Alonso-Carril N et al.", pubdate:"04.11.2026",
-    added:"04.11.2026",
-    title:"Konsens: Pflegefachkräfte sind zentral für Technologie-Schulung bei Diabetes",
-    sum:"Konsensstudie mit 21 spanischen Pflege-Experten und externer Bewertung durch 306 Fachkräfte zur Rolle von Diabetes-Schulungspflegekräften (DSMES) bei fortgeschrittenen Technologien.",
-    result:"Konsens für alle neun Aussagen erreicht (≥70 % Zustimmung). Externe Bewertung zeigte hohe Zustimmung über Berufsgruppen hinweg, Variabilität bei Schulungsanforderungen, DSMES-Führung und institutionellem Support. Strukturelle Barrieren: Mangel an standardisierten Schulungspfaden, unzureichende institutionelle Richtlinien, fehlende formale Akkreditierung.",
-    transfer:"Spanien, deutschsprachig verfügbar; Versorgungsmodell-Frage (Rollen, Qualifikation) ist länderübergreifend akut."
-  },
-  {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"42977540",
-    author:"Gupta V et al.", pubdate:"03.11.2026",
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"42977539",
+    author:"Friedman AN et al.", pubdate:"03.11.2026",
     added:"03.11.2026",
-    title:"Closed Loop im Krankenhaus: Time in Range um 22 Prozent verbessert",
-    sum:"Systematischer Review und Metaanalyse von 13 stationären Studien zu Closed-Loop-Systemen, davon 9 in Metaanalyse (Geburtshelfer separat).",
-    result:"Closed Loop erhöhte Time in Range um 22,27 Prozentpunkte (95%-KI: 16,03–28,51), reduzierte Time above Range um 23,75 Prozentpunkte (95%-KI: −28,05 bis −19,45), Mittlere Glukose um 1,66 mmol/L und Glukosestandardabweichung um 0,64 mmol/L. Liegedauer unterschied sich nicht, schwerwiegende gerätebedingte Nebenwirkungen traten nicht auf. Implementierungsherausforderungen: Personalschulung, technischer Support, Workflow-Integration.",
-    transfer:"Vereinigtes Königreich; systematische Evidenz aus britischen Kliniken, Implementierungsfragen sind länderübergreifend ähnlich."
+    title:"Semaglutid in CKD: HbA1c-Senkung und Blutdruckbesserung über alle Nierenfunktionsstufen",
+    sum:"Post-hoc-Analyse der FLOW-Studie (3.533 Teilnehmer mit chronischer Nierenerkrankung und Typ-2-Diabetes) untersuchte Effekte von Semaglutid 1,0 mg versus Placebo auf HbA1c, Körpergewicht und Blutdruck stratifiziert nach baseline-eGFR und Albuminurie über 104 Wochen.",
+    result:"Gegenüber Placebo reduzierten Semaglutid-Patienten HbA1c um 0,7–1,0 % (p &lt; 0,0001) und Körpergewicht um 2,5–4,6 kg (p &lt; 0,0001 außer uACR &lt; 30) über alle eGFR/uACR-Kategorien. Systolischer Blutdruck sank bei niedrigerem baseline-eGFR/höherem uACR stärker. Interaktionsanalysen zeigten keine signifikanten Unterschiede der Effekte nach baseline-eGFR oder uACR für alle Endpunkte.",
+    transfer:"Internationale Studie mit europäischen Zentren (Steno Diabetes Center), CKD-Population relevant für deutsche Praxis"
   },
   {
-    journal:"J Diabetes Complications", year:"2026", pmid:"42981873",
-    author:"Naruse M et al.", pubdate:"28.10.2026",
-    added:"04.11.2026",
-    title:"Kognitive Beeinträchtigung und Gebrechlichkeit bei Typ-2-Diabetes: 22 % betroffen",
-    sum:"Querschnittstudie an 409 älteren Personen (68 ± 11 Jahre) mit Typ-2-Diabetes und/oder Adipositas aus 13 japanischen Krankenhäusern zur Prävalenz und Assoziationen kognitiver Beeinträchtigung und Gebrechlichkeit.",
-    result:"22 % hatten milde kognitive Beeinträchtigung (MMSE 24–27), 25 % niedriges MMSE (≤27), 9 % waren gebrechlich, 4 % hatten kognitive Gebrechlichkeit. Gebrechlichkeit war mit 3,05-fach höherer Wahrscheinlichkeit für niedriges MMSE assoziiert (OR: 3,05; 95%-KI: 1,38–6,74; p &lt; 0,05). Physische Inaktivität war mit doppelt so hoher HOMA-IR verbunden (OR: 2,31; p &lt; 0,05).",
-    transfer:"Japan; Bevölkerungsmerkmal (Alter, Gebrechlichkeit) unterscheidet sich von Deutschland, Befund weist auf Screening-Bedarf."
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"42977570",
+    author:"Du F et al.", pubdate:"03.11.2026",
+    added:"03.11.2026",
+    title:"GLP-1-Agonist bei Vorhofflimmern und NOAK: erhöhtes Blutungsrisiko",
+    sum:"Target-Trial-Emulation in Medicare-Daten verglich GLP-1-Rezeptoragonisten versus DPP-4-Hemmer bei Typ-2-Diabetes-Patienten ≥ 65 Jahre mit Vorhofflimmern unter NOAK (n = 930 pro Gruppe nach Propensity-Score-Matching) bezüglich Thromboembolien und Blutungen über 1 Jahr.",
+    result:"GLP-1-Agonist-Initiation war mit höherem Blutungsrisiko assoziiert (HR 1,18; 95%-KI 1,03–1,36), niedrigerer Gesamtsterblichkeit (HR 0,58; 0,36–0,95) und ähnlichem Thromboembolierisiko (HR 1,50; 0,22–10,43) verglichen mit DPP-4-Inhibitoren. Sorgfältige klinische Überwachung und weitere Studien mit Gewichtsverlauf und Nierenfunktion empfohlen.",
+    transfer:"USA-Medicare-Daten, Sicherheitssignal aber relevant für deutsche GLP-1-Verschreibung bei Antikoagulation"
+  },
+  {
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"42977550",
+    author:"Park IR et al.", pubdate:"03.11.2026",
+    added:"03.11.2026",
+    title:"Frühe Triple-Kombination erhält β-Zellfunktion wie Stufentherapie – ohne Hypoglykämien",
+    sum:"Post-hoc-Analyse der TRIPLE-AXEL-Studie bei 75 medikamentös unvorbehandelten Typ-2-Diabetes-Patienten verglich initiale Triple-Kombinationstherapie (Metformin + Dapagliflozin + Saxagliptin) versus Stufentherapie (Metformin, später Glimepirid + Sitagliptin) über 104 Wochen bezüglich β-Zellfunktionsrückgewinnung (Disposition Index aus oGTT).",
+    result:"HbA1c sank um ca. 2,7 % in beiden Gruppen. Der Disposition Index stieg signifikant in Triple- wie Stufentherapie, ohne signifikanten Unterschied zwischen Gruppen (p = 0,63). Änderungen in Insulinsekretion und -sensitivität unterschieden sich nicht signifikant (p = 0,35 und p = 0,85). Hypoglykämien traten in 0 % der Triple-Gruppe und 23,7 % der Stufengruppe auf.",
+    transfer:"Südkorea-Studie, aber Vergleich Kombinations- vs. Sequenz-Strategie relevant für deutsche Therapieleitlinien"
+  },
+  {
+    journal:"Nat Rev Endocrinol", year:"2026", pmid:"42977773",
+    author:"Gong JY et al.", pubdate:"03.11.2026",
+    added:"03.11.2026",
+    title:"Kardiovaskuläre Krankheit bei Diabetes: über Atherosklerose hinaus zu Arrhythmie und Stenose",
+    sum:"Narrative Übersichtsarbeit zu Assoziationen zwischen Diabetes und kardiovaskulären Erkrankungen jenseits von Atherosklerose und Herzinsuffizienz (Global Burden of Disease 2023 Daten), mit Fokus auf Vorhofflimmern, infektiöse Endokarditis, hypertensive Herzerkrankung, intrazerebrales Blutungsrisiko und Aortenstenose sowie Effekte von Inkretinmimetika (GLP-1-RA) und SGLT2-Inhibitoren.",
+    result:"Diabetes ist Risikofaktor für Vorhofflimmern, infektiöse Endokarditis, hypertensive Herzerkrankung, intrazerebrales Blutungsrisiko und Aortenstenose. GLP-1-Rezeptoragonisten und SGLT2-Inhibitoren zeigen kardioprotektive Effekte über diese Spektrumerkrankungen; die Evidenz variiert nach Outcome. Eine multifaktorielle Diabetesversorgung ist erforderlich, um den globalen kardiovaskulären Krankheitenaufwand zu senken.",
+    transfer:"Australische Akademie, Global-Burden-Daten, Versorgungsrahmen auf Deutschland übertragbar"
+  },
+  {
+    journal:"Diabetol Metab Syndr", year:"2026", pmid:"42983588",
+    author:"Dash S et al.", pubdate:"07.08.2026",
+    added:"05.11.2026",
+    title:"Gestationsdiabetes-Risikscore im ersten Trimester: einfaches Screening für wenig ressourcenreiche Länder",
+    sum:"Entwicklung und Validierung eines klinischen Risikscore (FTRS) im ersten Trimenon zur frühen Gestationsdiabetes-Vorhersage mit routinemäßig verfügbaren klinischen Variablen in prospektiver Kohorte von 730 Frauen in Indien; GDM wurde mit 75-g OGTT nach DIPSI-Kriterien diagnostiziert.",
+    result:"GDM trat in 37,1 % der Teilnehmer auf (n = 271). Ein gleichgewichteter Score (Cutoff ≥ 3) erreichte AUC 0,74 (66,8 % Sensitivität, 82,9 % Spezifität). Ein gewichteter Score (Cutoff ≥ 10) zeigte besser Performance mit AUC 0,77 (70,2 % Sensitivität, 83,4 % Spezifität). Der Score war nicht-invasiv und für frühes Risiko-Screening im Niedrigrisiko-Setting praktikabel.",
+    transfer:"Indien, aber Ansatz (klinische Variable ohne Labormarker) auch für deutsche Ressourcen-begrenzte Settings oder Primärversorgung"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
 
 // Offene Foerderausschreibungen zum Thema — taeglich von scripts/radar_hinweis.py
 // === RADAR-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const RADAR_STAND = "02.11.2026";
+const RADAR_STAND = "05.11.2026";
 const RADAR_URL = "https://wissen.m-vf.de/ausschreibungen.html#diabetes";
 const RADAR_EIGENES = 14;
 const RADAR_ZUHAUSE = false;
-const RADAR_FRISTEN = [["2026-12-31", "2027-01-07", "2027-01-07", "2027-01-07"], [], ["2027-01-07"], [], [], [], [], ["2026-11-18"], [], [], [], ["2027-01-07", "2027-01-26", "2027-01-26"], ["2027-01-07", "2027-01-07", "2027-01-07", "2027-01-11", "2027-01-25", "2026-11-18", "2026-11-18", "2026-11-06"], ["2026-11-19", "2027-02-03", "2027-02-03"], ["2027-01-27", "2026-11-09"]];
+const RADAR_FRISTEN = [["2026-12-31", "2027-01-07"], [], ["2027-01-07"], [], ["2026-11-19"], [], [], ["2026-11-18"], [], [], [], ["2027-01-07", "2027-01-26", "2027-01-26"], ["2027-01-07", "2027-01-07", "2027-01-07", "2027-01-11", "2027-01-25", "2027-02-11", "2026-11-18", "2026-11-18"], ["2026-11-19"], ["2027-01-27", "2026-11-09"]];
 // === RADAR-BLOCK-ENDE ===
 
 // === ZULASSUNG-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const ZUL_STAND = "04.11.2026";
+const ZUL_STAND = "05.11.2026";
 const ZUL_EIGENE = 8;
 const ZUL_GUTACHTEN = 3;
 const ZUL_ZULASSUNG = 2;
@@ -2240,7 +2258,7 @@ const ZUL_DIGA = 1;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "05.11.2026";
+const NEWS_STAND = "06.11.2026";
 const NEWS = [
   {titel:"Spendenaktion für Kinder mit Diabetes: diabetesDE startet #SüßesBewirken", datum:"2026-11-03", url:"https://www.monitor-versorgungsforschung.de/news/spendenaktion-fuer-kinder-mit-diabetes-diabetesde-startet-suessesbewirken/"},
   {titel:"Von Mering Goldmedaille 2026 für Annette Schürmann: DDZ zeichnet aus", datum:"2026-11-03", url:"https://www.monitor-versorgungsforschung.de/news/von-mering-goldmedaille-2026-fuer-annette-schuermann-ddz-zeichnet-aus/"},
@@ -2250,8 +2268,8 @@ const NEWS = [
 // Fremde Pressemeldungen zum Thema — taeglich von scripts/newsfeed.py
 // === PRESSE-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const PRESSE = [
+  {titel:"Zum Weltdiabetestag: Klinische Studie zur Erhaltung der unteren Gliedmaßen durch tibiale transversale Kallusdistraktion", datum:"2026-11-05", url:"http://idw-online.de/de/news880340", quelle:"idw"},
   {titel:"Diabetes und Zyklus: Automatisierte Insulinabgabe gleicht nicht alles aus", datum:"2026-11-04", url:"http://idw-online.de/de/news880187", quelle:"idw"},
-  {titel:"Numbness in diabetic foot ulcers does not rule out pain", datum:"2026-11-03", url:"http://idw-online.de/de/news880095", quelle:"idw"},
 ];
 // === PRESSE-BLOCK-ENDE ===
 
