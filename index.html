@@ -2169,62 +2169,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "7. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "8. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Diabetologia", year:"2026", pmid:"42988924",
-    author:"Singh NM et al.", pubdate:"05.11.2026",
-    added:"05.11.2026",
-    title:"Luftverschmutzung und Folgeerkrankungen: PM2,5 erhöht Albuminurie und Neuropathie",
-    sum:"Querschnittstudie an 1.120 Patienten aus der German Diabetes Study untersuchte Assoziationen zwischen Langzeit-Luftverschmutzung (PM2,5, PM10, NO₂) und Glukosestoffwechsel sowie diabetischen Folgeerkrankungen in Typ-1- und Typ-2-Diabetes.",
-    result:"Bei Typ-2-Diabetes war höhere PM2,5-Exposition assoziiert mit erhöhtem HbA1c (exp[β]=1,04), reduzierter Insulinsensitivität (β=−0,42), erhöhter Albuminurie (exp[β]=1,71) und 53% erhöhtem Risiko für distale sensomotorische Polyneuropathie (OR 1,53). Typ-1-Diabetes zeigte weniger konsistente Assoziationen. Die Befunde deuten auf differenzielle pathophysiologische Mechanismen zwischen Diabetestypen hin.",
-    transfer:"Deutsche Klinikdaten mit standardisierter Phänotypisierung, vergleichbare Umweltdatenerfassung in Deutschland möglich."
-  },
-  {
-    journal:"Diabet Med", year:"2026", pmid:"42989783",
-    author:"Surendran A et al.", pubdate:"05.11.2026",
+    journal:"Prim Care Diabetes", year:"2026", pmid:"42995039",
+    author:"Herges JR et al.", pubdate:"06.11.2026",
     added:"06.11.2026",
-    title:"Interventionsprogramm D1 Now für junge Erwachsene mit Typ-1-Diabetes – Clusterrandomisierte Studie geplant",
-    sum:"Protokoll einer clusterrandomisierten kontrollierten Studie an 348 jungen Erwachsenen (18–25 Jahre) mit Typ-1-Diabetes aus 12 irischen Zentren. Intervention: Agenda-Setting-Tool plus Support-Worker versus Standard Care; primäres Outcome ist HbA1c-Veränderung nach 12 Monaten; sekundäre Outcomes sind psychosoziale, klinische, Selbstmanagement- und Nutzungsergebnisse sowie Kosteneffektivität.",
-    result:"Die Studie ist noch nicht abgeschlossen. Das Protokoll beschreibt Design, Verfahren und geplante Auswertungen. Hypothese: D1 Now wird klinische und psychosoziale Outcomes verbessern und kosteneffektiv sein im Vergleich zur Standard-Versorgung. Prozessevaluationen werden Implementationsmechanismen untersuchen.",
-    transfer:"Irland – europäisches Gesundheitssystem mit vergleichbarem Versorgungsauftrag, übertragbare Konzepte für ambulante Diabetesbetreuung in Deutschland."
+    title:"Nach Hypoglykämie oder DKA: ländliche Patienten sehen weniger Ärzte",
+    sum:"Retrospektive Kohortenstudie von Mayo Clinic mit 1.258 Diabetespatienten (677 Hypoglykämie, 581 Hyperglykämie), die nach Notfallbehandlung verfolgt wurden, zu Unterschieden in ambulanter Nachsorge zwischen ländlichen und städtischen Gebieten in den USA.",
+    result:"Innerhalb von 30 Tagen nach Entlassung hatten ländliche Patienten weniger Hausarzt-Kontakte (39,5 % vs. 49,3 %; p=0,003) und Endokrinologen-Besuche (8,6 % vs. 16,3 %; p=0,001) als städtische. Dieses Muster setzte sich bis Tag 90 fort – gerade dann, wenn intensives Follow-up kritisch ist.",
+    transfer:"USA-Versorgungsdaten; Deutschland hat andere ländliche Strukturen, aber ähnliche Koordinierungsprobleme nach Krisen"
   },
   {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"42977572",
-    author:"Marhefková N et al.", pubdate:"03.11.2026",
-    added:"03.11.2026",
-    title:"REM-Schlaf und Glykämiekontrolle: kürzere REM-Phase mit höherem HbA1c und Karotis-Plaque assoziiert",
-    sum:"Querschnittstudie an 179 Erwachsenen mit Typ-1-Diabetes (CORDIA-Studie) untersuchte Assoziationen zwischen tragbarer Schlaf-Tracking (Apple Watch, 14 Nächte), Schlafarchitektur, CGM-Glukosemetriken, HbA1c und subklinischen Zeichen von Atherosklerose (Karotis-Plaques, Koronarkalk).",
-    result:"Kürzere REM-Schlafdauer korrelierte mit höherem HbA1c (ρ = −0,24; p=0,011) und – mit grenzwertiger FDR-Korrektur – mit höherem GRI, TAR2, mittlerer Glukose, Glukose-SD und niedrigerem TIR (|ρ| 0,17–0,21). REM-Dauer war in adjustierten Modellen mit allen Glykämiemetriken assoziiert; Assoziation mit Glukose-SD blieb nach HbA1c-Adjustierung und Nächte &lt;4h Ausschluss signifikant. Patienten mit ≥2 Karotis-Plaques hatten 9,4 min kürzere REM-Dauer (p=0,034).",
-    transfer:"Tschechische Klinikdaten mit modernen Wearables und CGM, Schlafmessung möglich in Deutschland."
-  },
-  {
-    journal:"Diabetes Metab Res Rev", year:"2026", pmid:"42992367",
-    author:"García-Hermoso A et al.", pubdate:"Nov. 2026",
-    added:"06.11.2026",
-    title:"Typ-1-Diabetes korreliert mit reduzierter körperlicher Aktivität – Meta-Analyse zeigt 13% niedrigere Aktivität",
-    sum:"Systematische Übersicht und Meta-Analyse von 16 Publikationen (14 unabhängige Kohorten, 3.335 Personen, 54,2% Frauen) verglich Körperaktivität und Sedentarität bei Erwachsenen mit und ohne Typ-1-Diabetes.",
-    result:"Erwachsene mit Typ-1-Diabetes zeigten signifikant niedrigere Gesamtaktivität als Nicht-Diabetiker (12 Studien; Hedges g = −0,13; 95% KI −0,22 bis −0,05; p=0,001) ohne Heterogenität. Odds für Erfüllen von Aktivitätsempfehlungen waren erniedrigt (OR 0,77; 0,58–1,02; p=0,066), erreichten aber keine statistische Signifikanz. Alter, Diabetesdauer und HbA1c erklärten Unterschiede nicht.",
-    transfer:"Überwiegend nicht-deutsche Kohorten, aber Aktivitätsbarrieren bei Typ-1-Diabetes sind universal; evidenzbasiertes Interventionsbedürfnis klar."
-  },
-  {
-    journal:"Cardiovasc Diabetol", year:"2026", pmid:"42989237",
-    author:"Abu Khadija H et al.", pubdate:"09.08.2026",
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"42988585",
+    author:"Dozier ZB et al.", pubdate:"05.11.2026",
     added:"05.11.2026",
-    title:"Glykämisch-entzündlicher Index sagt postoperative Komplikationen nach Bypass-OP voraus",
-    sum:"Retrospektive multizentrische Kohortenstudie an 6.262 Patienten (44,5% mit Diabetes) nach isolierter Koronararterien-Bypass-Operation untersuchte Prognosekraft des Glyco-Inflammatory Healing Index (GIHI = HbA1c × CRP / Albumin) für postoperative Major Adverse Cardiovascular Events und Mortalität.",
-    result:"Bei Diabetikern war höherer GIHI assoziiert mit 30-Tage-MACE (adj. HR 1,45; 95% KI 1,28–1,65), Myokardinfarkt (HR 1,27; 1,00–1,60) und 30-Tage-Mortalität (HR 2,56; 2,06–3,18) sowie Langzeit-Mortalität (HR 2,57; 2,33–2,83). GIHI verbesserte Diskriminanzfähigkeit moderat (AUC 0,65 zu 0,69; p&lt;0,001).",
-    transfer:"Israelische Kliniken mit vergleichbarem Operationsdatenmanagement, aber Index erfordert prospektive Validierung vor Klinikgebrauch."
+    title:"Metformin senkt Sterblichkeit nach COVID-19 bei Typ-2-Diabetes um 39 %",
+    sum:"Retrospektive Kohortenstudie in den USA mit 53.332 Patienten mit Typ-2-Diabetes und COVID-19, die Metformin oder DPP-4-Inhibitoren vor Erkrankungsbeginn nahmen, zu Unterschieden in Sterblichkeit und Long-COVID-Risiko.",
+    result:"Metformin-Nutzer hatten gegenüber DPP-4-Inhibitoren ein um 39 % reduziertes Sterblichkeitsrisiko (adjustierte Risikoquote 0,61; 95 % KI 0,51–0,73), zudem ein um 13 % geringeres Risiko für wahrscheinliches Long-COVID (0,87; 0,81–0,94). Diese Befunde deuten auf einen protektiven Effekt von Metformin während akuter COVID-19-Infektionen hin.",
+    transfer:"USA-Daten aus elektronischen Gesundheitsakten, Ergebnis unabhängig vom Versicherungssystem übertragbar"
   },
   {
-    journal:"Cardiovasc Diabetol", year:"2026", pmid:"42983484",
-    author:"Wu Z et al.", pubdate:"28.07.2026",
-    added:"04.11.2026",
-    title:"Insulinresistenz-Marker: eGDR bessere Vorhersage für kardiovaskuläre Ereignisse",
-    sum:"Prospektive Kohortenstudie mit 127.195 bzw. 149.402 Personen aus UK Biobank untersuchte Vorhersagekraft verschiedener Insulinresistenz-Surrogate für kardiovaskuläre Erkrankungen und major adverse cardiovascular events (MACE) bei metabolischer Dysfunktion-assoziierter Steatosis hepatis über 13,7 Jahre Nachbeobachtung.",
-    result:"29.089 kardiovaskuläre Ereignisse (22,87%) und 15.445 MACE (10,34%) traten auf. eGDR zeigte stärkere Vorhersagekraft als andere Insulinresistanz-Indizes: pro 1 SD Reduktion HR=0,70 (95% KI 0,69–0,72) für kardiovaskuläre Erkrankungen und HR=0,82 (0,80–0,84) für MACE. eGDR übertraf andere Indizes in AUC, Harrell's C-Index, NRI und IDI konsistent.",
-    transfer:"UK-Biobank-Daten, aber eGDR berechnet aus routinemäßig verfügbaren Parametern; Umsetzung in Deutschland direkt möglich."
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"42988607",
+    author:"Gørlitz KB et al.", pubdate:"05.11.2026",
+    added:"05.11.2026",
+    title:"GMI-Formeln unterscheiden sich zwischen CGM-Systemen deutlich",
+    sum:"Observationsstudie mit 432 Erwachsenen mit Typ-1-Diabetes, die Dexcom G6/G7 oder Medtronic Guardian nutzen, zur Frage, ob der Glucose Management Indicator (GMI) systemabhängig variiert.",
+    result:"Dexcom lieferte bei niedrigen mittleren Sensorglukosewerten (&lt;13,7 mmol/l) signifikant niedrigere GMI-Werte als die ursprüngliche Gleichung, Medtronic bei hohen Werten (&gt;8,3 mmol/l) signifikant höhere. Die gerätespezifischen Formeln unterschieden sich über 6,7 mmol/l mit zunehmenden Differenzen bei höheren Glukosewerten. Das zeigt, dass eine fehlende Standardisierung zwischen CGM-Systemen die Interpretation von HbA1c-Schätzungen erschwert.",
+    transfer:"Dänemark, technischer Befund unabhängig vom Versicherungssystem anwendbar"
+  },
+  {
+    journal:"Diabetes Res Clin Pract", year:"2026", pmid:"42987980",
+    author:"Ahmadi N et al.", pubdate:"05.11.2026",
+    added:"05.11.2026",
+    title:"Semaglutid senkt systolischen Blutdruck um 3,5 mmHg",
+    sum:"Metaanalyse von 7 randomisierten, placebokontrollierten Studien mit etwa 20.000 Patienten zur Wirkung von subkutanem Semaglutid auf den Blutdruck.",
+    result:"Semaglutid reduzierte systolischen Blutdruck um 3,46 mmHg (95 % KI –4,44 bis –2,49; hohe Evidenzsicherheit) und diastolischen um 0,56 mmHg (–0,82 bis –0,29; moderate Sicherheit). Die SBP-Reduktion war substanziell über verschiedene Populationen, diastolische Effekte minimal und abhängig von einer einzelnen großen Studie.",
+    transfer:"Internationale RCT-Daten, Effektgröße bevölkerungsübergreifend relevant"
+  },
+  {
+    journal:"J Diabetes Investig", year:"2026", pmid:"42969364",
+    author:"Shieh M et al.", pubdate:"02.11.2026",
+    added:"02.11.2026",
+    title:"Empagliflozin vermindert Leberfettgehalt und -steifheit bei Diabetes und MASLD",
+    sum:"Einarmige Vorher-Nachher-Studie an 30 iranischen Patienten mit Typ-2-Diabetes und metabolisch-assoziierter Fettlebererkrankung (MASLD), die 12 Wochen lang Empagliflozin 25 mg/Tag erhielten.",
+    result:"AST fiel von 80,27 auf 45,20 U/l (p&lt;0,001), ALT von 86,33 auf 44,63 U/l (p&lt;0,001). CAP-Score (Hepatische Steatose) sank von 321,83 auf 261,33 (p&lt;0,001), LSM (Lebersteifheit) von 7,22 auf 6,24 kPa (p&lt;0,001). Dies deutet auf hepatoprotektive Effekte von SGLT2-Inhibitoren hin, bedarf aber randomisierter Kontrollen zur kausalen Bestätigung.",
+    transfer:"Iran, kleine Fallzahl; prinzipieller Mechanismus relevant, aber Evidenzgrad begrenzt"
+  },
+  {
+    journal:"Dtsch Arztebl Int", year:"2026", pmid:"42983981",
+    author:"Hilgard D et al.", pubdate:"02.10.2026",
+    added:"05.11.2026",
+    title:"Diabetes-Schulung bei Jugendlichen in Deutschland rückläufig",
+    sum:"Analyse der deutschen DPV-Registratur (Diabetes-Patienten-Verlaufsdokumentation) zu Trend, Umfang und Charakteristika von strukturierten Schulungsmaßnahmen bei Jugendlichen mit Typ-1-Diabetes über mehrere Jahre.",
+    result:"Die Prävalenz strukturierter Schulungsmaßnahmen bei Jugendlichen mit Typ-1-Diabetes ist im beobachteten Zeitraum gesunken. Dies ist ein versorgungspraktisches Signal aus der deutschen Realwelt-Dokumentation, das auf mögliche Zugangsprobleme oder Ressourcenknappheit hindeutet und für eine Qualitätsdiskussion relevant ist.",
+    transfer:"Deutsche Klinikdaten aus etablierter multizentricher Registratur, unmittelbar übertragbar"
+  },
+  {
+    journal:"Diabetol Metab Syndr", year:"2026", pmid:"42983852",
+    author:"Amani-Beni R et al.", pubdate:"08.08.2026",
+    added:"05.11.2026",
+    title:"GLP-1-Therapien und Beinfußkomplikationen: differenzielle Signale ohne klare Klasse-Überlegenheit",
+    sum:"Netzwerk-Metaanalyse von 45 randomisierten Studien mit 110.333 Teilnehmern zur Frage, ob verschiedene GLP-1-Agonisten die Risiken für pAVK und Bein-Komplikationen bei Typ-2-Diabetes reduzieren.",
+    result:"Bei peripherer arterieller Verschlusskrankheit (PAOD): Semaglutid subkutan zeigte gegenüber Plazebo Risikoreduktion (RR 0,37; 95 % KI 0,14–0,86; niedrige Konfidenz); darunter 4,4 vs. 9,0 pro 1.000. Bei peripheren Gefäßereignissen (PVD): Albiglutid und Efpeglenatide zeigten höhere Konfidenz-Signale. Für Amputation, Nekrose, Embolie keine krediblen Unterschiede. Ereignisse waren selten und oft nur als Nebenwirkungen dokumentiert; dedizierte PAOD-fokussierte Studien fehlen.",
+    transfer:"Internationale Trialdaten, aber geringe Ereignisdichte begrenzt Aussagekraft für Gliedmaßenschutz"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2249,7 +2258,7 @@ const ZUL_DIGA = 1;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "07.11.2026";
+const NEWS_STAND = "08.11.2026";
 const NEWS = [
   {titel:"Spendenaktion für Kinder mit Diabetes: diabetesDE startet #SüßesBewirken", datum:"2026-11-03", url:"https://www.monitor-versorgungsforschung.de/news/spendenaktion-fuer-kinder-mit-diabetes-diabetesde-startet-suessesbewirken/"},
   {titel:"Von Mering Goldmedaille 2026 für Annette Schürmann: DDZ zeichnet aus", datum:"2026-11-03", url:"https://www.monitor-versorgungsforschung.de/news/von-mering-goldmedaille-2026-fuer-annette-schuermann-ddz-zeichnet-aus/"},
