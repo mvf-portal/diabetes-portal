@@ -2169,71 +2169,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "8. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "9. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Prim Care Diabetes", year:"2026", pmid:"42995039",
-    author:"Herges JR et al.", pubdate:"06.11.2026",
+    journal:"Diabetes Metab", year:"2026", pmid:"42998720",
+    author:"Hirano Y et al.", pubdate:"07.11.2026",
+    added:"07.11.2026",
+    title:"Kognitive Freizeitaktivität senkt Demenzrisiko bei älteren Diabetespatienten um 38 %",
+    sum:"Prospektive Kohortenstudie mit 779 Erwachsenen ≥65 Jahren mit Diabetes, follow-up 5 Jahre, zur Assoziation zwischen kognitiver Freizeit und Demenzinzidenz.",
+    result:"112 Teilnehmer entwickelten Demenz. Höhere kognitive Freizeitaktivität war mit niedrigerem Demenzrisiko assoziiert (HR 0,615; 95%-KI 0,414–0,913). Nach zusätzlicher Adjustment für körperliche Aktivität blieb die Assoziation ähnlich (HR 0,624; 95%-KI 0,419–0,929). Eine modifizierbare Lebensstilfaktor mit klinisch relevantem Endpunkt.",
+    transfer:"Japan, Daten aus Krankenversicherungsunterlagen, vergleichbar mit deutschen Dokumentationssystemen."
+  },
+  {
+    journal:"Diabetes Res Clin Pract", year:"2026", pmid:"42998723",
+    author:"Lote VB et al.", pubdate:"07.11.2026",
+    added:"07.11.2026",
+    title:"Balancierte Elektrolytlösungen verkürzen DKA-Auflösung um 4,4 Stunden gegenüber Kochsalz",
+    sum:"Metaanalyse und Netzwerk-Metaanalyse von RCTs zum Vergleich balancierter Elektrolytlösungen versus Kochsalz und untereinander bei diabetischer Ketoazidose.",
+    result:"18 Studien zur Kochsalz-Vergleichsgruppe: Balancierte Elektrolytlösungen führten zu kürzerer Zeit bis DKA-Auflösung (MD −4,41 h; 95%-KI −7,00 bis −1,82), kürzerer Krankenhausverweildauer (MD −0,43 Tage; 95%-KI −0,72 bis −0,14), höheren Bikarbonatwerten (MD 1,20 mmol/L; 95%-KI 0,48–1,92) und niedrigeren Chloridwerten (MD −3,31 mmol/L; 95%-KI −5,32 bis −1,29). Sterofundin und Ringer-Laktat zeigten beste Effekte, jedoch keine konsistenten Verbesserungen klinischer Endpunkte.",
+    transfer:"Indische Zentren, Akutkliniken, Evidenz für Notfallmanagement übertragbar."
+  },
+  {
+    journal:"J Diabetes Investig", year:"2026", pmid:"42995675",
+    author:"Hao Y et al.", pubdate:"07.11.2026",
+    added:"07.11.2026",
+    title:"Niedriges Serum-Kalzium verstärkt Neuropathie: Dosis-Wirkungs-Beziehung bei Typ-2-Diabetes",
+    sum:"Retrospektive Querschnittstudie mit 334 Typ-2-Diabetes-Patienten (146 ohne DPN, 188 mit DPN) zur Assoziation zwischen Serum-Kalzium und Cold-Perception-Threshold mittels quantitativer sensorischer Testung.",
+    result:"DPN-Gruppe war älter und mit längerer Diabetesdauer (p&lt;0,001). Serum-Kalzium korrelierte positiv mit Cold-Perception-Threshold in Gesamtkohorte (r=0,170, p=0,001) und DPN-Gruppe (r=0,160, p=0,028), negativ mit Heat-Perception-Threshold (r=−0,115, p=0,031). Dosis-Wirkungs-Beziehung beobachtet. Kalzium ist unabhängiger Einflussfaktor auf Kälteschwelle bei Typ-2-Diabetes mit Neuropathie.",
+    transfer:"China, Klinikdaten, Risikostratifizierung für Neuropathie-Verlauf anwendbar."
+  },
+  {
+    journal:"Diabet Med", year:"2026", pmid:"42995700",
+    author:"Holmes-Truscott E et al.", pubdate:"07.11.2026",
+    added:"07.11.2026",
+    title:"Viertelsjährliche CGM in Hausarztpraxen motiviert durch Visualisierung und Zielsetzung – qualitative Studie",
+    sum:"Qualitative Studie mit 22 Erwachsenen mit Typ-2-Diabetes aus 6 australischen Hausarztpraxen zum Erleben von professionellem CGM-Monitoring (vierteljährliche Messung) und Verhalten.",
+    result:"Qualitative Analysen zeigten, dass Pro-CGM-Erfahrung Bedürfnisse nach Autonomie, Kompetenz und sozialer Eingebundenheit teils erfüllte, teils frustrierte. Klinische Unterstützung und individuelle Unterschiede (Regulations-Orientierung, Präferenzen) beeinflussten Motivation und Verhaltensänderung. Potenzielle psychologische Mechanismen für HbA1c-Verbesserung identifiziert, wenn Unterstützung angepasst ist.",
+    transfer:"Australien, Hausarztpraxen, Selbstbestimmungs-Theorie rahmt Versorgung, auf Deutschland übertragbar."
+  },
+  {
+    journal:"Diabet Med", year:"2026", pmid:"42995399",
+    author:"Sun C et al.", pubdate:"06.11.2026",
     added:"06.11.2026",
-    title:"Nach Hypoglykämie oder DKA: ländliche Patienten sehen weniger Ärzte",
-    sum:"Retrospektive Kohortenstudie von Mayo Clinic mit 1.258 Diabetespatienten (677 Hypoglykämie, 581 Hyperglykämie), die nach Notfallbehandlung verfolgt wurden, zu Unterschieden in ambulanter Nachsorge zwischen ländlichen und städtischen Gebieten in den USA.",
-    result:"Innerhalb von 30 Tagen nach Entlassung hatten ländliche Patienten weniger Hausarzt-Kontakte (39,5 % vs. 49,3 %; p=0,003) und Endokrinologen-Besuche (8,6 % vs. 16,3 %; p=0,001) als städtische. Dieses Muster setzte sich bis Tag 90 fort – gerade dann, wenn intensives Follow-up kritisch ist.",
-    transfer:"USA-Versorgungsdaten; Deutschland hat andere ländliche Strukturen, aber ähnliche Koordinierungsprobleme nach Krisen"
+    title:"91,6 % der älteren Diabetiker haben Begleiterkrankungen – Arthritis zentral im Netzwerk",
+    sum:"Nationale Querschnitts-Netzwerk-Analyse von 1408 älteren Menschen ≥65 Jahren mit Diabetes aus der Chinese Longitudinal Healthy Longevity Survey zu Multimorbidität und Komorbiditäts-Clustern.",
+    result:"91,6 % hatten ≥1 Begleiterkrankung, 71,3 % ≥2. Hypertonie (75,5 %), Herzerkrankung (36,7 %) und affektive Störung (33,7 %) waren häufigste; Hypertonie-Herzerkrankung die führende Komorbiditäts-Paarung (31,75 %). Arthritis zeigte höchste Zentralität im Netzwerk. Fünf Komorbiditäts-Cluster mit unterschiedlichen Profilen nach Alter, Geschlecht und Region. Fokus auf muskuloskelettale, neurologische und psychische Gesundheit notwendig.",
+    transfer:"China, Nationale Survey-Daten, multimorbide Bevölkerung, versorgungspolitisch relevant für Koordination."
   },
   {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"42988585",
-    author:"Dozier ZB et al.", pubdate:"05.11.2026",
-    added:"05.11.2026",
-    title:"Metformin senkt Sterblichkeit nach COVID-19 bei Typ-2-Diabetes um 39 %",
-    sum:"Retrospektive Kohortenstudie in den USA mit 53.332 Patienten mit Typ-2-Diabetes und COVID-19, die Metformin oder DPP-4-Inhibitoren vor Erkrankungsbeginn nahmen, zu Unterschieden in Sterblichkeit und Long-COVID-Risiko.",
-    result:"Metformin-Nutzer hatten gegenüber DPP-4-Inhibitoren ein um 39 % reduziertes Sterblichkeitsrisiko (adjustierte Risikoquote 0,61; 95 % KI 0,51–0,73), zudem ein um 13 % geringeres Risiko für wahrscheinliches Long-COVID (0,87; 0,81–0,94). Diese Befunde deuten auf einen protektiven Effekt von Metformin während akuter COVID-19-Infektionen hin.",
-    transfer:"USA-Daten aus elektronischen Gesundheitsakten, Ergebnis unabhängig vom Versicherungssystem übertragbar"
+    journal:"J Diabetes Sci Technol", year:"2026", pmid:"42978119",
+    author:"Wei M et al.", pubdate:"03.11.2026",
+    added:"04.11.2026",
+    title:"Automatisierter Insulin-Algorithmus senkt schwere Hypoglykämie bei DKA von 1,9 % auf 0 %",
+    sum:"Vergleichende Analyse von 324 vs. 211 DKA-Patienten auf ITS vor und nach Einführung eines elektronischen Glukose-Management-Systems (eGMS) mit computergestütztem variabler Insulin-Infusionsrate in zwei US-Kliniken 2023–2024.",
+    result:"Nach eGMS: Hypoglykämie-Prävalenz sank von 11,0 % auf 4,3 % (p=0,005), schwere Hypoglykämie von 1,90 % auf 0,00 % (p=0,047). Im akademischen Zentrum Krankenhausverweildauer von 8,6 auf 6,0 Tage verkürzt (p=0,012). Im Gemeinschaftskrankenhaus Insulininfusions-Dauer erhöht (26,4 h auf 36,7 h, p=0,004), kein Effekt auf Verweildauer. Standardisierung und Workflow-Verbesserung nachgewiesen.",
+    transfer:"USA, Klinikdaten, Algorithmen-Sicherheit und Effizienz, Übertragbarkeit auf deutsche Notfallmanagement-Protokolle gegeben."
   },
   {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"42988607",
-    author:"Gørlitz KB et al.", pubdate:"05.11.2026",
-    added:"05.11.2026",
-    title:"GMI-Formeln unterscheiden sich zwischen CGM-Systemen deutlich",
-    sum:"Observationsstudie mit 432 Erwachsenen mit Typ-1-Diabetes, die Dexcom G6/G7 oder Medtronic Guardian nutzen, zur Frage, ob der Glucose Management Indicator (GMI) systemabhängig variiert.",
-    result:"Dexcom lieferte bei niedrigen mittleren Sensorglukosewerten (&lt;13,7 mmol/l) signifikant niedrigere GMI-Werte als die ursprüngliche Gleichung, Medtronic bei hohen Werten (&gt;8,3 mmol/l) signifikant höhere. Die gerätespezifischen Formeln unterschieden sich über 6,7 mmol/l mit zunehmenden Differenzen bei höheren Glukosewerten. Das zeigt, dass eine fehlende Standardisierung zwischen CGM-Systemen die Interpretation von HbA1c-Schätzungen erschwert.",
-    transfer:"Dänemark, technischer Befund unabhängig vom Versicherungssystem anwendbar"
-  },
-  {
-    journal:"Diabetes Res Clin Pract", year:"2026", pmid:"42987980",
-    author:"Ahmadi N et al.", pubdate:"05.11.2026",
-    added:"05.11.2026",
-    title:"Semaglutid senkt systolischen Blutdruck um 3,5 mmHg",
-    sum:"Metaanalyse von 7 randomisierten, placebokontrollierten Studien mit etwa 20.000 Patienten zur Wirkung von subkutanem Semaglutid auf den Blutdruck.",
-    result:"Semaglutid reduzierte systolischen Blutdruck um 3,46 mmHg (95 % KI –4,44 bis –2,49; hohe Evidenzsicherheit) und diastolischen um 0,56 mmHg (–0,82 bis –0,29; moderate Sicherheit). Die SBP-Reduktion war substanziell über verschiedene Populationen, diastolische Effekte minimal und abhängig von einer einzelnen großen Studie.",
-    transfer:"Internationale RCT-Daten, Effektgröße bevölkerungsübergreifend relevant"
-  },
-  {
-    journal:"J Diabetes Investig", year:"2026", pmid:"42969364",
-    author:"Shieh M et al.", pubdate:"02.11.2026",
-    added:"02.11.2026",
-    title:"Empagliflozin vermindert Leberfettgehalt und -steifheit bei Diabetes und MASLD",
-    sum:"Einarmige Vorher-Nachher-Studie an 30 iranischen Patienten mit Typ-2-Diabetes und metabolisch-assoziierter Fettlebererkrankung (MASLD), die 12 Wochen lang Empagliflozin 25 mg/Tag erhielten.",
-    result:"AST fiel von 80,27 auf 45,20 U/l (p&lt;0,001), ALT von 86,33 auf 44,63 U/l (p&lt;0,001). CAP-Score (Hepatische Steatose) sank von 321,83 auf 261,33 (p&lt;0,001), LSM (Lebersteifheit) von 7,22 auf 6,24 kPa (p&lt;0,001). Dies deutet auf hepatoprotektive Effekte von SGLT2-Inhibitoren hin, bedarf aber randomisierter Kontrollen zur kausalen Bestätigung.",
-    transfer:"Iran, kleine Fallzahl; prinzipieller Mechanismus relevant, aber Evidenzgrad begrenzt"
-  },
-  {
-    journal:"Dtsch Arztebl Int", year:"2026", pmid:"42983981",
-    author:"Hilgard D et al.", pubdate:"02.10.2026",
-    added:"05.11.2026",
-    title:"Diabetes-Schulung bei Jugendlichen in Deutschland rückläufig",
-    sum:"Analyse der deutschen DPV-Registratur (Diabetes-Patienten-Verlaufsdokumentation) zu Trend, Umfang und Charakteristika von strukturierten Schulungsmaßnahmen bei Jugendlichen mit Typ-1-Diabetes über mehrere Jahre.",
-    result:"Die Prävalenz strukturierter Schulungsmaßnahmen bei Jugendlichen mit Typ-1-Diabetes ist im beobachteten Zeitraum gesunken. Dies ist ein versorgungspraktisches Signal aus der deutschen Realwelt-Dokumentation, das auf mögliche Zugangsprobleme oder Ressourcenknappheit hindeutet und für eine Qualitätsdiskussion relevant ist.",
-    transfer:"Deutsche Klinikdaten aus etablierter multizentricher Registratur, unmittelbar übertragbar"
-  },
-  {
-    journal:"Diabetol Metab Syndr", year:"2026", pmid:"42983852",
-    author:"Amani-Beni R et al.", pubdate:"08.08.2026",
-    added:"05.11.2026",
-    title:"GLP-1-Therapien und Beinfußkomplikationen: differenzielle Signale ohne klare Klasse-Überlegenheit",
-    sum:"Netzwerk-Metaanalyse von 45 randomisierten Studien mit 110.333 Teilnehmern zur Frage, ob verschiedene GLP-1-Agonisten die Risiken für pAVK und Bein-Komplikationen bei Typ-2-Diabetes reduzieren.",
-    result:"Bei peripherer arterieller Verschlusskrankheit (PAOD): Semaglutid subkutan zeigte gegenüber Plazebo Risikoreduktion (RR 0,37; 95 % KI 0,14–0,86; niedrige Konfidenz); darunter 4,4 vs. 9,0 pro 1.000. Bei peripheren Gefäßereignissen (PVD): Albiglutid und Efpeglenatide zeigten höhere Konfidenz-Signale. Für Amputation, Nekrose, Embolie keine krediblen Unterschiede. Ereignisse waren selten und oft nur als Nebenwirkungen dokumentiert; dedizierte PAOD-fokussierte Studien fehlen.",
-    transfer:"Internationale Trialdaten, aber geringe Ereignisdichte begrenzt Aussagekraft für Gliedmaßenschutz"
+    journal:"J Clin Endocrinol Metab", year:"2026", pmid:"42965914",
+    author:"Soria-Contreras DC et al.", pubdate:"31.10.2026",
+    added:"31.10.2026",
+    title:"Frühe Insulinresistenz erhöht Geburtsgewicht, Insulinmangel verschlechtert postpartale Glukose",
+    sum:"Sekundäranalyse von 150 Schwangeren aus der SPRING-Studie zur Assoziation zwischen Insulinresistenz und Insulinsekretion im 1. Trimester (OGTT-basiert) mit Geburtsgewicht und 6–24-Wochen-postpartaler Glukose.",
+    result:"Höhere erste-Trimester-Insulinresistenz assoziiert mit höherem Geburtsgewicht-Perzentil (adjustiertes β: 5,11 %; 95%-KI 0,04–10,18 pro 1-SD-Abnahme Matsuda-Index), nicht mit postpartaler Glukose. Niedrigere Insulinsekretion nicht mit Geburtsgewicht assoziiert, aber mit höherer postpartaler 2-Stunden-OGTT-Glukose (adjustiertes β: 13,96 mg/dL; 95%-KI 7,24–20,69 pro 1-SD-Abnahme Stumvoll-Schätzer), auch an allen anderen OGTT-Zeitpunkten. Differenzielle Mechanismen für maternale und fetale Outcomes.",
+    transfer:"USA (Massachusetts General Hospital), Schwangerschafts-Stoffwechsel, Pathophysiologie-Erkenntnisse für präkonzeptionelle und Schwangerschaftsrisikostratifizierung."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2258,7 +2258,7 @@ const ZUL_DIGA = 1;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "08.11.2026";
+const NEWS_STAND = "09.11.2026";
 const NEWS = [
   {titel:"Spendenaktion für Kinder mit Diabetes: diabetesDE startet #SüßesBewirken", datum:"2026-11-03", url:"https://www.monitor-versorgungsforschung.de/news/spendenaktion-fuer-kinder-mit-diabetes-diabetesde-startet-suessesbewirken/"},
   {titel:"Von Mering Goldmedaille 2026 für Annette Schürmann: DDZ zeichnet aus", datum:"2026-11-03", url:"https://www.monitor-versorgungsforschung.de/news/von-mering-goldmedaille-2026-fuer-annette-schuermann-ddz-zeichnet-aus/"},
