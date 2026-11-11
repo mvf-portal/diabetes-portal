@@ -1,36 +1,35 @@
 {
  "hub": "Knowledge-Hub Diabetes",
  "domain": "diabetes.m-vf.de",
- "datum": "2026-11-10",
+ "datum": "2026-11-11",
  "stand": "terminiert",
- "titel": "MVF Diabetes-Newsletter 10.11.2026",
- "betreff": "Neueste Studien - Diabetes – 10. November 2026",
- "anzahl": 7,
+ "titel": "MVF Diabetes-Newsletter 11.11.2026",
+ "betreff": "Neueste Studien - Diabetes – 11. November 2026",
+ "anzahl": 6,
  "pmids": [
-  "43001746",
-  "43000618",
-  "43000617",
-  "43000472",
-  "43000187",
-  "42983401",
-  "42977546"
+  "43007282",
+  "43004379",
+  "43004293",
+  "43003428",
+  "43003421",
+  "43000411"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099799",
- "termin_utc": "2026-11-10T09:00:00+00:00",
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099837",
+ "termin_utc": "2026-11-11T09:00:00+00:00",
  "empfaenger": 5,
- "listengroesse": 5858,
+ "listengroesse": 5857,
  "beanstandungen": [],
  "aussortiert": [],
  "pool": {
   "geholt": 220,
-  "bekannt": 119,
+  "bekannt": 113,
   "pool": 51,
-  "gewaehlt": 7,
-  "neu": 7
+  "gewaehlt": 6,
+  "neu": 6
  },
  "rubriken": {
-  "news": "ee99a581e346def2",
+  "news": "55cd9ec182e538ea",
   "radar": "b9de1d387582b85d",
-  "zulassungen": "7af7c0ffd0588fac"
+  "zulassungen": "0f68a9ac03328ba1"
  }
 }
