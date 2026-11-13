@@ -2236,71 +2236,53 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "12. Nov. 2026, 05:26 Uhr";
+const SNAP_DATE = "13. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Acta Diabetol", year:"2026", pmid:"43012975",
-    author:"Di Marco M et al.", pubdate:"11.11.2026",
+    journal:"Diabetologia", year:"2026", pmid:"43018734",
+    author:"Fleming GA et al.", pubdate:"12.11.2026",
+    added:"12.11.2026",
+    title:"Klinische Forschung beschleunigen: Einheitsrahmen für krankheitsmodifizierende T1D-Therapien verkürzt Entwicklung um 45 Monate",
+    sum:"Die Studie schlägt ein neues klinisches Protokoll-Framework vor, das die Entwicklungszeit für krankheitsmodifizierende Therapien bei Typ-1-Diabetes durch Integration von Früh-, Beschleunigungs- und Bestätigungsphasen in einer kontinuierlichen Randomisierung verkürzt.",
+    result:"Das vorgeschlagene 'It's All One Trial'-Modell könnte die Gesamtentwicklungszeit um ca. 45 Monate verkürzen, die Teilnehmerzahl verringern, wiederholte Einschlüsse vermeiden und den Übergang von biologischen Effekten zu regulatorischem Beweis beschleunigen. Teplizumab benötigt in der derzeitigen Struktur etwa eine Dekade für Phase III und Bestätigung; das neue Framework würde diesen Prozess erheblich straffen.",
+    transfer:"Europäische und US-amerikanische Regulatorik; Modell könnte auch für deutsche Versorgung und Disease-Management relevante Innovationen schneller verfügbar machen."
+  },
+  {
+    journal:"Diabetes Ther", year:"2026", pmid:"43018881",
+    author:"Zhang X et al.", pubdate:"12.11.2026",
+    added:"12.11.2026",
+    title:"Insulin-Biosimilar Rapilin® bei Typ-1-Diabetes wirksam und sicher wie Originator, mit weniger Injektionsreaktionen",
+    sum:"Multizentrische retrospektive Kohortenstudie an 34 chinesischen Kliniken zum Vergleich von Wirksamkeit und Sicherheit des Insulin-Aspart-Biosimilars Rapilin® versus Originator NovoRapid® bei 229 Typ-1-Diabetes-Patienten (48,9% Männer, 50% pädiatrisch/adoleszent) über ≥12 Wochen.",
+    result:"HbA1c-Reduktion war vergleichbar (Biosimilar −1,90%, Originator −1,59%; Differenz −0,32%, 95%-KI −0,94 % bis 0,31%, p=0,322). Erreichen des HbA1c-Zielwerts (&lt;7 %) zeigte Trend zugunsten des Biosimilars (p=0,056). Nebenwirkungen insgesamt vergleichbar (37,1% vs 38,9%), aber Injektionsreaktionen signifikant seltener mit Biosimilar (0,0% vs 5,3%, p=0,014). Hypoglykämien und diabetische Ketoazidose waren nicht unterschiedlich.",
+    transfer:"Chinesische Routinedaten; Biosimilar-Evidenz auch für deutsche Kostenträger relevant zur Bewertung."
+  },
+  {
+    journal:"Diabetes Res Clin Pract", year:"2026", pmid:"43014421",
+    author:"Martens TW et al.", pubdate:"11.11.2026",
     added:"11.11.2026",
-    title:"Schlechte Schlafqualität bei älteren Diabetikern: Häufig übersehen, assoziiert mit Lebensqualität und Depression",
-    sum:"Querschnittstudie an 151 Personen &gt;60 Jahre mit Typ-2-Diabetes zur Erfassung von Schlafqualität mittels Pittsburgh Sleep Quality Index und deren Assoziation mit Lebensqualität und Depressivität.",
-    result:"Schlafqualität (PSQI &gt;5) war bei 63,6% der Patienten beeinträchtigt. Schlechte Schläfer zeigten signifikant niedrigere Werte in den Bereichen physische Gesundheit (β = -0,35) und psychische Gesundheit (β = -0,31) der WHOQOL-BREF-Skala sowie höhere Depressions-Scores (Geriatric Depression Scale β = 0,24). Nach Anpassung waren PSQI-Werte mit kardiovaskulärer Erkrankung (β = 0,26, p = 0,008) und Diabetesdauer (β = 0,24, p = 0,022) assoziiert.",
-    transfer:"Italien (Katania) – europäische Klinikdaten, direkter Bezug zu Versorgungsqualität älterer Menschen"
+    title:"CGM bei nicht-insulinbehandeltem Typ-2-Diabetes: HbA1c-Reduktion und Verbesserung der Lebensqualität in der Praxis",
+    sum:"Die Studie evaluierte über 12 Monate die reale Wirkung der Dexcom-G7-CGM bei Erwachsenen mit nicht-insulinbehandeltem Typ-2-Diabetes in US-amerikanischen Hausarztpraxen.",
+    result:"Die HbA1c-Werte sanken um durchschnittlich 0,66 % (95%-KI −0,83 % bis −0,49 %; p&lt;0,001, n=171). Das Körpergewicht nahm um 2,4 kg ab (95%-KI −3,2 bis −1,6), der BMI um 0,8 kg/m² (95%-KI −1,1 bis −0,5). Der Diabetes Distress verbesserte sich von 2,2 auf 1,8 (p&lt;0,001), und 73,5% nutzten die CGM mindestens 70% der Zeit. Die Adhärenz bei nicht-insulinbehandelten Patienten in primärer Versorgung ist damit gut.",
+    transfer:"Reale Versorgungsdaten aus US-Hausarztpraxen; Adhärenz und Effekte bei weniger intensiven Patienten wahrscheinlich übertragbar."
   },
   {
-    journal:"Acta Diabetol", year:"2026", pmid:"43012977",
-    author:"Copur S et al.", pubdate:"11.11.2026",
+    journal:"Diabet Med", year:"2026", pmid:"43010189",
+    author:"Stuckey HL et al.", pubdate:"10.11.2026",
     added:"11.11.2026",
-    title:"Datengestützte Diabetes-Subtypen: SIRD und SIDD mit höherer Nieren- und Sterblichkeitsraten",
-    sum:"Systematische Übersicht und Metaanalyse von 34 Kohortenstudien zur Assoziation von Clustering-basierten Diabetes-Subtypen (MARD, SIRD, SIDD, MOD) mit Nieren-, kardiovaskulären und Mortalitäts-Endpunkten.",
-    result:"SIRD (schwere insulinresistente Diabetes) zeigte versus MARD die stärksten Assoziationen mit Nierenergebnissen: CKD Stadium ≥3 (HR 1,84; 95%-KI 1,53–2,20), fortgeschrittene CKD (HR 2,34; 1,84–2,99), ESRD (HR 3,83; 2,47–5,93) und Makroalbuminurie (HR 2,08; 1,39–3,12). SIDD war mit erhöhtem kardiovaskulärem Tod assoziiert (HR 1,89; 1,37–2,62 vs. MOD). In zweistudiiger Analyse waren beide SIRD und SIDD mit erhöhter Gesamtsterblichkeit verknüpft (HR 2,05 bzw. 2,04).",
-    transfer:"Internationale Metaanalyse, prüft Subtypisierung als Risikostratifizierung jenseits konventioneller Faktoren"
+    title:"Transition ins Erwachsenenalter bei Diabetes: mangelnde Vorbereitung, Unsicherheit, unzureichende Koordination",
+    sum:"Qualitative Synthese von 15 Studien (2018–2023) zur Transition von Kindern/Jugendlichen mit Diabetes vom Kinder- ins Erwachsenenalter, basierend auf Interviews, Umfragen und Fokusgruppen mit Patienten, Eltern und Fachpersonen.",
+    result:"Drei zentrale Barrieren identifiziert: (1) Erwartung von mehr Autonomie bei mangelnder Unterstützung, (2) Verlust der vertrauten pädiatrischen Versorgung und Unsicherheit gegenüber dem neuen Behandler, (3) fehlende formale Vorbereitung auf den Übergang. Übergang variiert stark zwischen Programmen; systematische, personalisierte Vorbereitung mit Koordination zwischen Pädiatrie und Erwachsenenmedzin fehlt häufig.",
+    transfer:"Überwiegend Nordamerika; europäische und deutsche Transition ähnlich unterstrukturiert; Bedarf für strukturierte Übergangsprogramme evident."
   },
   {
-    journal:"Diabetes Care", year:"2026", pmid:"43012423",
-    author:"Simmons KM et al.", pubdate:"11.11.2026",
+    journal:"Diabetol Metab Syndr", year:"2026", pmid:"43015902",
+    author:"Bai H et al.", pubdate:"22.10.2026",
     added:"11.11.2026",
-    title:"Teplizumab bei Kindern und Jugendlichen mit neu diagnostiziertem Typ-1-Diabetes: Klinische Handlungsempfehlungen",
-    sum:"Klinische Leitlinien der American Diabetes Association zur Anwendung von Teplizumab (zugelassen 2026 für Patienten 8–17 Jahre mit Stage-3-Typ-1-Diabetes) in Bezug auf Timing, Voraussetzungen, Betazell-Reserve-Beurteilung, Infektionsrisiko und sichere Überwachung.",
-    result:"Teplizumab ist das erste klinisch verfügbare Präservierungsmittel der Betazell-Funktion nach Diagnose; die Leitlinien adressieren Trainingsziele für Kliniker, Auswahlkriterien (Alter 8–17, Stadium 3), Sequenzierung mit Ketoacidose-Behandlung und -Schulung, sowie Sicherheitsüberwachung. Spezifische Empfehlungen gelten Teplizumab, breitere Prinzipien sind für andere Immuntherapien adaptierbar.",
-    transfer:"USA – neue Therapieoption, aber Übertragbarkeit für Deutschland an Disease-Management und Erstattung gebunden"
-  },
-  {
-    journal:"Nat Med", year:"2026", pmid:"43003902",
-    author:"Green DJ et al.", pubdate:"09.11.2026",
-    added:"09.11.2026",
-    title:"Widerstandstraining beugt Magermasse-Verlust unter Tirzepatid bei Adipositas vor",
-    sum:"Randomisierte Studie mit 120 Erwachsenen mit Übergewicht/Adipositas, 40 Wochen Tirzepatid mit randomisierter Zuweisung zu 3x wöchentlichem Widerstandstraining oder Routineaktivitäten, zur Abfederung des Magermasse-Verlusts unter GLP-1/GIP-Agonisten.",
-    result:"Gewichtsverlust war ähnlich (Tirzepatid -22,61 kg, Tirzepatid+REx -22,28 kg, p = 0,694); Fettmasse-Verlust unterschied sich nicht (-17,19 vs. -17,98 kg, p = 0,700). Aber Magermasse-Verlust war signifikant geringer mit Training: -4,67 kg vs. -3,57 kg (p &lt; 0,001; Differenz +1,09 kg, 95%-KI 0,43–1,75). Muskelkraft stieg mit Training (Bankdrücken +4,68 kg, Latissimus +8,58 kg, Knieextension +5,88 kg) vs. Abfall nur unter Tirzepatid.",
-    transfer:"Australien – RCT, relevant für Übergewichtsmanagement; Begleitmaßnahme jenseits Pharmakologie"
-  },
-  {
-    journal:"Nat Med", year:"2026", pmid:"43000112",
-    author:"Ghanbari F et al.", pubdate:"08.11.2026",
-    added:"08.11.2026",
-    title:"Semaglutide verbessert Herzstruktur und -funktion bei HFpEF mit Adipositas: CMR-Substudie",
-    sum:"Kardiale MRT-Substudie der randomisierten CAMEO-SEMA-Studie mit 49 Teilnehmern (33 Semaglutid, 16 Placebo) zur Wirkung von Semaglutid auf kardiale Struktur und Funktion bei Herzinsuffizienz mit erhaltener Auswurffraktion (HFpEF) und Adipositas nach 52 Wochen.",
-    result:"Semaglutid verbesserte versus Placebo die linksventrikuläre Reservoir-Strain um +5,7% (95%-KI +0,3 bis +9,7; p = 0,037) und die frühe Füllungsrate/Enddiastolisches Volumen um +0,64 s⁻¹ (p &lt; 0,0001). Verbesserungen korrellierten mit Reduktion der Lungenkapillarkeilvorganspannung unter Belastung (r = -0,46 und -0,65). Semaglutid reduzierte auch linksventrikuläre Masse, verbesserte rechtsventrikuläre Funktion und bimyokardale Mechanik.",
-    transfer:"Australien/USA – Mechanismus-Substudie, gilt für HFpEF-Management weltweit"
-  },
-  {
-    journal:"Diabetologia", year:"2026", pmid:"42995267",
-    author:"Valla L et al.", pubdate:"06.11.2026",
-    added:"06.11.2026",
-    title:"Mütterlicher Diabetes vor Schwangerschaft: Betazell-Dysfunktion bei Neugeborenen in Schweinemodell",
-    sum:"Studie an Ferkeln von diabetischen Muttertieren zur Analyse der fetalen Auswirkungen auf Bauchspeicheldrüsen-Betazellen mittels funktionaler, morphologischer und molekularer Methoden.",
-    result:"Neugeborene diabetischer Mütter waren hyperglykämisch, hyperinsulinämisch und insulinresistent mit verzögerter Glukose- und Insulinantwort. Betazellen waren um 35% vermehrt, Deltazellen um 47%. Molekular zeigten sich GLUT2-Mangel, Störungen der Kalziumhomöostase (calbindin D28K fehlte fast komplett) und veränderte mTORC2-Signalisierung statt der normalen Gαs-Achse. Ein Transkriptions-Stress-Muster (ATF4-dominiert) wurde beobachtet. Diese Veränderungen überlappen mit, unterscheiden sich aber von Typ-2-Diabetes.",
-    transfer:"München – Tiermodell mit translationaler Relevanz, deutsche Grundlagenforschung zur pränatalen Programmierung"
-  },
-  {
-    journal:"Diabetol Metab Syndr", year:"2026", pmid:"43010089",
-    author:"Deshmane AR et al.", pubdate:"13.08.2026",
-    added:"10.11.2026",
-    title:"Durchgehende Kalorienrestriktion senkt Glukosevariabilität besser als Intervallfasten bei Typ-2-Diabetes",
-    sum:"Randomisierte Crossover-Studie mit 51 Personen (25–55 Jahre, Typ-2-Diabetes ≤5 Jahre, HbA1c 6,5–8%, nur Metformin oder unbehandelt) zum Vergleich von Dauerkalorienrestriktion (CCR: -500 kcal/Tag) versus zeitlich beschränktem Intervallfasten (TRIF: gleiche Kalorien, aber 2 Mahlzeiten in begrenztem Fenster) gemessen an Glukosevariabilität mit CGM.",
-    result:"Time in Range (TIR) war signifikant besser nach CCR (92,4 ± 5%) versus TRIF (81,4 ± 6,5%; p = 0,001). Time Above Range (TAR) war niedriger nach CCR (4,6 ± 4,7% vs. 10,9 ± 8,4%; p = 0,001), Time Below Range (TBR) auch (2,9 ± 3,2% vs. 7,7 ± 6,1%; p = 0,009). Carry-over und Behandlungseffekte unterschieden sich signifikant zwischen Gruppen zugunsten CCR.",
-    transfer:"Indien – Ernährungsintervention mit CGM-Messung, Methodik übertragbar auf deutsche Praxen"
+    title:"Remission bei Typ-2-Diabetes senkt kardiovaskuläre Ereignisse, nicht Gesamtsterblichkeit",
+    sum:"Systematische Übersichtsarbeit und Metaanalyse von 10 Langzeitstudien (9 in quantitativ-synthetischer Analyse) zum Zusammenhang zwischen Remission des Typ-2-Diabetes und Sterblichkeit sowie vaskulären Folgeerkrankungen.",
+    result:"Remission war NICHT signifikant mit Allsterblichkeit assoziiert (3 Studien, HR 0,80, 95%-KI 0,53–1,21; I²=65 %). Remission war aber assoziiert mit niedrigeren Raten kardiovaskulärer Ereignisse (5 Studien, HR 0,68, 95%-KI 0,59–0,80; I²=11,7 %) und mikrovaskulärer Komplikationen (5 Studien, HR 0,60, 95%-KI 0,38–0,93; I²=93,4 %). Makrovaskuläre Komplikationen zeigten ebenfalls geringere Hazards (6 Studien, HR 0,74, 95%-KI 0,58–0,93; I²=75,6 %). Die Evidenzsicherheit war moderat bis sehr niedrig.",
+    transfer:"Longitudinale Kohortenevidenz; Remissionsdaten auch aus europäischen Kohortenregistern; Sicherheit der fortgesetzten Überwachung nach Remission unterstrichen."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2325,7 +2307,7 @@ const ZUL_DIGA = 1;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "12.11.2026";
+const NEWS_STAND = "13.11.2026";
 const NEWS = [
   {titel:"Diabetische Nierenerkrankung früh erkennen: KfH zum Weltdiabetestag", datum:"2026-11-10", url:"https://www.monitor-versorgungsforschung.de/news/diabetische-nierenerkrankung-frueh-erkennen-kfh-zum-weltdiabetestag/"},
   {titel:"Typ-2-Diabetes nimmt zu: Gesundheitsbericht 2027 von DDG und diabetesDE", datum:"2026-11-09", url:"https://www.monitor-versorgungsforschung.de/news/typ-2-diabetes-nimmt-zu-gesundheitsbericht-2027-von-ddg-und-diabetesde/"},
