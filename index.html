@@ -2241,71 +2241,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "16. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "17. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Diabetologia", year:"2026", pmid:"43034238",
-    author:"Moon SJ et al.", pubdate:"14.11.2026",
+    journal:"N Engl J Med", year:"2026", pmid:"43037562",
+    author:"Jastreboff AM et al.", pubdate:"16.11.2026",
+    added:"16.11.2026",
+    title:"Semaglutide reduziert BMI bei adipösen Kindern um 13,5 Prozent",
+    sum:"Randomisierte Phase-3-Studie zu Wirksamkeit und Sicherheit von Semaglutid bei 6- bis 12-jährigen Kindern mit Adipositas.",
+    result:"In der Semaglutid-Gruppe sank der BMI um 13,5 %, in der Placebogruppe stieg er um 2,7 % (Differenz −16,2 Prozentpunkte, 95%-KI −19,4 bis −12,9; p&lt;0,001). 38 % der Semaglutid-Patienten erreichten einen BMI unterhalb der Adipositas-Schwelle (95. Perzentile) versus 2 % unter Placebo. Gastrointestinale Nebenwirkungen waren häufig, führten aber nur zu einer Abbruch.",
+    transfer:"USA und deutschsprachige Zentren, aber primär Zulassungsstudie – Erstattung in Kinderindikation unklar."
+  },
+  {
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"43036291",
+    author:"Sun H et al.", pubdate:"16.11.2026",
+    added:"16.11.2026",
+    title:"Nächtliche CGM-Muster zeigen Unterschiede in Retinopathie und Nephropathie",
+    sum:"Querschnittsstudie mit CGM-Daten von 3218 Patienten mit Typ-2-Diabetes zur Charakterisierung nächtlicher Glukosemuster und deren Assoziation mit mikrovaskulären Komplikationen.",
+    result:"Fünf Glukosemuster wurden identifiziert. Im Vergleich zu stabilen nächtlichen Verläufen waren steigende Muster mit erhöhter Retinopathie-Prävalenz assoziiert (OR 1,38, 95%-KI 1,04–1,82), fallende Muster mit erhöhter Nephropathie-Prävalenz (OR 1,28, 95%-KI 1,00–1,63). Assoziationen reproduzierten sich in interner Validierung.",
+    transfer:"China, aber CGM-Muster als Marker sind geräteunabhängig und international übertragbar."
+  },
+  {
+    journal:"Diabetes Care", year:"2026", pmid:"43038379",
+    author:"Piona C et al.", pubdate:"16.11.2026",
+    added:"16.11.2026",
+    title:"CGM-Werte bei OGTT in Jugendlichen: Genauigkeit verbessert sich nach Dekonvolution",
+    sum:"Studie zur Genauigkeit von CGM-Messwerten gegen venöse Plasmaglukose während OGTT bei 29 adipösen Jugendlichen, mit Verbesserung durch mathematische Rekonstruktion.",
+    result:"Ungefilterte CGM-Werte zeigten begrenzte Übereinstimmung (MARD 12,96 %, nur 51,72 % der Werte ±10 mg/dL). Nach dekonvolutionsbasierter Rekonstruktion sank MARD auf 5,55 %, 75,86 % lagen ±10 mg/dL, Klassifizierungsversatz reduziert sich erheblich.",
+    transfer:"Italien, aber technische Methode zur OGTT-Genauigkeit anwendbar international."
+  },
+  {
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"43036268",
+    author:"Hong JH et al.", pubdate:"16.11.2026",
+    added:"16.11.2026",
+    title:"Anagliptin zusätzlich zu Metformin+Empagliflozin: HbA1c-Senkung um 0,57 %",
+    sum:"Phase-3-Studie zu Wirksamkeit und Sicherheit von Anagliptin (DPP-4-Hemmer) als Dreifach-Therapie bei koreanischen Patienten mit unzureichender Kontrolle.",
+    result:"HbA1c-Reduktion unter Anagliptin −0,81 % versus −0,24 % unter Placebo (Differenz −0,57 %, 95%-KI −0,74 bis −0,40; p&lt;0,0001). 55,7 % erreichten HbA1c ≤7,0 % versus 25,5 % Placebo. HOMA-β verbesserte sich signifikant. Keine Hypoglykämien oder Todesfälle.",
+    transfer:"Südkorea, aber DPP-4-Hemmer etabliert in Deutschland als Triple-Therapieoption."
+  },
+  {
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"43035608",
+    author:"Amritlal ST et al.", pubdate:"15.11.2026",
+    added:"15.11.2026",
+    title:"FreeStyle Libre CGM kosteneffektiv bei Typ-2-Diabetes: ICER £5943 pro QALY",
+    sum:"Ökonomische Analyse der Kosteneffektivität von rtCGM (FreeStyle Libre) versus SMBG bei Typ-2-Diabetes-Patienten unter Basalinsulin plus SGLT2i und/oder GLP-1-RA im NHS-Setting.",
+    result:"Im 32-Wochen-Zeitraum kein signifikanter Unterschied in QALYs oder Kosten. Lifetime-Projektion: inkrementelle QALYs 0,730, inkrementelle Kosten £4341, ICER £5943 pro QALY. Mindestens 4 Jahre Nutzenerhalt erforderlich für Kosteneffektivität. Sensitivitätsanalysen robust.",
+    transfer:"UK-NHS-System, aber Kostenmodell und Langzeithorizont auf deutsches GKV-System adaptierbar."
+  },
+  {
+    journal:"Lancet Diabetes Endocrinol", year:"2026", pmid:"43033821",
+    author:"Wharton S et al.", pubdate:"14.11.2026",
     added:"14.11.2026",
-    title:"Intelligente Insulinpens mit Bolus-Rechner verbessern Glukosekontrolle",
-    sum:"Randomisierte kontrollierte Studie (RCT) an 120 erwachsenen Patienten (Typ 1 und 2) mit suboptimal eingestelltem Diabetes unter intensivierter Insulintherapie, die intelligente Insulinpens mit integriertem Bolus-Rechner gegen Pens mit reiner Datenerfassung verglichen hat.",
-    result:"HbA1c sank unter Smart-Pens um 3,39 mmol/mol (−0,31 %) stärker als unter Tracking-only-Pens (adjustierte Differenz, p=0,036). Time in Range verbesserte sich mit intelligenten Pens von 50,8 % auf 57,2 % (Differenz 6,58 %, p=0,012). Patienten mit Smart-Pens zeigten weniger fehlende Bolusgaben pro Tag (3,4 vs. 3,7; p=0,020) und höhere Bolusfrequenz (3,2 vs. 2,8; p=0,011). Schwere Hypoglykämien traten nicht auf. Die Technologie ermöglicht bessere Glukosekontrolle durch höhere Therapieadhärenz.",
-    transfer:"Südkorea, vergleichbares Insulintherapie-Setup; übertragbar auf deutsche MDI-Praxen"
-  },
-  {
-    journal:"Diabetes Res Clin Pract", year:"2026", pmid:"43034021",
-    author:"Dogru E et al.", pubdate:"14.11.2026",
-    added:"14.11.2026",
-    title:"Fenofibrat reduziert Progression der diabetischen Retinopathie",
-    sum:"Systematische Übersichtsarbeit und Meta-Analyse von 4 randomisierten kontrollierten Studien mit insgesamt 20.655 Patienten (Typ 1 und 2 Diabetes) mit mindestens 2 Jahren Nachbeobachtung zur Wirkung von oralem Fenofibrat auf die diabetische Retinopathie.",
-    result:"Fenofibrat reduzierte das kombinierte Outcome (Progression der Retinopathie oder Bedarf für Laserbehandlung) mit OR 0,67 (95%-KI 0,56–0,81; I²=0 %). Inzidente Makulaödeme sanken (OR 0,47; 95%-KI 0,29–0,76), Lasertherapiebedarf sank (OR 0,75; 95%-KI 0,65–0,87). Retinopathie-Progression auf Bildgebung war reduziert (OR 0,72; 95%-KI 0,58–0,89). Moderate Sehverluste unterschieden sich nicht (OR 0,99; p&gt;0,05), Mortalität auch nicht (OR 1,01; p&gt;0,05). Fenofibrat verringert harte Endpunkte der diabetischen Augenkomplikation über 5 Jahre.",
-    transfer:"Internationale Evidenz, leitlinienrelevant für Deutschland; DMPs derzeit nicht vorgesehen"
-  },
-  {
-    journal:"Diabetologia", year:"2026", pmid:"43034237",
-    author:"Sztanek F", pubdate:"14.11.2026",
-    added:"14.11.2026",
-    title:"CGM zur Prädiabes-Diagnose noch nicht reif für Routine",
-    sum:"Narratives Review eines ungarischen Diabetologen zur Frage, ob kontinuierliche Glukosemessung (CGM) als eigenständiges Diagnostikum für Prädiabes taugt oder nur als Phänotypisierungs- und Risikostratifizierungsinstrument.",
-    result:"Der Autor bewertet CGM-Metriken als vielversprechend zur Stratifizierung künftiger Glukoserisiken, lehnt aber die sofortige diagnostische Verwendung ab: CGM misst interstitielle (nicht venöse) Glukose; Geräte-Performance und Mess-Dauer beeinflussen Metriken; Glukosezielwerte wurden nicht als diagnostische Cut-offs bei Nicht-Diabetikern entwickelt. Bedingungen vor klinischer Implementierung: Reproduzierbarkeit über Zeit und Geräte, klinischer Mehrwert, Änderung von Managemententscheidungen, günstiges Nutzen-Schaden-Verhältnis. CGM bleibt Phenotypisierungsinstrument, nicht diagnostisches Kriterium.",
-    transfer:"Ungarn, konzeptionelle Bewertung; europäische Versorgungslage, relevant für DMP-Diskussion"
-  },
-  {
-    journal:"BMJ Open Diabetes Res Care", year:"2026", pmid:"43020529",
-    author:"Bannerman-Williams E et al.", pubdate:"12.11.2026",
-    added:"12.11.2026",
-    title:"Ethnische Unterschiede in Prädiabes-zu-Diabetes-Progression",
-    sum:"Prospektive Kohortenstudie (HELIUS) in den Niederlanden zur ethnischen Variation in der Glukoseprogression von Prädiabes zu Diabetes Typ 2.",
-    result:"Studie wurde begonnen; Abstract beschreibt Ziel und Design, berichtet aber keine konkreten Ergebnisse zum Progressionsmuster oder zu Hazard Ratios.",
-    transfer:"Niederlande, European Health Examination Survey; methodisch relevant, inhaltlich unvollständig"
-  },
-  {
-    journal:"Diabetes Res Clin Pract", year:"2026", pmid:"43020279",
-    author:"Vrettou AV et al.", pubdate:"12.11.2026",
-    added:"12.11.2026",
-    title:"Nicht jede Neuropathie bei Diabetes ist diabetisch bedingt",
-    sum:"Narratives Review mit Fokus auf die Differenzialdiagnose peripherer Neuropathien bei Patienten mit Diabetes – Hervorhebung behandelbarer Alternativdiagnosen wie Vitamin-B12-Mangel, Gammopathien, paraneoplastische und entzündliche Polyneuropathien.",
-    result:"Der Review identifiziert Schlüssel-Warnsignale für Nicht-diabetische Neuropathien: prominente motorische Schwäche, rascher Progress, Asymmetrie, sensorische Ataxie, elektrophyisiologische Demyelinisierungszeichen. Mehrere solcher Neuropathien haben spezifische Behandlungen. Strukturierter klinischer Ansatz verhindert Fehlklassifizierung, erleichtert rechtzeitige Überweisung und verbessert Patientenmanagement. Atypische klinische und elektrophysiologische Befunde müssen Verdacht auf Alternative wecken.",
-    transfer:"Griechenland, Deutschland als Co-Autor; klinischer Standard für europäische Praxis"
-  },
-  {
-    journal:"Diabet Med", year:"2026", pmid:"43010164",
-    author:"Gasa R et al.", pubdate:"10.11.2026",
-    added:"11.11.2026",
-    title:"Stammzelltherapien für Typ-1-Diabetes: Wege zur klinischen Realität",
-    sum:"Review zur Differenzierung menschlicher pluripotenter Stammzellen in β-Zellen als Alternative zu Leichenpankreas-Transplantation; Fokus auf technologische Hürden (Fehlende Mikroumgebung, Autoimmunität) und Lösungsansätze (Bioengineering, synthetische Biologie, Rechnermodelle). Neun laufende klinische Trials.",
-    result:"Langfristige Grafttransplantat-Funktion begrenzt durch: (1) Fehlende Islet-Mikroumgebung (Vaskularisierung, extrazelluläre Matrix, Stützzellen), (2) anhaltende Auto- und Alloimmunimmun-Ablehnung. Lösungsansätze identifiziert: Bioengineered Niches (Multilineage-Organoids, funktionalisierte Hydrogele, dezellularisierte Matrizen, Biodruck), synthetische Biologie (hypoimmune Genbearbeitung, CRISPR-Kontrolle, Stimulus-Response-Circuits), Computermethoden (Gene Regulatory Networks, Digital Twins). Diese komplementären Strategien versprechen sichere, effektive, dauerhafte β-Zell-Ersatztherapien; Personalisierung angestrebt.",
-    transfer:"International (UK, Spanien, Deutschland), präklinisch/Phase-1-fokussiert; langfristiger Entwicklungsweg"
-  },
-  {
-    journal:"Diabetes Technol Ther", year:"2026", pmid:"42894461",
-    author:"DeVries JH", pubdate:"19.10.2026",
-    added:"19.10.2026",
-    title:"CGM ungeeignet für Prädiabes-Diagnostik",
-    sum:"Kritische Stellungnahme eines niederländischen Diabetes-Technikers zum Einsatz von CGM (über-the-counter verfügbar) zur Diagnose von Prädiabes – Synthese zweier internationaler Studien (Singapur, Stanford).",
-    result:"Singapur-Studie: Großer Überlap zwischen Ambulatory Glucose Profiles bei Prädiabes und Normoglykämie. Optimaler Schwellwert (Time above 140 mg/dL = 5,64 %) erreichte 88 % Spezifität, aber nur 48 % Sensitivität – unzureichende Diskriminationskraft. Stanford-Studie: Schlechte Übereinstimmung (oral glucose load unter CGM vs. venöse Entnahme) in den Kategorien Normoglykämie, Prädiabes, Diabetes. Empfehlung: Für Prädiabes-Verdacht HbA1c messen, das ermöglicht elegante Klassifizierung ohne CGM-Unsicherheit.",
-    transfer:"Deutschland, Niederlande betroffen; direkter Nutzbewertungs-Impact für DMP"
+    title:"CagriSema 1,7 und 1,0 mg reduzieren Körpergewicht um 20–21 % versus Placebo",
+    sum:"Phase-3b-Studie zu Wirksamkeit und Sicherheit zweier Dosen der Doppelagonisten-Kombination Cagrilintid-Semaglutid bei Übergewicht/Adipositas ohne Diabetes.",
+    result:"Mittlerer Gewichtsverlust −20,7 % (1,7 mg) und −21,0 % (1,0 mg) versus −2,0 % (Placebo). 95,1 % bzw. 96,3 % erreichten ≥5 % Gewichtsreduktion gegenüber 33,4 % unter Placebo. Gastrointestinale Nebenwirkungen waren überwiegend mild bis moderat, keine Todesfälle.",
+    transfer:"Nordamerika und Europa (Kanada, Frankreich, Deutschland, UK, USA)."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2330,7 +2321,7 @@ const ZUL_DIGA = 1;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "16.11.2026";
+const NEWS_STAND = "17.11.2026";
 const NEWS = [
   {titel:"Forderung des VDGH: Diabetes-Früherkennung per Labordiagnostik", datum:"2026-11-16", url:"https://www.monitor-versorgungsforschung.de/news/forderung-des-vdgh-diabetes-frueherkennung-per-labordiagnostik/"},
   {titel:"Diabetische Nierenerkrankung früh erkennen: KfH zum Weltdiabetestag", datum:"2026-11-10", url:"https://www.monitor-versorgungsforschung.de/news/diabetische-nierenerkrankung-frueh-erkennen-kfh-zum-weltdiabetestag/"},
