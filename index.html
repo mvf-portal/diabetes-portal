@@ -2257,9 +2257,18 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "18. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "18. Nov. 2026, 05:25 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
+  {
+    journal:"Diabetes Metab Res Rev", year:"2026", pmid:"43039827",
+    author:"Yu J et al.", pubdate:"Nov. 2026",
+    added:"16.11.2026",
+    title:"Triple orale Therapie ähnlich wirksam wie Insulin bei Typ-2-Diabetes",
+    sum:"Systematische Übersichtsarbeit und Netzwerk-Metaanalyse von 42 RCTs mit 13.911 Patienten zur Vergleichbarkeit von dreifacher oraler Therapie versus insulinbasierter Therapie nach Dual-Therapy-Versagen.",
+    result:"HbA1c-Reduktion vergleichbar: MD 0,01 % (95%-KI –0,56–0,58). Triple oral (Met+DPP-4i+SGLT2i) zeigte Gewichtsvorteil (–3,30 kg vs. Insulin, p&lt;0,05) ohne erhöhtes Hypoglykämierisiko. Orals waren insulinbasierter Therapie überlegen bei Gewichtsverlust, vergleichbar bei Glykämie-Kontrolle.",
+    transfer:"Globale Daten, relevant für deutsche DMP-Prioritäten; kombinierte SGLT2i-Strategien sind Leitlinien-Standard."
+  },
   {
     journal:"Diabetes Metab", year:"2026", pmid:"43039292",
     author:"Talbo MK et al.", pubdate:"16.11.2026",
@@ -2268,6 +2277,15 @@ const STUDIES = [
     sum:"Prospektive Analyse der BETTER Registry (Kanada) mit 466 Patienten mit Typ-1-Diabetes: Vergleich der Hypoglycemia Fear Survey II (HFS-II) Score-Änderungen nach Start automatisierter Insulinabgabe (AID) versus Fortsetzung MDI oder CSII.",
     result:"AID-Initiierung assoziiert mit HFS-II-Reduktion: Gesamt –4,05 (95%-KI –7,04 bis –1,06), Besorgnis –2,27 (–4,34 bis –0,20), Verhalten –1,78 (–3,22 bis –0,33) vs. Baseline. MDI-Nutzer zeigten ungünstiger Änderungen (Besorgnis +2,06). AID-Nutzer häufiger HbA1c ≤7 % (Ziel). Effekte robust nach Adjustment für Hypoglykämie-Häufigkeit.",
     transfer:"Kanada (vergleichbares System), Multi-Center; AID-Daten übertragbar auf deutsche Versorgung, aber Kostenerstattung limitierend."
+  },
+  {
+    journal:"Cardiovasc Diabetol", year:"2026", pmid:"43035788",
+    author:"Rankinen J et al.", pubdate:"18.08.2026",
+    added:"15.11.2026",
+    title:"Diabetes erhöht Risiko für plötzlichen Herztod auch ohne Koronare Herzkrankheit",
+    sum:"Retrospektive Kohortenstudie von 22.395 Patienten mit Koronarangiographie 2007–2018 (Finnland) mit Nachverfolgung bis Dez 2022 zur Assoziation von Diabetes mit plötzlichem Herzstillstand (SCA) und plötzlichem Herztod (SCD).",
+    result:"5.804 Diabetiker, 1.046 SCD-/SCD-Equivalent-Fälle über 8,1 Jahre Median-FU. Diabetes assoziiert mit SCD auch ohne obstruktive KHK (SHR 1,53, 95%-KI 1,11–2,12, p=0,010). Bei KHK+Diabetes: niedrigeres SCD-Risiko mit Revaskularisierung vs. medikamentös (SHR 0,77, 95%-KI 0,60–0,99, p=0,039). Allerdings dominiert Nicht-SCA-Mortalität (3:1).",
+    transfer:"Finnland, europäischer Versorgungskontext; Risikostratifizierung und Revaskularisierungsentscheidungen bei Diabetes relevant."
   },
   {
     journal:"JAMA", year:"2026", pmid:"43035096",
@@ -2288,22 +2306,13 @@ const STUDIES = [
     transfer:"Deutschland, Helmholtz Munich und universitäre Zentren; unmittelbar übertragbar auf Screening und Prävention."
   },
   {
-    journal:"Diabetes Metab Res Rev", year:"2026", pmid:"43039827",
-    author:"Yu J et al.", pubdate:"Nov. 2026",
-    added:"16.11.2026",
-    title:"Triple orale Therapie ähnlich wirksam wie Insulin bei Typ-2-Diabetes",
-    sum:"Systematische Übersichtsarbeit und Netzwerk-Metaanalyse von 42 RCTs mit 13.911 Patienten zur Vergleichbarkeit von dreifacher oraler Therapie versus insulinbasierter Therapie nach Dual-Therapy-Versagen.",
-    result:"HbA1c-Reduktion vergleichbar: MD 0,01 % (95%-KI –0,56–0,58). Triple oral (Met+DPP-4i+SGLT2i) zeigte Gewichtsvorteil (–3,30 kg vs. Insulin, p&lt;0,05) ohne erhöhtes Hypoglykämierisiko. Orals waren insulinbasierter Therapie überlegen bei Gewichtsverlust, vergleichbar bei Glykämie-Kontrolle.",
-    transfer:"Globale Daten, relevant für deutsche DMP-Prioritäten; kombinierte SGLT2i-Strategien sind Leitlinien-Standard."
-  },
-  {
-    journal:"Cardiovasc Diabetol", year:"2026", pmid:"43035788",
-    author:"Rankinen J et al.", pubdate:"18.08.2026",
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"43035629",
+    author:"de la Rambelje MA et al.", pubdate:"15.11.2026",
     added:"15.11.2026",
-    title:"Diabetes erhöht Risiko für plötzlichen Herztod auch ohne Koronare Herzkrankheit",
-    sum:"Retrospektive Kohortenstudie von 22.395 Patienten mit Koronarangiographie 2007–2018 (Finnland) mit Nachverfolgung bis Dez 2022 zur Assoziation von Diabetes mit plötzlichem Herzstillstand (SCA) und plötzlichem Herztod (SCD).",
-    result:"5.804 Diabetiker, 1.046 SCD-/SCD-Equivalent-Fälle über 8,1 Jahre Median-FU. Diabetes assoziiert mit SCD auch ohne obstruktive KHK (SHR 1,53, 95%-KI 1,11–2,12, p=0,010). Bei KHK+Diabetes: niedrigeres SCD-Risiko mit Revaskularisierung vs. medikamentös (SHR 0,77, 95%-KI 0,60–0,99, p=0,039). Allerdings dominiert Nicht-SCA-Mortalität (3:1).",
-    transfer:"Finnland, europäischer Versorgungskontext; Risikostratifizierung und Revaskularisierungsentscheidungen bei Diabetes relevant."
+    title:"SGLT2-Inhibitor Canagliflozin verändert Tubulus-Proteinstoffwechsel bei diabetischer Nephropathie",
+    sum:"Proteomanalyse von Urin bei Patienten mit diabetischer Nierenkrankheit unter SGLT2-Inhibitor Canagliflozin vs. Placebo (CREDENCE-Trial-Daten).",
+    result:"Nach einem Jahr zeigten sich 124 Proteine in der Canagliflozin-Gruppe verändert (92 erhöht, 32 erniedrigt). Besonders Enolase 1, SLIT und LRRC15 stiegen über 3-fach an. Pathway-Analysen deuteten auf verstärkte Metabolismusvorgänge in distalen Tubuluszellen hin, was eine Umverteilung der Rückresorption nahelegt und zum Nierenschutz beitragen könnte.",
+    transfer:"Niederlande, Prospektiver Mechanismus-Nachweis aus RCT mit Nierenschutz-Endpunkt"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2318,7 +2327,7 @@ const RADAR_FRISTEN = [["2026-12-31"], [], ["2027-01-07"], [], [], [], [], ["202
 // === RADAR-BLOCK-ENDE ===
 
 // === ZULASSUNG-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const ZUL_STAND = "17.11.2026";
+const ZUL_STAND = "18.11.2026";
 const ZUL_EIGENE = 11;
 const ZUL_GUTACHTEN = 5;
 const ZUL_ZULASSUNG = 2;
