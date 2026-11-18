@@ -2257,62 +2257,53 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "17. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "18. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"N Engl J Med", year:"2026", pmid:"43037562",
-    author:"Jastreboff AM et al.", pubdate:"16.11.2026",
+    journal:"Diabetes Metab", year:"2026", pmid:"43039292",
+    author:"Talbo MK et al.", pubdate:"16.11.2026",
     added:"16.11.2026",
-    title:"Semaglutide reduziert BMI bei adipösen Kindern um 13,5 Prozent",
-    sum:"Randomisierte Phase-3-Studie zu Wirksamkeit und Sicherheit von Semaglutid bei 6- bis 12-jährigen Kindern mit Adipositas.",
-    result:"In der Semaglutid-Gruppe sank der BMI um 13,5 %, in der Placebogruppe stieg er um 2,7 % (Differenz −16,2 Prozentpunkte, 95%-KI −19,4 bis −12,9; p&lt;0,001). 38 % der Semaglutid-Patienten erreichten einen BMI unterhalb der Adipositas-Schwelle (95. Perzentile) versus 2 % unter Placebo. Gastrointestinale Nebenwirkungen waren häufig, führten aber nur zu einer Abbruch.",
-    transfer:"USA und deutschsprachige Zentren, aber primär Zulassungsstudie – Erstattung in Kinderindikation unklar."
+    title:"Automatisierte Insulinabgabe reduziert Furcht vor Hypoglykämie ohne Einbußen bei HbA1c",
+    sum:"Prospektive Analyse der BETTER Registry (Kanada) mit 466 Patienten mit Typ-1-Diabetes: Vergleich der Hypoglycemia Fear Survey II (HFS-II) Score-Änderungen nach Start automatisierter Insulinabgabe (AID) versus Fortsetzung MDI oder CSII.",
+    result:"AID-Initiierung assoziiert mit HFS-II-Reduktion: Gesamt –4,05 (95%-KI –7,04 bis –1,06), Besorgnis –2,27 (–4,34 bis –0,20), Verhalten –1,78 (–3,22 bis –0,33) vs. Baseline. MDI-Nutzer zeigten ungünstiger Änderungen (Besorgnis +2,06). AID-Nutzer häufiger HbA1c ≤7 % (Ziel). Effekte robust nach Adjustment für Hypoglykämie-Häufigkeit.",
+    transfer:"Kanada (vergleichbares System), Multi-Center; AID-Daten übertragbar auf deutsche Versorgung, aber Kostenerstattung limitierend."
   },
   {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"43036291",
-    author:"Sun H et al.", pubdate:"16.11.2026",
-    added:"16.11.2026",
-    title:"Nächtliche CGM-Muster zeigen Unterschiede in Retinopathie und Nephropathie",
-    sum:"Querschnittsstudie mit CGM-Daten von 3218 Patienten mit Typ-2-Diabetes zur Charakterisierung nächtlicher Glukosemuster und deren Assoziation mit mikrovaskulären Komplikationen.",
-    result:"Fünf Glukosemuster wurden identifiziert. Im Vergleich zu stabilen nächtlichen Verläufen waren steigende Muster mit erhöhter Retinopathie-Prävalenz assoziiert (OR 1,38, 95%-KI 1,04–1,82), fallende Muster mit erhöhter Nephropathie-Prävalenz (OR 1,28, 95%-KI 1,00–1,63). Assoziationen reproduzierten sich in interner Validierung.",
-    transfer:"China, aber CGM-Muster als Marker sind geräteunabhängig und international übertragbar."
-  },
-  {
-    journal:"Diabetes Care", year:"2026", pmid:"43038379",
-    author:"Piona C et al.", pubdate:"16.11.2026",
-    added:"16.11.2026",
-    title:"CGM-Werte bei OGTT in Jugendlichen: Genauigkeit verbessert sich nach Dekonvolution",
-    sum:"Studie zur Genauigkeit von CGM-Messwerten gegen venöse Plasmaglukose während OGTT bei 29 adipösen Jugendlichen, mit Verbesserung durch mathematische Rekonstruktion.",
-    result:"Ungefilterte CGM-Werte zeigten begrenzte Übereinstimmung (MARD 12,96 %, nur 51,72 % der Werte ±10 mg/dL). Nach dekonvolutionsbasierter Rekonstruktion sank MARD auf 5,55 %, 75,86 % lagen ±10 mg/dL, Klassifizierungsversatz reduziert sich erheblich.",
-    transfer:"Italien, aber technische Methode zur OGTT-Genauigkeit anwendbar international."
-  },
-  {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"43036268",
-    author:"Hong JH et al.", pubdate:"16.11.2026",
-    added:"16.11.2026",
-    title:"Anagliptin zusätzlich zu Metformin+Empagliflozin: HbA1c-Senkung um 0,57 %",
-    sum:"Phase-3-Studie zu Wirksamkeit und Sicherheit von Anagliptin (DPP-4-Hemmer) als Dreifach-Therapie bei koreanischen Patienten mit unzureichender Kontrolle.",
-    result:"HbA1c-Reduktion unter Anagliptin −0,81 % versus −0,24 % unter Placebo (Differenz −0,57 %, 95%-KI −0,74 bis −0,40; p&lt;0,0001). 55,7 % erreichten HbA1c ≤7,0 % versus 25,5 % Placebo. HOMA-β verbesserte sich signifikant. Keine Hypoglykämien oder Todesfälle.",
-    transfer:"Südkorea, aber DPP-4-Hemmer etabliert in Deutschland als Triple-Therapieoption."
-  },
-  {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"43035608",
-    author:"Amritlal ST et al.", pubdate:"15.11.2026",
+    journal:"JAMA", year:"2026", pmid:"43035096",
+    author:"Kelly AS et al.", pubdate:"15.11.2026",
     added:"15.11.2026",
-    title:"FreeStyle Libre CGM kosteneffektiv bei Typ-2-Diabetes: ICER £5943 pro QALY",
-    sum:"Ökonomische Analyse der Kosteneffektivität von rtCGM (FreeStyle Libre) versus SMBG bei Typ-2-Diabetes-Patienten unter Basalinsulin plus SGLT2i und/oder GLP-1-RA im NHS-Setting.",
-    result:"Im 32-Wochen-Zeitraum kein signifikanter Unterschied in QALYs oder Kosten. Lifetime-Projektion: inkrementelle QALYs 0,730, inkrementelle Kosten £4341, ICER £5943 pro QALY. Mindestens 4 Jahre Nutzenerhalt erforderlich für Kosteneffektivität. Sensitivitätsanalysen robust.",
-    transfer:"UK-NHS-System, aber Kostenmodell und Langzeithorizont auf deutsches GKV-System adaptierbar."
+    title:"Tirzepatid senkt BMI bei adipösen Jugendlichen um 18,5 % versus 0,5 % unter Placebo",
+    sum:"Phase-3-RCT mit 160 Jugendlichen (12–18 Jahre) mit Übergewicht/Adipositas und Folgeerkrankungen: Tirzepatid wöchentlich bis max. 15 mg versus Placebo über 72 Wochen plus Lebensstiländerung.",
+    result:"BMI-Reduktion 18,5 % (Tirzepatid) vs. +0,5 % (Placebo), Differenz –19,0 %-Punkte (p&lt;0,001). 79,6 % der Tirzepatid-Gruppe erreichten ≥5 % BMI-Reduktion vs. 28,5 % Placebo. Alle 10 sekundären Endpunkte (u.a. Funktion, Waist) zugunsten Tirzepatid signifikant. Nebenwirkungen: überwiegend mild-moderat gastrointestinal.",
+    transfer:"Nordamerika/Europa, vergleichbare Versorgung; Adipositasindikation, nicht Diabetes-spezifisch."
   },
   {
-    journal:"Lancet Diabetes Endocrinol", year:"2026", pmid:"43033821",
-    author:"Wharton S et al.", pubdate:"14.11.2026",
-    added:"14.11.2026",
-    title:"CagriSema 1,7 und 1,0 mg reduzieren Körpergewicht um 20–21 % versus Placebo",
-    sum:"Phase-3b-Studie zu Wirksamkeit und Sicherheit zweier Dosen der Doppelagonisten-Kombination Cagrilintid-Semaglutid bei Übergewicht/Adipositas ohne Diabetes.",
-    result:"Mittlerer Gewichtsverlust −20,7 % (1,7 mg) und −21,0 % (1,0 mg) versus −2,0 % (Placebo). 95,1 % bzw. 96,3 % erreichten ≥5 % Gewichtsreduktion gegenüber 33,4 % unter Placebo. Gastrointestinale Nebenwirkungen waren überwiegend mild bis moderat, keine Todesfälle.",
-    transfer:"Nordamerika und Europa (Kanada, Frankreich, Deutschland, UK, USA)."
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"43026158",
+    author:"Weiss A et al.", pubdate:"13.11.2026",
+    added:"13.11.2026",
+    title:"Progression-Score identifiziert Typ-1-Diabetes-Patienten mit rascher Verschlechterung",
+    sum:"Validierungsstudie des Progression Likelihood Score (PLS) zur Stratifizierung des Progressionsrisikos in frühem Typ-1-Diabetes an deutschen Kohorten.",
+    result:"Der PLS ermöglichte eine zuverlässige Risikostratifizierung für das Fortschreiten von Stadium 1 zu Stadium 3 Typ-1-Diabetes. Patienten wurden nach Progressionswahrscheinlichkeit klassifiziert, was präventive Intervention ermöglicht – ein validiertes Werkzeug für frühe Risikozuweisung.",
+    transfer:"Deutschland, Helmholtz Munich und universitäre Zentren; unmittelbar übertragbar auf Screening und Prävention."
+  },
+  {
+    journal:"Diabetes Metab Res Rev", year:"2026", pmid:"43039827",
+    author:"Yu J et al.", pubdate:"Nov. 2026",
+    added:"16.11.2026",
+    title:"Triple orale Therapie ähnlich wirksam wie Insulin bei Typ-2-Diabetes",
+    sum:"Systematische Übersichtsarbeit und Netzwerk-Metaanalyse von 42 RCTs mit 13.911 Patienten zur Vergleichbarkeit von dreifacher oraler Therapie versus insulinbasierter Therapie nach Dual-Therapy-Versagen.",
+    result:"HbA1c-Reduktion vergleichbar: MD 0,01 % (95%-KI –0,56–0,58). Triple oral (Met+DPP-4i+SGLT2i) zeigte Gewichtsvorteil (–3,30 kg vs. Insulin, p&lt;0,05) ohne erhöhtes Hypoglykämierisiko. Orals waren insulinbasierter Therapie überlegen bei Gewichtsverlust, vergleichbar bei Glykämie-Kontrolle.",
+    transfer:"Globale Daten, relevant für deutsche DMP-Prioritäten; kombinierte SGLT2i-Strategien sind Leitlinien-Standard."
+  },
+  {
+    journal:"Cardiovasc Diabetol", year:"2026", pmid:"43035788",
+    author:"Rankinen J et al.", pubdate:"18.08.2026",
+    added:"15.11.2026",
+    title:"Diabetes erhöht Risiko für plötzlichen Herztod auch ohne Koronare Herzkrankheit",
+    sum:"Retrospektive Kohortenstudie von 22.395 Patienten mit Koronarangiographie 2007–2018 (Finnland) mit Nachverfolgung bis Dez 2022 zur Assoziation von Diabetes mit plötzlichem Herzstillstand (SCA) und plötzlichem Herztod (SCD).",
+    result:"5.804 Diabetiker, 1.046 SCD-/SCD-Equivalent-Fälle über 8,1 Jahre Median-FU. Diabetes assoziiert mit SCD auch ohne obstruktive KHK (SHR 1,53, 95%-KI 1,11–2,12, p=0,010). Bei KHK+Diabetes: niedrigeres SCD-Risiko mit Revaskularisierung vs. medikamentös (SHR 0,77, 95%-KI 0,60–0,99, p=0,039). Allerdings dominiert Nicht-SCA-Mortalität (3:1).",
+    transfer:"Finnland, europäischer Versorgungskontext; Risikostratifizierung und Revaskularisierungsentscheidungen bei Diabetes relevant."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2337,7 +2328,7 @@ const ZUL_DIGA = 1;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "17.11.2026";
+const NEWS_STAND = "18.11.2026";
 const NEWS = [
   {titel:"Forderung des VDGH: Diabetes-Früherkennung per Labordiagnostik", datum:"2026-11-16", url:"https://www.monitor-versorgungsforschung.de/news/forderung-des-vdgh-diabetes-frueherkennung-per-labordiagnostik/"},
   {titel:"Diabetische Nierenerkrankung früh erkennen: KfH zum Weltdiabetestag", datum:"2026-11-10", url:"https://www.monitor-versorgungsforschung.de/news/diabetische-nierenerkrankung-frueh-erkennen-kfh-zum-weltdiabetestag/"},
