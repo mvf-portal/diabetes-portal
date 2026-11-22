@@ -2257,62 +2257,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "21. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "22. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Diabetes", year:"2026", pmid:"42853097",
-    author:"Vollmer S et al.", pubdate:"01.12.2026",
-    added:"09.10.2026",
-    title:"Algorithmus korrigiert Fehlklassifikation von Diabetes-Subtypen in Registern um 3,9%",
-    sum:"Entwicklung eines klinisch-genetischen Klassifikations-Algorithmus für Diabetes-Subtypen mit Validierung gegen das Schwedische Nationale Diabetes-Register (NDR) in 18.985 Personen der ANDIS-Kohorte.",
-    result:"Algorithmus reklassifizierte 3,9% der NDR-Fälle in andere Subtypen (Übereinstimmung κ=0,71); Verteilung: Typ-1 3,3%, Typ-2 92%, LADA 3,6%, Typ-3c 0,5%; Polygenic-Risk-Scores validieren die Reklassifikation und zeigen genetische Gradienten zwischen reklassifizierten und ursprünglichen Gruppen, was Heterogenität in Registern aufdeckt.",
-    transfer:"Schweden – hohe Datenqualität und genetische Validierbarkeit, Modell anwendbar für deutsche Register zur Verbesserung der Subtyp-Präzision"
+    journal:"J Clin Endocrinol Metab", year:"2026", pmid:"43065309",
+    author:"Selen DJ et al.", pubdate:"21.11.2026",
+    added:"21.11.2026",
+    title:"Gestationsdiabetes-Screening identifiziert Risiko für späteren Diabetes",
+    sum:"Die Studie untersuchte bei 747 Schwangerschaften, ob sich Gestationsglukose-Intoleranz anhand der zugrunde liegenden Mechanismen (Insulinresistenz, Insulinmangel oder gemischt) in unterschiedliche Langzeitrisiken für Prediabetes oder Diabetes stratifizieren lässt.",
+    result:"Über 15,9 Jahre Nachbeobachtung entwickelten 36,4 % Prediabetes oder Diabetes. Alle Subtypen waren assoziiert mit erhöhtem Risiko: Insulinresistenz-Typ Hazard Ratio (HR) 1,80 (95 %-CI: 1,22–2,65), Insulinmangel-Typ HR 2,15 (1,35–3,42), gemischter Typ HR 2,07 (1,02–4,20). Das Risiko bestand unabhängig vom Mechanismus.",
+    transfer:"USA-Kohortenstudie; Mechanismen sind biologisch universal, prospektive Validierung in Deutschland nötig"
   },
   {
-    journal:"Diabetes Care", year:"2026", pmid:"43062372",
-    author:"Lind M et al.", pubdate:"20.11.2026",
-    added:"20.11.2026",
-    title:"Psychologische Beratung reduziert Diabetes-Distress, nicht aber HbA1c bei Typ-1-Diabetes",
-    sum:"Randomisierte Studie in sechs schwedischen Kliniken: Strukturierte psychologische Schulung durch speziell ausgebildete Psychologen zusätzlich zur Standardbehandlung bei 151 Erwachsenen mit Typ-1-Diabetes und HbA1c &gt;7,8%.",
-    result:"HbA1c-Reduktion war nicht signifikant unterschiedlich (Psycholog -0,58% vs. Kontrolle -0,36%; Differenz -0,2%, n.s.); jedoch sank Diabetes-Distress signifikant (Differenz -0,2, p=0,040) und Behandlungszufriedenheit stieg (Differenz +3,5 Punkte, p=0,004); Patienten bewerteten Psychologen-Besuche sehr positiv (Median 9/10).",
-    transfer:"Schweden – vergleichbares Gesundheitssystem, strukturierte Psychologie-Integration nachweisbar praktikabel und für Diabetes-Distress-Reduktion wirksam"
+    journal:"Diabetes Technol Ther", year:"2026", pmid:"43065129",
+    author:"Pajek M et al.", pubdate:"20.11.2026",
+    added:"21.11.2026",
+    title:"Bessere Langzeit-Glukosekontrolle assoziiert mit höherer kardiorespiratorischer Fitness",
+    sum:"Sekundäranalyse von gepoolten Daten aus klinischen Studien mit 77 Jugendlichen und jungen Erwachsenen (Typ-1-Diabetes, Alter Median 15,8 Jahre) mit Spiroergometrie und kontinuierlicher Glukosemessung sowie Langzeit-HbA1c-Daten seit Diabetesonset.",
+    result:"Höhere kumulative glykämische Exposition (% Jahre) war unabhängig assoziiert mit niedrigerem VO₂peak (β=–0,053, p=0,024), niedrigerer Ventilationsschwelle (VT1; β=–0,064, p=0,024) und niedrigerem Leistungsoutput (β=–0,0086, p&lt;0,001). Besserer Time in Tight Range war assoziiert mit höherer VT1 (β=0,289 mL/kg/min pro Prozentpunkt, p=0,003).",
+    transfer:"Multi-nationale gepoolte Daten; biologische Assoziation universell, für deutsche Adipositas-/Fitness-Studien relevant"
   },
   {
-    journal:"Diabetes Care", year:"2026", pmid:"43062411",
-    author:"Foppiani A et al.", pubdate:"20.11.2026",
-    added:"20.11.2026",
-    title:"30-Minuten-C-Peptid vorhersagt Diabetes bei Mukoviszidose: Risikostratifizierung ohne Test-Schwelle",
-    sum:"Multizentrische italienische Kohortenstudie an 309 Mukoviszidose-Patienten: Retrospektive Analyse, ob frühe C-Peptid-Antwort im OGTT das Risiko für spätere Mukoviszidose-assoziierte Diabetes (CFRD) vorhersagt.",
-    result:"Über 8,8 Jahre entwickelten 70/309 (22,7%) CFRD. Bei normaler Glukosetoleranz (n=222) war niedriges 30-min-C-Peptid unabhängig mit CFRD-Risiko assoziiert (HR 0,52 pro IQR-Anstieg; 95%-KI 0,30–0,92); exploratorische Schwelle 4,65 ng/mL war nicht stabil; Modulatoren-Behandlung senkte CFRD-Risiko (HR 0,27).",
-    transfer:"Italien – prospektive externe Validierung erforderlich, aber Mechanismus der Early-C-Peptid-Vorhersage potenziell übertragbar auf prädiabetische Risikoerfassung"
-  },
-  {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"43058037",
-    author:"Weigelt M et al.", pubdate:"19.11.2026",
+    journal:"Diabetes Obes Metab", year:"2026", pmid:"43058053",
+    author:"Pinilla J et al.", pubdate:"19.11.2026",
     added:"19.11.2026",
-    title:"Blutfleck-Screening für Früherkennung von Typ-1-Diabetes: hohe Sensitivität bestätigt",
-    sum:"Entwicklung und Validierung eines sensitiven Screening-Verfahrens für frühe Autoimmun-Marker des Typ-1-Diabetes auf Trockenblutkarten als Basis für bevölkerungsweite Prävention.",
-    result:"Das Verfahren identifizierte Autoimmun-Marker mit hoher Sensitivität und ermöglicht damit frühzeitige Detektion von Typ-1-Diabetes in der asymptomatischen Phase – ein wesentlicher Schritt für präventive Interventionen vor symptomatischer Erkrankung.",
-    transfer:"Deutschland: TÜ-Dresden und Helmholtz-Institute, etablierte Screeninginfrastruktur, prävention vor Manifestation relevant für DMP-Integration"
+    title:"Metformin bei fortgeschrittener Nierenerkrankung senkt Risiko für Dialysepflicht",
+    sum:"Metaanalyse von 10 Kohortenstudien zur Sicherheit und Wirksamkeit von Metformin bei Typ-2-Diabetes und eGFR &lt;30 mL/min/1,73 m² (nicht unter Dialyse) bezüglich Endstadium-Nierenerkrankung (ESKD), kardiovaskuläre Ereignisse, Sterblichkeit und Azidose.",
+    result:"Für ESKD zeigte die Bayessche Analyse eine gepoolte Hazard Ratio von 0,64 (95 %-CrI: 0,45–0,92; 99 % posteriore Wahrscheinlichkeit HR &lt;1). Schätzungen für Sterblichkeit (HR 0,89; 95 %-CrI: 0,73–1,10) und kardiovaskuläre Ereignisse (HR 0,88; 95 %-CrI: 0,72–1,08) waren impräzise. Azidoserisiko konnte nicht ausgeschlossen werden (HR 1,39; 95 %-CrI: 0,76–2,49). Evidenzsicherheit sehr niedrig für alle Outcomes.",
+    transfer:"Metaanalyse globaler Kohorten; für Deutschland relevant, aber Evidenzsicherheit sehr niedrig"
   },
   {
-    journal:"Diabetes Obes Metab", year:"2026", pmid:"43058081",
-    author:"Zhang Y et al.", pubdate:"19.11.2026",
+    journal:"J Diabetes Sci Technol", year:"2026", pmid:"43055124",
+    author:"Alqahtani A et al.", pubdate:"19.11.2026",
     added:"19.11.2026",
-    title:"SGLT2-Hemmer senken Nierenkomplikationen auch ohne Albuminurie um 38%",
-    sum:"Große retrospektive Kohortenstudie aus Hong Kong mit über 226.000 Typ-2-Diabetes-Patienten zur Nierenschutzwirkung von SGLT2-Hemmern bei normaler Albuminurie über 7 Jahre.",
-    result:"SGLT2-Hemmer reduzieren das Risiko für Nierenfunktionsverschlechterung (≥40% eGFR-Abfall oder ESRD) um 38% (HR 0,62; 95%-KI 0,57–0,66), unabhängig davon, ob während Follow-up Albuminurie auftritt; Effekt bleibt in Propensity-Score-Analysen signifikant (OR 0,61).",
-    transfer:"Hongkong – ähnliche elektronische Dokumentation wie deutsches System, Daten zu primärer Nierenprotektion ohne Proteinurie praktisch relevant für DMP-Behandlung"
+    title:"Automatisierte Insulinabgabe erhöht Time in Range von 59 auf 73,5 % und reduziert Hypoglykämien dauerhaft",
+    sum:"Prospektive Kohortenstudie mit 132 Erwachsenen mit Typ-1-Diabetes (Alter 27,2±7,7 Jahre), die zwischen Dezember 2023 und November 2025 Control-IQ oder MiniMed 780G begannen, mit 12 Monaten Nachbeobachtung und CGM-Metriken sowie HbA1c.",
+    result:"Time in Range stieg von 59,0±15,4 % (Baseline) auf 72,3±10,2 % nach 2 Wochen und blieb bei 73,5±11,5 % nach 12 Monaten (Differenz +15,1 Prozentpunkte, p&lt;0,001). Time &lt;70 mg/dL fiel von 5,3±5,3 auf 1,4±1,2 %. HbA1c sank von 7,42±1,13 auf 6,52±0,73 % (p&lt;0,001). Patienten mit TIR ≥70 % stiegen von 29,0 % auf 71,0 %, mit HbA1c &lt;7 % von 30,3 % auf 74,5 %. Schwere Hypoglykämien und Ketoazidosen deutlich reduziert.",
+    transfer:"Saudiarabien, Tertiärzentrum; Real-World-Evidenz, deutsche Versorgung durch GKV-Erstattung realisierbar"
   },
   {
-    journal:"Diabet Med", year:"2026", pmid:"43052228",
-    author:"Pieri B et al.", pubdate:"18.11.2026",
+    journal:"Diabetes Ther", year:"2026", pmid:"43050025",
+    author:"Yang J et al.", pubdate:"18.11.2026",
     added:"18.11.2026",
-    title:"Akute Hyperglykämie beeinträchtigt Kognition: Effekt ab 15–18 mmol/L, deutlich ab ≥20 mmol/L",
-    sum:"Systematische Übersichtsarbeit von 18 Studien zu Auswirkungen akuter Hyperglykämie auf Aufmerksamkeit, Verarbeitungsgeschwindigkeit, Exekutivfunktion und Arbeitsgedächtnis bei Typ-1 und Typ-2-Diabetes.",
-    result:"Bei 10–15 mmol/L: gemischte Effekte. Bei 15–18 mmol/L: konsistente Kognitiv-Beeinträchtigung. Bei ≥20 mmol/L: weit verbreitete Defizite vor allem in Arbeitsgedächtnis, Aufmerksamkeit und Verarbeitungsgeschwindigkeit; Fahrtauglichkeit beeinträchtigt ab &gt;16,7 mmol/L; Auswirkungen auf Alltagsaktivitäten, Schulleistung und Arbeitsproduktivität dokumentiert.",
-    transfer:"UK – systematische Review mit qualitativer Synthese, Schwellwerte für kognitive Beeinträchtigung sind populationsübergreifend relevant für Hypoglykämie-Management und Fahrtauglichkeit"
+    title:"Langfristige Glukose- und Lipidkontrolle reduzieren Sterblichkeit bei Diabetes mit Nierenerkrankung",
+    sum:"Retrospektive Kohortenstudie mit 7978 Patienten mit Typ-2-Diabetes und chronischer Nierenerkrankung aus der Tianjin-Datenbank (2000–2025), die gewichtete kumulative Exposition von HbA1c und LDL-Cholesterin über die Zeit als Prädiktoren für Gesamtsterblichkeit untersuchte.",
+    result:"Bei Medianfollow-up 5,04 Jahre (402 Todesfälle): Dauerhaft erhöhtes HbA1c 8 % vs. 6,5 % assoziiert mit HR 1,14 (95 %-CI: 1,04–1,27); erhöhtes LDL-C 3,4 vs. 1,8 mmol/l mit HR 1,40 (1,10–1,74). HbA1c-Effekt erreichte Maximum ~17 Monate vor Tod, LDL-C-Effekt ~33 Monate davor und persistierte länger.",
+    transfer:"China, elektronische Gesundheitsakten; Mechanismus universal, deutsche Validierung mit vergleichbarem System möglich"
+  },
+  {
+    journal:"Diabetes Ther", year:"2026", pmid:"43050026",
+    author:"Aamir AH et al.", pubdate:"18.11.2026",
+    added:"18.11.2026",
+    title:"Human-Mischinsulin 70/30 senkt HbA1c um 2,3 % mit guter Sicherheit im Versorgungsalltag",
+    sum:"Prospektive Beobachtungsstudie an 384 insulinnaiven Patienten mit Typ-2-Diabetes (HbA1c ≥9 % trotz zwei oder mehr oralen Medikamenten) in Pakistan, die 6 Monate mit Misch-Humaninsulin 70/30 behandelt wurden.",
+    result:"HbA1c sank von 11,2±1,5 % (Baseline) auf 9,3±1,5 % (Tag 90) und 8,8±1,5 % (Tag 180), Reduktion 2,3±1,8 % (p&lt;0,001). 78,1 % erreichten ≥1 % HbA1c-Reduktion, 9,0 % unterschritten 7 %. Hypoglykämien &lt;70 mg/dL bei nur 2,1 %, keine schweren Ereignisse. 6-Monats-Gesamtkost pro Patient PKR 36.269; Insulin nur 19,8 % davon.",
+    transfer:"Pakistan, niedrige Ressourcenlage; für deutsche DMP-Versorgung nur kostenanalytisch relevant"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2337,7 +2337,7 @@ const ZUL_DIGA = 1;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "21.11.2026";
+const NEWS_STAND = "22.11.2026";
 const NEWS = [
   {titel:"Gestationsdiabetes: DGGG und DDG aktualisieren S3-Leitlinie", datum:"2026-11-19", url:"https://www.monitor-versorgungsforschung.de/news/gestationsdiabetes-dggg-und-ddg-aktualisieren-s3-leitlinie/"},
   {titel:"Drei Formen des Typ-1-Diabetes bei Erwachsenen: DDZ-Studie", datum:"2026-11-18", url:"https://www.monitor-versorgungsforschung.de/news/drei-formen-des-typ-1-diabetes-bei-erwachsenen-ddz-studie/"},
