@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- erzeugt von hub-scripts/studienseiten.py -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://diabetes.m-vf.de/</loc><lastmod>2026-11-27</lastmod></url>
-<url><loc>https://diabetes.m-vf.de/studie/</loc><lastmod>2026-11-27</lastmod></url>
+<url><loc>https://diabetes.m-vf.de/</loc><lastmod>2026-11-28</lastmod></url>
+<url><loc>https://diabetes.m-vf.de/studie/</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://diabetes.m-vf.de/neue-studien.html</loc></url>
 <url><loc>https://diabetes.m-vf.de/newsletter.html</loc></url>
 <url><loc>https://diabetes.m-vf.de/themen-quellen.html</loc></url>
+<url><loc>https://diabetes.m-vf.de/studie/43099628/</loc><lastmod>2026-11-28</lastmod></url>
+<url><loc>https://diabetes.m-vf.de/studie/43098870/</loc><lastmod>2026-11-28</lastmod></url>
+<url><loc>https://diabetes.m-vf.de/studie/43098868/</loc><lastmod>2026-11-28</lastmod></url>
+<url><loc>https://diabetes.m-vf.de/studie/43098731/</loc><lastmod>2026-11-28</lastmod></url>
+<url><loc>https://diabetes.m-vf.de/studie/43098274/</loc><lastmod>2026-11-28</lastmod></url>
+<url><loc>https://diabetes.m-vf.de/studie/43098272/</loc><lastmod>2026-11-28</lastmod></url>
+<url><loc>https://diabetes.m-vf.de/studie/42935465/</loc><lastmod>2026-11-28</lastmod></url>
 <url><loc>https://diabetes.m-vf.de/studie/43097224/</loc><lastmod>2026-11-27</lastmod></url>
 <url><loc>https://diabetes.m-vf.de/studie/43097046/</loc><lastmod>2026-11-27</lastmod></url>
 <url><loc>https://diabetes.m-vf.de/studie/43086946/</loc><lastmod>2026-11-27</lastmod></url>
